@@ -15,11 +15,14 @@ for html in htmls:
     divs.append(soup.find_all(['div','section'], {'itemprop': desc}))
     divs.append(soup.find_all(['div','section'], {'id': desc}))
     divs.append(soup.find_all(['div','section'], {'class': desc}))
-    interest_paragraphs = list()
+    interest_soup = list()
     for tag in divs:
         for div in tag:
-            if div.text is not None and not(div.text in interest_paragraphs):
-                interest_paragraphs.append(div.text)
+            text = div.text
+            text = text.replace('\n','')
+            if text is not None and not(text in interest_soup):
+                if text.find('R$') == -1:
+                    interest_soup.append(div)
 
-    for i in interest_paragraphs:
+    for i in interest_soup:
         print(i,'\n---------------------\n')
