@@ -7,14 +7,19 @@ from bs4 import BeautifulSoup as BS
 htmls = [x for x in os.listdir('.') if x.endswith('html')]
 paragraphs = []
 for html in htmls:
-    print(html)
+    print('\n----------------------------------------------------------------------------------------------\n', html,':')
     sauce = open(html, 'r')
     soup = BS(sauce, 'lxml')
+    desc = re.compile('(description|descricao|informations|features)')
+    divs = list()
+    divs.append(soup.find_all(['div','section'], {'itemprop': desc}))
+    divs.append(soup.find_all(['div','section'], {'id': desc}))
+    divs.append(soup.find_all(['div','section'], {'class': desc}))
+    interest_paragraphs = list()
+    for tag in divs:
+        for div in tag:
+            if div.text is not None and not(div.text in interest_paragraphs):
+                interest_paragraphs.append(div.text)
 
-    interest_paragraph = None
-    for p in soup.find_all('p'):
-        if(re.search('Braço', p.text) or re.search('Corpo', p.text) or re.search('Tarraxas', p.text)):
-            interest_paragraph = p.text
-        
-    print(interest_paragraph)
-    paragraphs.append(interest_paragraph)
+    for i in interest_paragraphs:
+        print(i,'\n---------------------\n')
