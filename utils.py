@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 
 
 def soups_of_interest(html):
-    print('\n----------------------------------------------------------------------------------------------\n', html, ':')
     sauce = open(html, 'r')
     soup = BeautifulSoup(sauce, 'lxml')
     desc = re.compile('(description|descricao|informations|features)')
