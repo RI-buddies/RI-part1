@@ -27,17 +27,24 @@ class Extraction:
             awesome = list()
             for i in interest:
                 try:
-                    if re.search(re.compile('(Braço|braço)'), i.text):
+                    if re.search(re.compile('(Braço|braço|Cordas|cordas)'), i.text):
                         awesome.append(i)
                 except TypeError:
                     pass
+                    
             if len(awesome) > 0:
                 s = awesome[-1]
                 if not s in coi:
                     if len(s.text) < 30:
                         s = s.parent
                     coi.append(s)
-        return coi[-1]
+            else:
+                if re.search(re.compile('(Braço|braço|Cordas|cordas)'), soup.text):
+                    coi.append(soup)                
+        if len(coi) > 0:
+            return coi[-1]
+        else:
+            return None
 
     def get_tags_for_real(self, coi):
         tgs = coi.find_all(['div', 'p', 'strong', 'span', 'font'])
@@ -47,7 +54,6 @@ class Extraction:
                 tags.append(t)
         if tgs == []:
             tags.append(coi)
-        print(tags)
         return tags
 
 if __name__ == '__main__':
@@ -56,17 +62,18 @@ if __name__ == '__main__':
         print('\n----------------------------------------------------------------------------------------------\n', html, ':')
         extract = Extraction(utils.soups_of_interest(html))
         coi = extract.get_child_of_interest()
-        for c in coi(['br']):
-            c.extract()
-        non_rel = list()
-        for child in coi.descendants:
-            if not isinstance(child, element.NavigableString):
-                if len(list(child.descendants)) < 1:
-                    if not child in non_rel:
-                        non_rel.append(child)         
-        for nr in non_rel:
-            for c in coi.find_all(nr.name, nr.attrs):
+        if coi is not None:
+            for c in coi(['br']):
                 c.extract()
-        coi = BeautifulSoup(str(coi).replace('\n<','<'),'lxml')
-        print (coi)
-        extract.get_tags_for_real(coi)
+            non_rel = list()
+            for child in coi.descendants:
+                if not isinstance(child, element.NavigableString):
+                    if len(list(child.descendants)) < 1:
+                        if not child in non_rel:
+                            non_rel.append(child)         
+            for nr in non_rel:
+                for c in coi.find_all(nr.name, nr.attrs):
+                    c.extract()
+            coi = BeautifulSoup(str(coi).replace('\n<','<'),'lxml')
+            print(coi.text)
+            extract.get_tags_for_real(coi)

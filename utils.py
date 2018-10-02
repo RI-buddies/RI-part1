@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 def soups_of_interest(html):
     sauce = open(html, 'r')
     soup = BeautifulSoup(sauce, 'lxml')
-    desc = re.compile('(description|descricao|informations|features)')
+    desc = re.compile('(description|descricao|informations|features|caracteristica|panCaracteristica)')
     divs = list()
     divs.append(soup.find_all(['div', 'section'], {'itemprop': desc}))
     divs.append(soup.find_all(['div', 'section'], {'id': desc}))
