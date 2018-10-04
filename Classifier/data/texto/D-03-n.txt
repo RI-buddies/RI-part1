@@ -1,0 +1,951 @@
+window.loadEvents = [];
+Caixa Sensitone 1,5MM Bronze 14"X5" STA-1450F Pearl - Made in Brazil
+var fbits = {
+//Configurações do ecommerce
+ecommerce: {
+nome: "Made in Brazil",
+urlEcommerce: "https://www.madeinbrazil.com.br/",
+urlCarrinho: "https://checkout.madeinbrazil.com.br/",
+urlRecursos: "https://recursos.madeinbrazil.com.br/",
+urlImplantacao: "",
+urlImplantacaoCarrinho: "",
+urlRequest: '{{fbits.ecommerce.urlRequest}}'
+},
+parceiro: {
+_parceiroAtivo: null
+},
+//Configurações do google analytics
+google: {
+analytics: {
+id: "UA-102019484-1",
+domain: "madeinbrazil.com.br"
+}
+},
+search: {
+placeholder: "O que você procura?"
+}
+}
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Usuario = Fbits.Usuario || {};
+$.ajax({
+type: 'POST',
+cache: true,
+url: fbits.ecommerce.urlEcommerce + "Home/SelectUsuarioContext",
+success: function (data) {
+if (data != false) {
+Fbits.Usuario.IsAuthenticated = data.IsAuthenticated;
+Fbits.Usuario.UsuarioId = data.UsuarioId;
+Fbits.Usuario.Nome = data.Nome;
+Fbits.Usuario.Email = data.Email;
+Fbits.Usuario.EmailHash = data.EmailHash;
+Fbits.Usuario.DataNascimento = data.DataNascimento != null ? new Date(parseInt(data.DataNascimento.substr(6))).toJSON() : null;
+Fbits.Usuario.DataCriacao = data.DataCriacao != null ? new Date(parseInt(data.DataCriacao.substr(6))).toJSON() : null;
+Fbits.Usuario.TipoUsuario = data.TipoUsuario;
+Fbits.Usuario.PossuiPrimeiraCompra = data.PossuiPrimeiraCompra;
+Fbits.Usuario.Assinante = data.Assinante;
+Fbits.Usuario.LimiteCredito = data.LimiteCredito;
+Fbits.Usuario.LimiteCreditoSaldo = data.LimiteCreditoSaldo;
+}
+else {
+Fbits.Usuario.IsAuthenticated = false;
+Fbits.Usuario.UsuarioId = 0;
+Fbits.Usuario.Nome = "";
+Fbits.Usuario.Email = "";
+Fbits.Usuario.EmailHash = "";
+Fbits.Usuario.DataNascimento = "";
+Fbits.Usuario.DataCriacao = "";
+Fbits.Usuario.TipoUsuario = "";
+Fbits.Usuario.PossuiPrimeiraCompra = false;
+Fbits.Usuario.Assinante = false;
+Fbits.Usuario.LimiteCredito = 0;
+Fbits.Usuario.LimiteCreditoSaldo = 0;
+}
+}
+});
+function passo2(){
+if ($(".coluna-fechamento.titulocentro.central.indisponivel").html()) {
+$(".passo3").addClass("segundo");
+} else {
+$(".passo3").removeClass("segundo");
+}
+}
+$(document).ready(function(){
+passo2();
+setTimeout("passo2()",100);
+setTimeout("passo2()",200);
+setTimeout("passo2()",400);
+setTimeout("passo2()",1000);
+});
+$("#btnLogin.btRealizarLogin").click(function(){
+passo2();
+setTimeout("passo2()",100);
+setTimeout("passo2()",200);
+setTimeout("passo2()",400);
+setTimeout("passo2()",1000);
+});
+(function(){ var widget_id = 'pXz9jNo1XU';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+var novoCheckout = false;
+var smarthintkey = "SH-673542";
+(function () {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.async = true;
+script.src = 'https://service.smarthint.co/Scripts/i/fstore.min.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(script, s);
+})();
+var google_tag_params = {
+ecomm_prodid: ['127380'],
+ecomm_pagetype: ['product'],
+pproductname: ['Caixa Sensitone 1,5MM Bronze 14&quot;X5&quot; STA-1450F Pearl'],
+puserid: null,
+psitetypecriteo: "d",
+categoria: 'Baterias',
+ecomm_totalvalue: [4990.0000]
+}
+dataLayer = [{
+google_tag_params: window.google_tag_params
+}];
+var GOOGLETAGMANAGERID = 'GTM-59NFXMR';
+//Google Tag Manager script
+(function (w, d, s, l, i) {
+w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+}); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', GOOGLETAGMANAGERID);
+//End Google Tag Manager script
+(11) 5094-4466
+sac@madeinbrazil.com.br
+Meus Pedidos
+Lista de Desejos
+buscar
+Nossas Lojas
+Olá, Faça seu
+Login
+Entrar
+Novo no site?Cadastre-se
+Minha Conta
+Meus Pedidos
+0 ItensCarrinho Vazio
+buscar
+X
+Todas as Categorias
+Audio Profissional
+ACESSÓRIOS
+CABOS
+CAIXAS ACÚSTICAS
+FONE DE OUVIDO
+MICROFONES
+MIXERS & MESAS
+POTÊNCIAS
+PROCESSADORES
+SISTEMA SEM FIO
+TECNOLOGIA
+Bateria & Percussão
+ACESSÓRIOS
+BATERIA ACÚSTICA
+BATERIA ELETRÔNICA
+FERRAGENS
+PELES
+PERCUSSÃO
+PRATOS
+Cordas & Acessórios
+Acessórios
+Amplificadores para Baixo
+Amplificadores para Guitarra
+Amplificadores para Violão
+Bandolim
+Cavaco e Banjo
+Contrabaixo
+Controladores e Footswitch
+Encordoamentos
+Guitarra
+Peças e Reposições
+Pedal de Efeito
+Pedaleira e Multi Efeito
+Ukulele
+Viola Caipira
+Violão Acústico
+Violão Eletroacústico
+Violino
+Violoncello
+Pianos & Teclados
+ACESSÓRIOS
+ACORDEONS
+AMPLIFICADORES
+ARRANJADORES
+CONTROLADORES
+PIANOS
+SYNTHS
+WORKSTATIONS
+Sopro
+ACESSÓRIOS
+CLARINETAS
+FLAUTAS
+GAITAS
+GERAL
+SAX
+TROMPETE
+Instrumentos de Cordas
+Violão Elétrico
+Guitarra
+Contrabaixo
+Amplificador de Guitarra
+Pedal
+Encordoamentos
+Instrumentos de Cordas
+Bateria e Percussão
+Bateria acústica
+Bateria Eletrônica
+Pratos
+Percussão
+Caixas
+Ferragens
+Bateria e Percussão
+Áudio e Tecnologia
+Mixers e mesas
+Caixas e Monitores
+Gravação
+Fone de Ouvido
+Sem fio
+Microfones
+Áudio e Tecnologia
+Arcos e Sopros
+Gaitas
+Saxofone
+Flautas
+Trompete
+Violinos
+Violoncelo
+Arcos e Sopros
+Instrumentos de Teclas
+Pianos
+Workstation
+Sintetizadores
+Arranjadores
+Amplificadores
+Acordeon
+Instrumentos de Teclas
+Minha Conta
+Wishlist
+Olá, Faça seu
+Login
+buscar
+Nossas Lojas
+Olá, Faça seu
+Login
+Entrar
+Novo no site?Cadastre-se
+Minha Conta
+Meus Pedidos
+0 ItensCarrinho Vazio
+Todas as Categorias
+Audio Profissional
+ACESSÓRIOS
+CABOS
+CAIXAS ACÚSTICAS
+FONE DE OUVIDO
+MICROFONES
+MIXERS & MESAS
+POTÊNCIAS
+PROCESSADORES
+SISTEMA SEM FIO
+TECNOLOGIA
+Bateria & Percussão
+ACESSÓRIOS
+BATERIA ACÚSTICA
+BATERIA ELETRÔNICA
+FERRAGENS
+PELES
+PERCUSSÃO
+PRATOS
+Cordas & Acessórios
+Acessórios
+Amplificadores para Baixo
+Amplificadores para Guitarra
+Amplificadores para Violão
+Bandolim
+Cavaco e Banjo
+Contrabaixo
+Controladores e Footswitch
+Encordoamentos
+Guitarra
+Peças e Reposições
+Pedal de Efeito
+Pedaleira e Multi Efeito
+Ukulele
+Viola Caipira
+Violão Acústico
+Violão Eletroacústico
+Violino
+Violoncello
+Pianos & Teclados
+ACESSÓRIOS
+ACORDEONS
+AMPLIFICADORES
+ARRANJADORES
+CONTROLADORES
+PIANOS
+SYNTHS
+WORKSTATIONS
+Sopro
+ACESSÓRIOS
+CLARINETAS
+FLAUTAS
+GAITAS
+GERAL
+SAX
+TROMPETE
+Instrumentos de Cordas
+Violão Elétrico
+Guitarra
+Contrabaixo
+Amplificador de Guitarra
+Pedal
+Encordoamentos
+Instrumentos de Cordas
+Bateria e Percussão
+Bateria acústica
+Bateria Eletrônica
+Pratos
+Percussão
+Caixas
+Ferragens
+Bateria e Percussão
+Áudio e Tecnologia
+Mixers e mesas
+Caixas e Monitores
+Gravação
+Fone de Ouvido
+Sem fio
+Microfones
+Áudio e Tecnologia
+Arcos e Sopros
+Gaitas
+Saxofone
+Flautas
+Trompete
+Violinos
+Violoncelo
+Arcos e Sopros
+Instrumentos de Teclas
+Pianos
+Workstation
+Sintetizadores
+Arranjadores
+Amplificadores
+Acordeon
+Instrumentos de Teclas
+01/10/2018 12:44:56
+{
+"@context": "http://schema.org",
+"@graph": [
+{
+"@type": "Product",
+"name": "Caixa Sensitone 1,5MM Bronze 14\"X5\" STA-1450F Pearl",
+"sku": "127380-0",
+"description": "STA-1450F\n\n\n\n\n14\"x 5\"\n\n\n\nCASCOS\n1.2 mm Beaded Seamless Aluminum\n\nAROS\nSuper Hoop II (SH-1410B/ 1410S)\n\nCANOAS\nTB- 55\n\nPARAFUSOS\nSST- 5047 Stainless Steel\n\nAUTOMÁTICO\nSR- 150 Click-Lock Strainer\n\nESTEIRA\nSn-1420 / Ultra Sound \"I\" type",
+"brand": "PEARL",
+"itemCondition": "NewCondition",
+"gtin14": "043720",
+"mpn": "43720",
+"offers": {
+"priceCurrency": "BRL",
+"price": "4990.00",
+"availability": "http://schema.org/InStock"
+}
+}
+]
+}
+Home
+Bateria & Percussão
+BATERIA ACÚSTICA
+Baterias
+// Insere função no array "loadEvents" que é chamado na layout executando todas as funções contidas nele.
+var loadEvents = loadEvents || new Array();
+loadEvents.push(function () {
+//------------------------- Tratamento do carrossel da miniaturas -----------------------------------//
+try {
+var tamanhoMinimoCarrossel = 5;
+if ($('.fbits-produto-imagensMinicarrossel > .fbits-produto-imagensMinicarrossel-item').length >= tamanhoMinimoCarrossel) {
+var tipoCarrossel = null;//Seta a configuração do carrossel como linear por default
+// Marlon 07/01/2016 - linear não existe no novo plugin, null deixa wrap desligado (que é o mesmo comportamento do linear da versão anterior)
+var configTipoCarrossel = "1";//recupera a Configuracao
+// configTipoCarrossel == 1 -> Carrossel Linear
+// configTipoCarrossel == 2 -> Carrossel Circular
+if (configTipoCarrossel == 2) {
+tipoCarrossel = 'circular';
+}
+$(".jcarousel").jcarousel({ wrap: tipoCarrossel, scroll: 1, vertical: false });
+$('.jcarousel-prev')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '-=5'
+});
+$('.jcarousel-next')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '+=5'
+});
+}
+} catch (e) {
+console.log(e);
+}
+//------------------------- Tratamento do carrossel da miniaturas -----------------------------------//
+//------------------------- Tratamento do player de video/iframe -----------------------------------//
+var autoplay = 'manual';
+/** Adiciona os eventos das imagens do produto. **/
+$('#thumbVideo').click(function () {
+//mata o js do player antigo
+clickVideoThumb = null;
+//Tamanho da imagem para atribuir ao vídeo
+var widthImagemPrincipal = $("#zoomImagemProduto").width();
+var heightImagemPrincipal = $("#zoomImagemProduto").height();
+//Oculta a imagem e mostra o vídeo
+$("#zoomImagemProduto").hide();
+$(".zoomWrapper").hide();
+$(".zoomContainer").hide();
+$("#videoPrincipal").show();
+var urlVideo = "//www.youtube.com/embed/";
+var idVideo = $('[id="thumbVideo"]').attr('data-url');
+if (idVideo != undefined && idVideo != '')
+urlVideo += idVideo;
+if (autoplay == "auto")
+urlVideo += '?autoplay=1';
+if ($('#videoPrincipal').find('iframe').attr('src') != urlVideo) {
+var html = '<iframe width="' + widthImagemPrincipal + '" height="' + heightImagemPrincipal + '" src="' + urlVideo + '" frameborder="0" allowfullscreen></iframe>';
+$("#videoPrincipal").html(html);
+}
+});
+//------------------------- Tratamento do player de video/iframe -----------------------------------//
+});
+Caixa Sensitone 1,5MM Bronze 14"X5" STA-1450F Pearl
+SKU 43720
+Avalie
+Produto indisponível nesta combinação, por favor, selecione outra combinação.
+Aproveite, ainda temos 1 item no estoque
+R$ 4.990,00
+10
+x
+de
+R$ 499,00
+sem juros
+ou
+R$ 4.491,00
+à vista
+(com 10,00% de desconto no Boleto Bancário / Transferência Itaú)
+Quantidade
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Comprar
+Produto Indisponível
+Avise-me quando chegar
+Consulte opções de parcelamento
+1 x sem juros de R$ 4.990,00
+2 x sem juros de R$ 2.495,00
+3 x sem juros de R$ 1.663,33
+4 x sem juros de R$ 1.247,50
+5 x sem juros de R$ 998,00
+6 x sem juros de R$ 831,66
+7 x sem juros de R$ 712,85
+8 x sem juros de R$ 623,75
+9 x sem juros de R$ 554,44
+10 x sem juros de R$ 499,00
+Aproveite, ainda temos 1 item no estoque
+R$ 4.990,00
+10
+x
+de
+R$ 499,00
+sem juros
+ou
+R$ 4.491,00
+à vista
+(com 10,00% de desconto no Boleto Bancário / Transferência Itaú)
+Quantidade
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Comprar
+Produto Indisponível
+Avise-me quando chegar
+Consulte frete e prazo de entrega
+Simule o frete e o
+prazo de entrega:
+Não sabe o CEP?
+Sugestões de compra
+Caixa para Bateria Sensitone SS1455 S/C Pearl
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.349,00
+à vista
+10
+x
+de
+R$ 134,90
+R$ 1.214,10
+Adaptador Clamp Pearl Adp-20 Pearl
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+269,00
+à vista
+10
+x
+de
+R$ 26,90
+R$ 242,10
+Banco Pearl D-50 para Bateria Standard Pearl
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+379,00
+à vista
+10
+x
+de
+R$ 37,90
+R$ 341,10
+Base de Bumbo Pearl
+Bb-3 para Tom Holder Pearl
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+305,00
+à vista
+10
+x
+de
+R$ 30,50
+R$ 274,50
+Bateria Roadshow RS505/C 20'' 10'' 12'' 14" Pearl - Bronze Metallic (707)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+3.699,00
+à vista
+10
+x
+de
+R$ 369,90
+R$ 3.329,10
+Caixa
+para Bateria Joey Jordison 13"x6,5
+Jj-1365 Pearl
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+3.249,00
+à vista
+10
+x
+de
+R$ 324,90
+R$ 2.924,10
+Caixa Masters Maple Complete 14" X 6,5 Mct-1465s/c #346 Pearl - Vermelho (Vermillion Sparkle) (346)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+2.430,00
+à vista
+10
+x
+de
+R$ 243,00
+R$ 2.187,00
+Caixa para Bateria Fire Cracker 10"x5" Steel (Fcs-1050) Pearl
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.320,00
+à vista
+10
+x
+de
+R$ 132,00
+R$ 1.188,00
+Caixa para Bateria Masters Maple Complete 14"x6,5 Mct1465s/c Pearl - BOMBAY GOLD SPARKLE (347)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.990,00
+à vista
+10
+x
+de
+R$ 199,00
+R$ 1.791,00
+Caixa para Bateria Modern Utility Maple 14"x6,5 Mus1465m Pearl - Natural (224)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.549,00
+à vista
+10
+x
+de
+R$ 154,90
+R$ 1.394,10
+Caixa para Bateria Omar Hakim Signature (Oh-1350) Pearl
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+3.799,00
+à vista
+10
+x
+de
+R$ 379,90
+R$ 3.419,10
+Caixa para Bateria Session Studio SSC1465 S/C Pearl - Piano Black (Preto Sólido Laqueado) (103)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.990,00
+à vista
+10
+x
+de
+R$ 199,00
+R$ 1.791,00
+detalhes do produto
+STA-1450F
+14"x 5"
+CASCOS
+1.2 mm Beaded Seamless Aluminum
+AROS
+Super Hoop II (SH-1410B/ 1410S)
+CANOAS
+TB- 55
+PARAFUSOS
+SST- 5047 Stainless Steel
+AUTOMÁTICO
+SR- 150 Click-Lock Strainer
+ESTEIRA
+Sn-1420 / Ultra Sound "I" type
+Indique a um amigo
+Preencha os campos abaixo e clique em Indicar Produto.
+A sua indicação será enviada para o e-mail especificado.
+Comentários
+Número máximo de caracteres atingido (120)
+Indicar Produto
+Avaliar produto
+Preencha seus dados, avalie e clique no botão Avaliar Produto.
+Comentários
+Número maximo de caracteres atingido (4000)
+Excelente
+Muito Bom
+Bom
+Ruim
+Muito Ruim
+Avaliar Produto
+Produtos que você já viu
+Você ainda não visualizou nenhum produto
+Termos Buscados
+Você ainda não realizou nenhuma busca
+var Fbits = Fbits || {};
+Fbits.Componentes = Fbits.Componentes || {};
+Fbits.Componentes.Historico = Fbits.Componentes.Historico || {};
+Fbits.Componentes.Historico.Buscas = Fbits.Componentes.Historico.Buscas || {};
+Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens = Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens || false;
+Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens = 'True';
+Newsletter
+CADASTRE-SE E RECEBA OFERTAS EXCLUSIVAS:
+var grupoProduto = eval('[]');
+Fbits.Evento = {
+TemEventoAtivo : false,
+Perfil : ""
+};
+var slider = $("div#tp1").sliderTabs({
+autoplay: false,
+mousewheel: false
+});
+//Frete
+var freteAberto = "False";
+//Configuracao de Zoom
+var tipoZoom = "1";
+function jsonConcat(o1, o2) {
+for (var key in o2) {
+o1[key] = o2[key];
+}
+return o1;x
+}
+var decodeEntities = (function() {
+// this prevents any overhead from creating the object each time
+var element = document.createElement('div');
+function decodeHTMLEntities (str) {
+if(str && typeof str === 'string') {
+// strip script/html tags
+str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
+str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+element.innerHTML = str;
+str = element.textContent;
+element.textContent = '';
+}
+return str;
+}
+return decodeHTMLEntities;
+})();
+var Fbits = Fbits || {};
+Fbits.Produto = Fbits.Produto || {};
+Fbits.Produto.ProdutoVariante = Fbits.Produto.ProdutoVariante || {};
+Fbits.Produto.Atributos = Fbits.Produto.Atributos || {};
+//Atributos de Configuracao----------//
+Fbits.Produto.ProdutoId = 127380;
+Fbits.Produto.ParentId = 145732;
+Fbits.Produto.Nome = "Caixa Sensitone 1,5MM Bronze 14X5 STA-1450F Pearl";
+Fbits.Produto.PrecoDe = 4990.00;
+Fbits.Produto.PrecoPor = 4990.00;
+Fbits.Produto.Parcelamento = {"NumeroParcelas":10.0,"ValorParcela":499.0};
+Fbits.Produto.Url = "https://www.madeinbrazil.com.br/produto/caixa-sensitone-1-5mm-bronze-14x5-sta-1450f-pearl-127380";
+Fbits.Produto.Descricao = decodeEntities("");
+Fbits.Produto.FotoPrincipal = "https://madeinbrazil.fbitsstatic.net/img/p/caixa-sensitone-1-5mm-bronze-14x5-sta-1450f-pearl-127380/313865.jpg?w=800&amp;h=800&amp;v=201807171243";
+Fbits.Produto.Sku = "43720";
+Fbits.Produto.IsTelevendas = "false" === "true";
+Fbits.Produto.IsDisponivel = "true"
+=== "true";
+Fbits.Produto.Estoque = (Fbits.Produto.IsDisponivel == "true")? 0 : 1;
+Fbits.Produto.AtributosProduto = [{}];
+Fbits.Produto.Categorias = [{"ProdutoCategoriaId":551123,"ProdutoId":127380,"CategoriaId":1210,"Nome":"Baterias"}];
+Fbits.Produto.CategoriaGoogle = "";
+Fbits.Produto.Marca = "PEARL";
+Fbits.Produto.Atributos = jsonConcat(Fbits.Produto.Atributos, eval({}));
+Fbits.Produto.ProdutoVariante = {"313865":{"ProdutoId":127380,"ProdutoVarianteId":313865,"Nome":"Caixa Sensitone 1,5MM Bronze 14X5 STA-1450F Pearl","CubagemAltura":0.0,"CubagemLargura":0.0,"CubagemMetroQuadrado":0.0,"Atributos":{}}};
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Usuario = Fbits.Usuario || {};
+$.ajax({
+type: 'POST',
+cache: true,
+url: fbits.ecommerce.urlEcommerce + "Home/SelectUsuarioContext",
+success: function (data) {
+if (data != false) {
+Fbits.Usuario.IsAuthenticated = data.IsAuthenticated;
+Fbits.Usuario.UsuarioId = data.UsuarioId;
+Fbits.Usuario.Nome = data.Nome;
+Fbits.Usuario.Email = data.Email;
+Fbits.Usuario.EmailHash = data.EmailHash;
+Fbits.Usuario.DataNascimento = data.DataNascimento != null ? new Date(parseInt(data.DataNascimento.substr(6))).toJSON() : null;
+Fbits.Usuario.DataCriacao = data.DataCriacao != null ? new Date(parseInt(data.DataCriacao.substr(6))).toJSON() : null;
+Fbits.Usuario.TipoUsuario = data.TipoUsuario;
+Fbits.Usuario.PossuiPrimeiraCompra = data.PossuiPrimeiraCompra;
+Fbits.Usuario.Assinante = data.Assinante;
+Fbits.Usuario.LimiteCredito = data.LimiteCredito;
+Fbits.Usuario.LimiteCreditoSaldo = data.LimiteCreditoSaldo;
+}
+else {
+Fbits.Usuario.IsAuthenticated = false;
+Fbits.Usuario.UsuarioId = 0;
+Fbits.Usuario.Nome = "";
+Fbits.Usuario.Email = "";
+Fbits.Usuario.EmailHash = "";
+Fbits.Usuario.DataNascimento = "";
+Fbits.Usuario.DataCriacao = "";
+Fbits.Usuario.TipoUsuario = "";
+Fbits.Usuario.PossuiPrimeiraCompra = false;
+Fbits.Usuario.Assinante = false;
+Fbits.Usuario.LimiteCredito = 0;
+Fbits.Usuario.LimiteCreditoSaldo = 0;
+}
+}
+});
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Pagina = Fbits.Pagina || {};
+Fbits.Pagina.Atual = "produtocaixa-sensitone-1-5mm-bronze-14x5-sta-1450f-pearl-127380";
+Fbits.Pagina.Url = "https://www.madeinbrazil.com.br/produto/caixa-sensitone-1-5mm-bronze-14x5-sta-1450f-pearl-127380";
+_NEWSLETTERMODALATIVO = false;
+$('#jsFloatButton').hide();
+$(window).scroll(function () {
+if ($(this).scrollTop() != 0) {
+$('#jsFloatButton').fadeIn();
+} else {
+$('#jsFloatButton').fadeOut();
+}
+});
+Made in Brazil - Music Megastore
+Central de Atendimento:
+Ficou na dúvida? Acesse nossos canais de atendimento:
+sac@madeinbrazil.com.br
+ou
+(11) 5094-4466
+Institucional
+Nossa História
+Nossas Lojas
+Nossos Parceiros
+Prêmios
+Trabalhe Conosco
+Dúvidas
+Como Comprar?
+Formas de Pagamento
+Processo de Entrega
+Trocas e Devoluções
+Política de Privacidade
+Dúvidas Frequentes
+Regras do Site
+Siga-nos
+Formas de Pagamento
+Selos e Segurança
+Made in Brazil Coml e Imp. Ltda 64.565.732/0001-01| Preços e condições de pagamento exclusivos para compras via Internet.
+Ofertas válidas até o término de nossos estoques para a Internet. Vendas sujeitas à análise e confirmação de dados. As fotos dos produtos exibidos em nosso site são meramente ilustrativas
+CEP: 04088-005 -
+São Paulo -
+SP -
+(11) 5094-4466. - sac@madeinbrazil.com.br
+Copyright © 2017 Made in Brazil - Todos os direitos reservados.
+Tray Corp by FBITS
+ACúpula - Performance Digital
+Tray Corp by FBITS
+ACúpula - Performance Digital
+$(".toggle .titlefooter").click(function(){
+$(this).next().toggle();
+$(this).toggleClass("opened");
+});
+$(".tituloPai").click(function(){
+$(this).toggleClass("itemaberto");
+});
+$(document).ready(function(){
+$(".top-icons div[id='ico-busca-topo']").click(function(){
+$(".ico-busca").toggleClass("ico-busca-topo-fecha");
+$(".div-busca-topo-oculta").toggle('slow');
+});
+});
+$('[data-lazyLoad=True]').lazyload({ threshold: 200, effect: "fadeIn" });
+$(document).ready(function () {
+montarHistorico();
+$.exitIntent('enable');
+if (typeof historicoPrecoProduto == 'function') {
+historicoPrecoProduto();
+$("#hdnProdutoVarianteId").on('change', function () {
+historicoPrecoProduto();
+});
+$("[id^='dvGrupoSelecaoAtributos-'] [id^='hdnProdutoVarianteId-']").on('change', function () {
+historicoPrecoProduto();
+});
+}
+});
+$(document).ready(function () {
+$.each(loadEvents, function (_, f) { f(); });
+});
+jQuery(function($){
+$('.minhaConta .sideBar').append('<div class="btnVoltarLoja"><a href="https://www.madeinbrazil.com.br/" class="btnVoltarAsCompras">Voltar para a loja</a></div>');
+});
+jQuery(function($) {
+$('div[id^="produto-spot-item-"] .spotContent').each(function() {
+$(this).children('.fbits-spot-conteudo').children('.spot-parte-dois').children('spotTitle').after($(this).children('.fbits-spot-conteudo').children('.botoesSpot').children('.avaliacao'));
+});
+});
+//BOTÃO NEWSLETTER
+jQuery(function($) {
+$('.btNews').attr('value','OK');
+});
+jQuery(function($) {
+$(window).on('load', function() {
+$('.filtros .tituloPai').unbind('click');
+});
+$('.filtro-lateral-categoria .filtroTitle.title').click(function() {
+$(this).next().slideToggle('medium');
+});
+var larguraTela = $(window).width();
+if (larguraTela <= 767) {
+$('.content.minhaconta .filtroTitle.title').click(function(){
+$('.content.minhaconta .filtroTitle.title+ul').slideToggle();
+});
+} else {
+$(window).on('load', function() {
+$('.content.minhaconta .filtroTitle.title').unbind('click');
+});
+}
+});
+jQuery(function($){
+$(window).on('load', function() {
+if($('.headerLogin .textloginp').children().hasClass('fbits-login-link-login')) {
+$('.header-sublog a.head-entrar').show();
+} else {
+$('.header-sublog a.head-entrar').hide();
+$('.header-sublog a.head-entrar').next().hide();
+$('.header-sublog hr').hide();
+}
+});
+});
+jQuery(function($){
+$(window).on('load', function() {
+$('.carrinho.carrinhoHead').append('<div class="black-box"></div>');
+});
+});
+$(".ico-menu").click(function(){
+$(".menu-container").toggleClass("menu-container-aberto");
+});
+$(".ico-menu-fecha").click(function(){
+$(".menu-container").removeClass("menu-container-aberto");
+});
+jQuery(function($) {
+// PLACEHOLDER PARA CEP
+$('#txtCalculaFreteProduto').attr('placeholder','Informe o seu CEP');
+});
+(function () {
+var yvs = document.createElement("script");
+yvs.type = "text/javascript";
+yvs.async = true;
+yvs.id = "_yvsrc";
+yvs.src = "//service.yourviews.com.br/script/bf92dc25-7af3-4acc-a0b2-ec6d740939b9/yvapi.js";
+var yvs_script = document.getElementsByTagName("script")[0];
+yvs_script.parentNode.insertBefore(yvs, yvs_script);
+})();
+$(".menu li.item.raiz").each(function(){
+if($(this).find("ul.filho").html()) {
+$(this).append("<span class='arrowmenu'></span>");
+}
+});
+$(".menu li.item.raiz ul.filho li.item").each(function(){
+if($(this).find("ul.filho").html()) {
+$(this).append("<span class='arrowmenu arrowmenu-sub'></span>");
+}
+});
+$(".arrowmenu").click(function(){
+$(this).toggleClass("opened");
+$(this).prev().slideToggle("fast");
+$(this).parent().toggleClass("select");
+});

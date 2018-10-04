@@ -1,0 +1,327 @@
+document.documentElement.className = document.documentElement.className + ' yes-js js_active js'
+PRATO ORION CELEBRITY CHINA 18 - NOVA MUSIC
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.novamusic.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=9f7a391d2a2c9020afdceda75306d478"}};
+!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+/* <![CDATA[ */
+var dmd_is_data = {"current":{"replaced_setup":{"load_type":"infinite_scroll","is_only_few_pages":false,"is_few_page_count":1,"previous_page_button":false,"previous_load_type":"button","lazy_load":false,"lazy_load_anim":"","prev_lazy_load_anim":"","hide_lazy_load_anim":""},"products_selector":"ul.products","product_selector":"li.product","pagination_selector":".woocommerce-pagination","next_page_selector":".woocommerce-pagination a.next","prev_page_selector":".woocommerce-pagination a.prev","pages_selector":".woocommerce-pagination a","wc_result_count":null,"other_selectors":"","mobile_other":false,"scroll_top":false,"scroll_top_threshold":-50,"infinite_scroll_threshold":200},"selectors":{"selector0":{"replaced_setup":{"load_type":"infinite_scroll","is_only_few_pages":false,"is_few_page_count":1,"previous_page_button":false,"previous_load_type":"button","lazy_load":false,"lazy_load_anim":"","prev_lazy_load_anim":"","hide_lazy_load_anim":""},"products_selector":"ul.products","product_selector":"li.product","pagination_selector":".woocommerce-pagination","next_page_selector":".woocommerce-pagination a.next","prev_page_selector":".woocommerce-pagination a.prev","pages_selector":".woocommerce-pagination a","wc_result_count":null,"other_selectors":"","mobile_other":false,"scroll_top":false,"scroll_top_threshold":-50,"infinite_scroll_threshold":200},"selectorw":{"replaced_setup":{"load_type":"infinite_scroll","is_only_few_pages":false,"is_few_page_count":1,"previous_page_button":false,"previous_load_type":"before","lazy_load":false,"lazy_load_anim":"","prev_lazy_load_anim":"","hide_lazy_load_anim":""},"products_selector":"ul.products","product_selector":"li.product","pagination_selector":".woocommerce-pagination","next_page_selector":".woocommerce-pagination a.next","prev_page_selector":".woocommerce-pagination a.prev","pages_selector":".woocommerce-pagination a","wc_result_count":".woocommerce-result-count","other_selectors":"","mobile_other":false,"scroll_top":false,"scroll_top_threshold":-50,"infinite_scroll_threshold":200}},"selectors_names":["selector0","selectorw"],"load_image":"http:\/\/www.novamusic.com.br\/wp-content\/plugins\/dmd-infinite-scroll\/assets\/load.gif","js_before_load":"","js_after_load":""};
+/* ]]> */
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+jQuery(document).ready(function(){
+var enable_lightbox = 'yes';
+if(enable_lightbox == 'no'){
+jQuery('.thumbnails .zoom').click(function(e){
+e.preventDefault();
+var photo_fullsize =
+jQuery(this).attr('href');
+if (jQuery('.images iframe').length > 0)
+{
+if(photo_fullsize.indexOf('youtube') > (-1) || photo_fullsize.indexOf('vimeo') > (-1)){
+jQuery('.images iframe:first').attr('src', photo_fullsize);
+} else {
+jQuery('.images iframe:first').replaceWith('<img src="'+photo_fullsize+'" alt="Placeholder">');
+}
+} else {
+if(photo_fullsize.indexOf('youtube') > (-1) || photo_fullsize.indexOf('vimeo') > (-1)){
+jQuery('.images img:first').replaceWith( '<iframe src="'+photo_fullsize+'" frameborder="0" allowfullscreen></iframe>' );
+} else {
+jQuery('.images img:first').attr('src', photo_fullsize);
+}
+}
+});
+}
+else{
+jQuery("a[rel^='prettyPhoto[product-gallery]']").prettyPhoto();
+}
+});
+var woocommerce_products_carousel_all_in_one_url="http://www.novamusic.com.br/wp-content/plugins/woocommerce-products-carousel-all-in-one/";
+Skip to navigation
+Skip to content
+Fale Conosco
+Como comprar
+Localização
+Quem Somos
+Login / Register
+Lista de Desejos(0)
+0
+NOVA MUSIC
+CategoriasAcessóriosAcessóriosAcessóriosAcessóriosAcessóriosAcordeonAmplificadorAudioBaixoBateriaCaixasCaptadoresCavacoCombosCordasEfeitosGuitarrasMesa / PeriféricoMetaisMicrofoneOutrosOutrosOutrosOutrosOutrosPedaisPercussãoPratosSoproTecladosTecladosViolaViolãoViolino
+Audio
+Acessórios
+Amplificador
+Caixas
+Combos
+Mesa / Periférico
+Microfone
+Outros
+Cordas
+Acessórios
+Guitarra
+Baixo
+Captadores
+Cavaco
+Outros
+Pedais
+Viola
+Violão
+Violino
+Percussão
+Acessórios
+Bateria
+Efeitos
+Outros
+Pratos
+Sopro
+Acessórios
+Harmônicas
+Metais
+Outros
+Teclados
+Acessórios
+Acordeon
+Outros
+Piano
+Teclados
+Outros
+Escolas
+Estúdios
+Luthier
+Início > Percussão > Pratos > PRATO ORION CELEBRITY CHINA 18
+PRATO ORION CELEBRITY CHINA 18
+R$777,00 - à vista
+Comprar
+Adicionar aos meus desejos
+Produto adicionado!
+Veja sua lista de desejos!
+Esse produto já se encontra na sua lista de desejos!
+Veja sua lista de desejos!
+REF: 4567
+Categorias Percussão, Pratos
+Etiquetas: orion, prato, splash
+Compartilhe isso:Clique para compartilhar no Facebook(abre em nova janela)Clique para compartilhar no Twitter(abre em nova janela)Compartilhe no Google+(abre em nova janela)Clique para compartilhar no WhatsApp(abre em nova janela)Clique para imprimir(abre em nova janela)
+Descrição
+Comprar Produto
+Avaliações (0)
+Descrição do produto
+Timbre médio bem balanceado permeado com frequências brilhantes, sustain curto e decay rápido e gradual.
+Série: Celebrity Vinte
+Modelo: CV08SP
+Pith: Grave-Médio
+Volume: Baixo
+Sustaim: Curto
+Controle de Frequências: Excelente
+Tipo de Prato: Splash
+Produtos relacionados
+Comprar ProdutoVocê poderá comprar nossos produtos online com a segurança do aclamado site PagSeguro, do UOL. Caso você tenha interesse, preencha o formulário abaixo e as informações para a finalização da compra serão enviadas para o seu email o quanto antes.
+Seu nome (obrigatório)
+Seu e-mail (obrigatório)
+Telefone
+CEP
+Cidade/Estado
+Mensagem
+Avaliações
+Não há avaliações ainda.
+Seja o primeiro a avaliar “PRATO ORION CELEBRITY CHINA 18” Cancelar resposta
+O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *Sua avaliação
+Avaliar…
+Perfeito
+Bom
+Razoável
+Nada mal
+Muito ruim
+Sua avaliação sobre o produto *Nome *
+E-mail *
+Notifique-me sobre novas publicações por e-mail.
+CategoriasAudio
+Acessórios
+Amplificador
+Caixas
+Combos
+Mesa / Periférico
+Microfone
+Outros
+Cordas
+Acessórios
+Baixo
+Captadores
+Cavaco
+Guitarras
+Outros
+Pedais
+Viola
+Violão
+Violino
+Outros
+Acessórios
+CD/DVD
+Livros
+Vestuário
+Percussão
+Acessórios
+Bateria
+Efeitos
+Outros
+Pratos
+Sopro
+Acessórios
+Harmônicas
+Metais
+Outros
+Teclados
+Acessórios
+Acordeon
+Outros
+Piano
+Teclados
+NavegaçãoPágina Inicial
+Quem Somos
+Como comprar
+Notícias
+Produtos
+Localização
+Links
+Política de Vendas e Privacidade
+Fale Conosco
+Localização
+Curta nossa Fanpage
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=220659857988030";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+NOVA MUSIC
+Tagsiniciantes
+kids
+música infantil
+omne
+pa
+portátil
+showroom
+soundbox
+tagima
+tocar um instrumento
+©Todos os Direitos Reservados - Proibida a cópia total ou parcial deste site.
+Desenvolvido por AgenciaNet
+var recaptchaWidgets = [];
+var recaptchaCallback = function() {
+var forms = document.getElementsByTagName( 'form' );
+var pattern = /(^|\s)g-recaptcha(\s|$)/;
+for ( var i = 0; i < forms.length; i++ ) {
+var divs = forms[ i ].getElementsByTagName( 'div' );
+for ( var j = 0; j < divs.length; j++ ) {
+var sitekey = divs[ j ].getAttribute( 'data-sitekey' );
+if ( divs[ j ].className && divs[ j ].className.match( pattern ) && sitekey ) {
+var params = {
+'sitekey': sitekey,
+'type': divs[ j ].getAttribute( 'data-type' ),
+'size': divs[ j ].getAttribute( 'data-size' ),
+'theme': divs[ j ].getAttribute( 'data-theme' ),
+'badge': divs[ j ].getAttribute( 'data-badge' ),
+'tabindex': divs[ j ].getAttribute( 'data-tabindex' )
+};
+var callback = divs[ j ].getAttribute( 'data-callback' );
+if ( callback && 'function' == typeof window[ callback ] ) {
+params[ 'callback' ] = window[ callback ];
+}
+var expired_callback = divs[ j ].getAttribute( 'data-expired-callback' );
+if ( expired_callback && 'function' == typeof window[ expired_callback ] ) {
+params[ 'expired-callback' ] = window[ expired_callback ];
+}
+var widget_id = grecaptcha.render( divs[ j ], params );
+recaptchaWidgets.push( widget_id );
+break;
+}
+}
+}
+}
+document.addEventListener( 'wpcf7submit', function( event ) {
+switch ( event.detail.status ) {
+case 'spam':
+case 'mail_sent':
+case 'mail_failed':
+for ( var i = 0; i < recaptchaWidgets.length; i++ ) {
+grecaptcha.reset( recaptchaWidgets[ i ] );
+}
+}
+}, false );
+X
+window.WPCOM_sharing_counts = {"http:\/\/www.novamusic.com.br\/produto\/prato-orion-celebrity-china-18\/":2018};
+<div class="woocommerce-variation-description">
+{{{ data.variation.variation_description }}}
+</div>
+<div class="woocommerce-variation-price">
+{{{ data.variation.price_html }}}
+</div>
+<div class="woocommerce-variation-availability">
+{{{ data.variation.availability_html }}}
+</div>
+<p>Desculpe, este produto não está disponível. Por favor escolha uma combinação diferente.</p>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/www.novamusic.com.br\/wp-json\/","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Verifique se voc\u00ea n\u00e3o \u00e9 um rob\u00f4."}}};
+/* ]]> */
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/produto\/prato-orion-celebrity-china-18\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Ver carrinho","cart_url":"http:\/\/www.novamusic.com.br\/carrinho\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Por favor, selecione uma classifica\u00e7\u00e3o","review_rating_required":"yes"};
+/* ]]> */
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/produto\/prato-orion-celebrity-china-18\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/produto\/prato-orion-celebrity-china-18\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+jQuery( 'body' ).bind( 'wc_fragments_refreshed', function() {
+jQuery( 'body' ).trigger( 'jetpack-lazy-images-load' );
+} );
+/* <![CDATA[ */
+var ywcca_params = [];
+/* ]]> */
+/* <![CDATA[ */
+var yith_qv = {"ajaxurl":"\/wp-admin\/admin-ajax.php","loader":"http:\/\/www.novamusic.com.br\/wp-content\/plugins\/yith-woocommerce-quick-view\/assets\/image\/qv-loader.gif","is2_2":""};
+/* ]]> */
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","is_user_logged_in":"","ajax_loader_url":"http:\/\/www.novamusic.com.br\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader.gif","remove_from_wishlist_after_add_to_cart":"yes","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies are enabled on your browser.","added_to_cart_message":"<div class=\"woocommerce-message\">Product correctly added to cart<\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","move_to_another_wishlist_action":"move_to_another_wishlsit","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem"}};
+/* ]]> */
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"i18n_no_matching_variations_text":"Desculpe, nenhum produto atende sua sele\u00e7\u00e3o. Por favor, escolha uma combina\u00e7\u00e3o diferente.","i18n_make_a_selection_text":"Selecione uma das op\u00e7\u00f5es do produto antes de adicion\u00e1-lo ao carrinho.","i18n_unavailable_text":"Desculpe, este produto n\u00e3o est\u00e1 dispon\u00edvel. Por favor escolha uma combina\u00e7\u00e3o diferente."};
+/* ]]> */
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+var windowOpen;
+jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+// If there's another sharing window open, close it.
+if ( 'undefined' !== typeof windowOpen ) {
+windowOpen.close();
+}
+windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+return false;
+});
+var windowOpen;
+jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+// If there's another sharing window open, close it.
+if ( 'undefined' !== typeof windowOpen ) {
+windowOpen.close();
+}
+windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+return false;
+});
+var windowOpen;
+jQuery( document.body ).on( 'click', 'a.share-google-plus-1', function() {
+// If there's another sharing window open, close it.
+if ( 'undefined' !== typeof windowOpen ) {
+windowOpen.close();
+}
+windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+return false;
+});
+_stq = window._stq || [];
+_stq.push([ 'view', {v:'ext',j:'1:6.5',blog:'116739916',post:'2018',tz:'-3',srv:'www.novamusic.com.br'} ]);
+_stq.push([ 'clickTrackerInit', '116739916', '2018' ]);

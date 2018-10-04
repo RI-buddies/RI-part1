@@ -1,0 +1,941 @@
+window.loadEvents = [];
+Violão LX Ed Sheeran ÷ 3 com Capa Eletroacústico Martin - Made in Brazil
+var fbits = {
+//Configurações do ecommerce
+ecommerce: {
+nome: "Made in Brazil",
+urlEcommerce: "https://www.madeinbrazil.com.br/",
+urlCarrinho: "https://checkout.madeinbrazil.com.br/",
+urlRecursos: "https://recursos.madeinbrazil.com.br/",
+urlImplantacao: "",
+urlImplantacaoCarrinho: "",
+urlRequest: '{{fbits.ecommerce.urlRequest}}'
+},
+parceiro: {
+_parceiroAtivo: null
+},
+//Configurações do google analytics
+google: {
+analytics: {
+id: "UA-102019484-1",
+domain: "madeinbrazil.com.br"
+}
+},
+search: {
+placeholder: "O que você procura?"
+}
+}
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Usuario = Fbits.Usuario || {};
+$.ajax({
+type: 'POST',
+cache: true,
+url: fbits.ecommerce.urlEcommerce + "Home/SelectUsuarioContext",
+success: function (data) {
+if (data != false) {
+Fbits.Usuario.IsAuthenticated = data.IsAuthenticated;
+Fbits.Usuario.UsuarioId = data.UsuarioId;
+Fbits.Usuario.Nome = data.Nome;
+Fbits.Usuario.Email = data.Email;
+Fbits.Usuario.EmailHash = data.EmailHash;
+Fbits.Usuario.DataNascimento = data.DataNascimento != null ? new Date(parseInt(data.DataNascimento.substr(6))).toJSON() : null;
+Fbits.Usuario.DataCriacao = data.DataCriacao != null ? new Date(parseInt(data.DataCriacao.substr(6))).toJSON() : null;
+Fbits.Usuario.TipoUsuario = data.TipoUsuario;
+Fbits.Usuario.PossuiPrimeiraCompra = data.PossuiPrimeiraCompra;
+Fbits.Usuario.Assinante = data.Assinante;
+Fbits.Usuario.LimiteCredito = data.LimiteCredito;
+Fbits.Usuario.LimiteCreditoSaldo = data.LimiteCreditoSaldo;
+}
+else {
+Fbits.Usuario.IsAuthenticated = false;
+Fbits.Usuario.UsuarioId = 0;
+Fbits.Usuario.Nome = "";
+Fbits.Usuario.Email = "";
+Fbits.Usuario.EmailHash = "";
+Fbits.Usuario.DataNascimento = "";
+Fbits.Usuario.DataCriacao = "";
+Fbits.Usuario.TipoUsuario = "";
+Fbits.Usuario.PossuiPrimeiraCompra = false;
+Fbits.Usuario.Assinante = false;
+Fbits.Usuario.LimiteCredito = 0;
+Fbits.Usuario.LimiteCreditoSaldo = 0;
+}
+}
+});
+function passo2(){
+if ($(".coluna-fechamento.titulocentro.central.indisponivel").html()) {
+$(".passo3").addClass("segundo");
+} else {
+$(".passo3").removeClass("segundo");
+}
+}
+$(document).ready(function(){
+passo2();
+setTimeout("passo2()",100);
+setTimeout("passo2()",200);
+setTimeout("passo2()",400);
+setTimeout("passo2()",1000);
+});
+$("#btnLogin.btRealizarLogin").click(function(){
+passo2();
+setTimeout("passo2()",100);
+setTimeout("passo2()",200);
+setTimeout("passo2()",400);
+setTimeout("passo2()",1000);
+});
+(function(){ var widget_id = 'pXz9jNo1XU';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+var novoCheckout = false;
+var smarthintkey = "SH-673542";
+(function () {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.async = true;
+script.src = 'https://service.smarthint.co/Scripts/i/fstore.min.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(script, s);
+})();
+var google_tag_params = {
+ecomm_prodid: ['126681'],
+ecomm_pagetype: ['product'],
+pproductname: ['Viol&#227;o LX Ed Sheeran &#247; 3 com Capa Eletroac&#250;stico Martin'],
+puserid: null,
+psitetypecriteo: "d",
+categoria: 'Aço',
+ecomm_totalvalue: [7899.0000]
+}
+dataLayer = [{
+google_tag_params: window.google_tag_params
+}];
+var GOOGLETAGMANAGERID = 'GTM-59NFXMR';
+//Google Tag Manager script
+(function (w, d, s, l, i) {
+w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+}); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', GOOGLETAGMANAGERID);
+//End Google Tag Manager script
+(11) 5094-4466
+sac@madeinbrazil.com.br
+Meus Pedidos
+Lista de Desejos
+buscar
+Nossas Lojas
+Olá, Faça seu
+Login
+Entrar
+Novo no site?Cadastre-se
+Minha Conta
+Meus Pedidos
+0 ItensCarrinho Vazio
+buscar
+X
+Todas as Categorias
+Audio Profissional
+ACESSÓRIOS
+CABOS
+CAIXAS ACÚSTICAS
+FONE DE OUVIDO
+MICROFONES
+MIXERS & MESAS
+POTÊNCIAS
+PROCESSADORES
+SISTEMA SEM FIO
+TECNOLOGIA
+Bateria & Percussão
+ACESSÓRIOS
+BATERIA ACÚSTICA
+BATERIA ELETRÔNICA
+FERRAGENS
+PELES
+PERCUSSÃO
+PRATOS
+Cordas & Acessórios
+Acessórios
+Amplificadores para Baixo
+Amplificadores para Guitarra
+Amplificadores para Violão
+Bandolim
+Cavaco e Banjo
+Contrabaixo
+Controladores e Footswitch
+Encordoamentos
+Guitarra
+Peças e Reposições
+Pedal de Efeito
+Pedaleira e Multi Efeito
+Ukulele
+Viola Caipira
+Violão Acústico
+Violão Eletroacústico
+Violino
+Violoncello
+Pianos & Teclados
+ACESSÓRIOS
+ACORDEONS
+AMPLIFICADORES
+ARRANJADORES
+CONTROLADORES
+PIANOS
+SYNTHS
+WORKSTATIONS
+Sopro
+ACESSÓRIOS
+CLARINETAS
+FLAUTAS
+GAITAS
+GERAL
+SAX
+TROMPETE
+Instrumentos de Cordas
+Violão Elétrico
+Guitarra
+Contrabaixo
+Amplificador de Guitarra
+Pedal
+Encordoamentos
+Instrumentos de Cordas
+Bateria e Percussão
+Bateria acústica
+Bateria Eletrônica
+Pratos
+Percussão
+Caixas
+Ferragens
+Bateria e Percussão
+Áudio e Tecnologia
+Mixers e mesas
+Caixas e Monitores
+Gravação
+Fone de Ouvido
+Sem fio
+Microfones
+Áudio e Tecnologia
+Arcos e Sopros
+Gaitas
+Saxofone
+Flautas
+Trompete
+Violinos
+Violoncelo
+Arcos e Sopros
+Instrumentos de Teclas
+Pianos
+Workstation
+Sintetizadores
+Arranjadores
+Amplificadores
+Acordeon
+Instrumentos de Teclas
+Minha Conta
+Wishlist
+Olá, Faça seu
+Login
+buscar
+Nossas Lojas
+Olá, Faça seu
+Login
+Entrar
+Novo no site?Cadastre-se
+Minha Conta
+Meus Pedidos
+0 ItensCarrinho Vazio
+Todas as Categorias
+Audio Profissional
+ACESSÓRIOS
+CABOS
+CAIXAS ACÚSTICAS
+FONE DE OUVIDO
+MICROFONES
+MIXERS & MESAS
+POTÊNCIAS
+PROCESSADORES
+SISTEMA SEM FIO
+TECNOLOGIA
+Bateria & Percussão
+ACESSÓRIOS
+BATERIA ACÚSTICA
+BATERIA ELETRÔNICA
+FERRAGENS
+PELES
+PERCUSSÃO
+PRATOS
+Cordas & Acessórios
+Acessórios
+Amplificadores para Baixo
+Amplificadores para Guitarra
+Amplificadores para Violão
+Bandolim
+Cavaco e Banjo
+Contrabaixo
+Controladores e Footswitch
+Encordoamentos
+Guitarra
+Peças e Reposições
+Pedal de Efeito
+Pedaleira e Multi Efeito
+Ukulele
+Viola Caipira
+Violão Acústico
+Violão Eletroacústico
+Violino
+Violoncello
+Pianos & Teclados
+ACESSÓRIOS
+ACORDEONS
+AMPLIFICADORES
+ARRANJADORES
+CONTROLADORES
+PIANOS
+SYNTHS
+WORKSTATIONS
+Sopro
+ACESSÓRIOS
+CLARINETAS
+FLAUTAS
+GAITAS
+GERAL
+SAX
+TROMPETE
+Instrumentos de Cordas
+Violão Elétrico
+Guitarra
+Contrabaixo
+Amplificador de Guitarra
+Pedal
+Encordoamentos
+Instrumentos de Cordas
+Bateria e Percussão
+Bateria acústica
+Bateria Eletrônica
+Pratos
+Percussão
+Caixas
+Ferragens
+Bateria e Percussão
+Áudio e Tecnologia
+Mixers e mesas
+Caixas e Monitores
+Gravação
+Fone de Ouvido
+Sem fio
+Microfones
+Áudio e Tecnologia
+Arcos e Sopros
+Gaitas
+Saxofone
+Flautas
+Trompete
+Violinos
+Violoncelo
+Arcos e Sopros
+Instrumentos de Teclas
+Pianos
+Workstation
+Sintetizadores
+Arranjadores
+Amplificadores
+Acordeon
+Instrumentos de Teclas
+01/10/2018 12:31:56
+{
+"@context": "http://schema.org",
+"@graph": [
+{
+"@type": "Product",
+"name": "Violão LX Ed Sheeran ÷ 3 com Capa Eletroacústico Martin",
+"sku": "126681-0",
+"description": "O Divide (÷), o mais recente da trilogia dos violões Martin signature de Ed Sheeran, está repleto das nuances de timbre e visual estilizado por Ed Sheeran.\nO tampo em pinho sólido, familiar do LX1E Little Martin, produz muita sonoridade. Mas a novidade do violão Ed Sheeran Divide é o seu HPL laminado em mogno, resistente à água, e com sonoridadeexcelente, ornamentos descolados nas cores preto e azul que combinam com o mosaico e o ardono \"÷\" , faz parte do pacote de novidades a captação Fishman Sonitone para uma execução ainda mais realista do instrumento quando plugado em um PA. O Martin's X bracing dá ao violão Ed Sheeran Divide mais amplitude sonora, timbremais grave, o que faz deste um ótimo violão para trabalhar em sua idéias em casa e um complemento perfeito para a produção de uma banda pop.\n\n\n",
+"brand": "MARTIN",
+"itemCondition": "NewCondition",
+"gtin14": "729789538879",
+"mpn": "42487",
+"offers": {
+"priceCurrency": "BRL",
+"price": "7899.00",
+"availability": "http://schema.org/InStock"
+}
+}
+]
+}
+Home
+Cordas & Acessórios
+Violão Eletroacústico
+Aço
+// Insere função no array "loadEvents" que é chamado na layout executando todas as funções contidas nele.
+var loadEvents = loadEvents || new Array();
+loadEvents.push(function () {
+//------------------------- Tratamento do carrossel da miniaturas -----------------------------------//
+try {
+var tamanhoMinimoCarrossel = 5;
+if ($('.fbits-produto-imagensMinicarrossel > .fbits-produto-imagensMinicarrossel-item').length >= tamanhoMinimoCarrossel) {
+var tipoCarrossel = null;//Seta a configuração do carrossel como linear por default
+// Marlon 07/01/2016 - linear não existe no novo plugin, null deixa wrap desligado (que é o mesmo comportamento do linear da versão anterior)
+var configTipoCarrossel = "1";//recupera a Configuracao
+// configTipoCarrossel == 1 -> Carrossel Linear
+// configTipoCarrossel == 2 -> Carrossel Circular
+if (configTipoCarrossel == 2) {
+tipoCarrossel = 'circular';
+}
+$(".jcarousel").jcarousel({ wrap: tipoCarrossel, scroll: 1, vertical: false });
+$('.jcarousel-prev')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '-=5'
+});
+$('.jcarousel-next')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '+=5'
+});
+}
+} catch (e) {
+console.log(e);
+}
+//------------------------- Tratamento do carrossel da miniaturas -----------------------------------//
+//------------------------- Tratamento do player de video/iframe -----------------------------------//
+var autoplay = 'manual';
+/** Adiciona os eventos das imagens do produto. **/
+$('#thumbVideo').click(function () {
+//mata o js do player antigo
+clickVideoThumb = null;
+//Tamanho da imagem para atribuir ao vídeo
+var widthImagemPrincipal = $("#zoomImagemProduto").width();
+var heightImagemPrincipal = $("#zoomImagemProduto").height();
+//Oculta a imagem e mostra o vídeo
+$("#zoomImagemProduto").hide();
+$(".zoomWrapper").hide();
+$(".zoomContainer").hide();
+$("#videoPrincipal").show();
+var urlVideo = "//www.youtube.com/embed/";
+var idVideo = $('[id="thumbVideo"]').attr('data-url');
+if (idVideo != undefined && idVideo != '')
+urlVideo += idVideo;
+if (autoplay == "auto")
+urlVideo += '?autoplay=1';
+if ($('#videoPrincipal').find('iframe').attr('src') != urlVideo) {
+var html = '<iframe width="' + widthImagemPrincipal + '" height="' + heightImagemPrincipal + '" src="' + urlVideo + '" frameborder="0" allowfullscreen></iframe>';
+$("#videoPrincipal").html(html);
+}
+});
+//------------------------- Tratamento do player de video/iframe -----------------------------------//
+});
+Violão LX Ed Sheeran ÷ 3 com Capa Eletroacústico Martin
+SKU 42487
+Avalie
+Produto indisponível nesta combinação, por favor, selecione outra combinação.
+R$ 7.899,00
+10
+x
+de
+R$ 789,90
+sem juros
+ou
+R$ 7.109,10
+à vista
+(com 10,00% de desconto no Boleto Bancário / Transferência Itaú)
+Quantidade
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Comprar
+Produto Indisponível
+Avise-me quando chegar
+Consulte opções de parcelamento
+1 x sem juros de R$ 7.899,00
+2 x sem juros de R$ 3.949,50
+3 x sem juros de R$ 2.633,00
+4 x sem juros de R$ 1.974,75
+5 x sem juros de R$ 1.579,80
+6 x sem juros de R$ 1.316,50
+7 x sem juros de R$ 1.128,42
+8 x sem juros de R$ 987,37
+9 x sem juros de R$ 877,66
+10 x sem juros de R$ 789,90
+R$ 7.899,00
+10
+x
+de
+R$ 789,90
+sem juros
+ou
+R$ 7.109,10
+à vista
+(com 10,00% de desconto no Boleto Bancário / Transferência Itaú)
+Quantidade
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Comprar
+Produto Indisponível
+Avise-me quando chegar
+Consulte frete e prazo de entrega
+Simule o frete e o
+prazo de entrega:
+Não sabe o CEP?
+Sugestões de compra
+Violão LX 1E Eletroacústico com Capa Little Martin
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+6.299,00
+à vista
+10
+x
+de
+R$ 629,90
+R$ 5.669,10
+Violão Aço Travel Guitar TM12 E Eletroacústico com Capa Sigma
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+3.390,00
+à vista
+10
+x
+de
+R$ 339,00
+R$ 3.051,00
+Violão Aço Travel Guitar TM15 E Eletroacústico com Capa Sigma
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+3.879,00
+à vista
+10
+x
+de
+R$ 387,90
+R$ 3.491,10
+Violão GBPC Backpacker Aço com Capa Martin
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+2.959,00
+à vista
+10
+x
+de
+R$ 295,90
+R$ 2.663,10
+Violão Nylon GCBC Classic Backpacker Acústico com Capa Martin
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+2.959,00
+à vista
+10
+x
+de
+R$ 295,90
+R$ 2.663,10
+Capa para Violão 7 e 12 Cordas Move (910) Soft Case
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+289,00
+à vista
+10
+x
+de
+R$ 28,90
+R$ 260,10
+Capa para Violão Clássico Basic - Newkeepers Newkeepers
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+219,00
+à vista
+8
+x
+de
+R$ 27,37
+R$ 197,10
+Capa para Violão Clássico Move (847) Soft Case
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+289,00
+à vista
+10
+x
+de
+R$ 28,90
+R$ 260,10
+Capa para Violão Clássico RGP2-C/SRW Ritter
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+179,00
+à vista
+7
+x
+de
+R$ 25,57
+R$ 161,10
+Capa para Violão Clássico Start Soft Case
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+120,00
+à vista
+4
+x
+de
+R$ 30,00
+R$ 108,00
+Capa para Violão Dreadnought Folk RGP2-D/BLW Ritter
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+199,00
+à vista
+7
+x
+de
+R$ 28,42
+R$ 179,10
+Capa para Violão Folk (848) Soft Case
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+299,00
+à vista
+10
+x
+de
+R$ 29,90
+R$ 269,10
+informações
+O Divide (÷), o mais recente da trilogia dos violões Martin signature de Ed Sheeran, está repleto das nuances de timbre e visual estilizado por Ed Sheeran.
+O tampo em pinho sólido, familiar do LX1E Little Martin, produz muita sonoridade. Mas a novidade do violão Ed Sheeran Divide é o seu HPL laminado em mogno, resistente à água, e com sonoridadeexcelente, ornamentos descolados nas cores preto e azul que combinam com o mosaico e o ardono "÷" , faz parte do pacote de novidades a captação Fishman Sonitone para uma execução ainda mais realista do instrumento quando plugado em um PA. O Martin's X bracing dá ao violão Ed Sheeran Divide mais amplitude sonora, timbremais grave, o que faz deste um ótimo violão para trabalhar em sua idéias em casa e um complemento perfeito para a produção de uma banda pop.
+detalhes do produto
+CORPO* Tipo de corpo: Modified 0 (14 fret)* Cutaway: Não* Madeira Tampo: Solid Sitka spruce* Laterais e Fundo: HPL Mahogany* Padrão de reforço: X-type não-scalloped* Acabamento do corpo: Hand-rubbed* Lado: DestroBRAÇO* Formato de Braço: Modified low oval standard taper* Largura o Nut: 1,69 pol. (43 mm)* Escala: certificada FSC Richlite* Braço: mogno* Comprimento da escala: 23 pol.* Número de trastes: 20* Acabamento de Braço: GlossPARTE ELÉTRICA* Captador / Pré-amplificador: Sim* Marca: Fishman Sonitone* Preamp EQ: 1 banda (1 Volume e 1 Tone)
+OUTRAS CARACTERÍSTICAS* Sobreposição de headstock: padrão de mogno HPL* Taxarra: Blindada Preta* Cavalete: certificada FSC Richlite* Saddle and Nut: Compensado preto tusq / preto corian* Número de cordas: 6* Características especiais: rótulo de edição especial, gráfico superior e incrustações* Capa: Gig bag * País de origem: México
+sobre a marca
+A C.F. Martin & Co. ® vem criando os melhores instrumentos do mundo há mais de 180 anos. Inovando e apresentando técnicas e características que se tornaram padrões da indústria, incluindo X-Bracing, o violão de 14 trastes e o tamanho "Dreadnought". Um dos principais criadores de instrumentos acústicos do mundo, os violões Martin são feitos à mão por artesãos especializados, que usam uma combinação de novos projetos e técnicas, juntamente com os introduzidos pelo fundador da empresa.A empresa também é conhecida por produzir cordas de violão e outros instrumentos acústicos populares de alta qualidade e eles têm feito suas próprias cordas desde 1970. Os violões Martin e seus encordoamentos são as melhores escolhas para músicos de todo o mundo, desde os ícones do rock, pop, country, folk e bluegrass até aqueles que apenas estão começando suas carreiras. Eles podem ser vistos em todos os segmentos da cultura pop, da televisão ao cinema, da Broadway, dos livros, da internet e da cobertura das capas de revistas populares em bancas de todo o mundo.
+Indique a um amigo
+Preencha os campos abaixo e clique em Indicar Produto.
+A sua indicação será enviada para o e-mail especificado.
+Comentários
+Número máximo de caracteres atingido (120)
+Indicar Produto
+Avaliar produto
+Preencha seus dados, avalie e clique no botão Avaliar Produto.
+Comentários
+Número maximo de caracteres atingido (4000)
+Excelente
+Muito Bom
+Bom
+Ruim
+Muito Ruim
+Avaliar Produto
+Produtos que você já viu
+Você ainda não visualizou nenhum produto
+Termos Buscados
+Você ainda não realizou nenhuma busca
+var Fbits = Fbits || {};
+Fbits.Componentes = Fbits.Componentes || {};
+Fbits.Componentes.Historico = Fbits.Componentes.Historico || {};
+Fbits.Componentes.Historico.Buscas = Fbits.Componentes.Historico.Buscas || {};
+Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens = Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens || false;
+Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens = 'True';
+Newsletter
+CADASTRE-SE E RECEBA OFERTAS EXCLUSIVAS:
+var grupoProduto = eval('[]');
+Fbits.Evento = {
+TemEventoAtivo : false,
+Perfil : ""
+};
+var slider = $("div#tp1").sliderTabs({
+autoplay: false,
+mousewheel: false
+});
+//Frete
+var freteAberto = "False";
+//Configuracao de Zoom
+var tipoZoom = "1";
+function jsonConcat(o1, o2) {
+for (var key in o2) {
+o1[key] = o2[key];
+}
+return o1;x
+}
+var decodeEntities = (function() {
+// this prevents any overhead from creating the object each time
+var element = document.createElement('div');
+function decodeHTMLEntities (str) {
+if(str && typeof str === 'string') {
+// strip script/html tags
+str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
+str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+element.innerHTML = str;
+str = element.textContent;
+element.textContent = '';
+}
+return str;
+}
+return decodeHTMLEntities;
+})();
+var Fbits = Fbits || {};
+Fbits.Produto = Fbits.Produto || {};
+Fbits.Produto.ProdutoVariante = Fbits.Produto.ProdutoVariante || {};
+Fbits.Produto.Atributos = Fbits.Produto.Atributos || {};
+//Atributos de Configuracao----------//
+Fbits.Produto.ProdutoId = 126681;
+Fbits.Produto.ParentId = 145033;
+Fbits.Produto.Nome = "Violão LX Ed Sheeran ÷ 3 com Capa Eletroacústico Martin";
+Fbits.Produto.PrecoDe = 7899.00;
+Fbits.Produto.PrecoPor = 7899.00;
+Fbits.Produto.Parcelamento = {"NumeroParcelas":10.0,"ValorParcela":789.9};
+Fbits.Produto.Url = "https://www.madeinbrazil.com.br/produto/violao-lx-ed-sheeran-3-com-capa-eletroacustico-martin-126681";
+Fbits.Produto.Descricao = decodeEntities("");
+Fbits.Produto.FotoPrincipal = "https://madeinbrazil.fbitsstatic.net/img/p/violao-lx-ed-sheeran-3-com-capa-eletroacustico-martin-126681/313166.jpg?w=800&amp;h=800&amp;v=no-change";
+Fbits.Produto.Sku = "42487";
+Fbits.Produto.IsTelevendas = "false" === "true";
+Fbits.Produto.IsDisponivel = "true"
+=== "true";
+Fbits.Produto.Estoque = (Fbits.Produto.IsDisponivel == "true")? 0 : 1;
+Fbits.Produto.AtributosProduto = [{}];
+Fbits.Produto.Categorias = [{"ProdutoCategoriaId":550254,"ProdutoId":126681,"CategoriaId":1196,"Nome":"Aço"}];
+Fbits.Produto.CategoriaGoogle = "";
+Fbits.Produto.Marca = "MARTIN";
+Fbits.Produto.Atributos = jsonConcat(Fbits.Produto.Atributos, eval({}));
+Fbits.Produto.ProdutoVariante = {"313166":{"ProdutoId":126681,"ProdutoVarianteId":313166,"Nome":"Violão LX Ed Sheeran ÷ 3 com Capa Eletroacústico Martin","CubagemAltura":0.0,"CubagemLargura":0.0,"CubagemMetroQuadrado":0.0,"Atributos":{}}};
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Usuario = Fbits.Usuario || {};
+$.ajax({
+type: 'POST',
+cache: true,
+url: fbits.ecommerce.urlEcommerce + "Home/SelectUsuarioContext",
+success: function (data) {
+if (data != false) {
+Fbits.Usuario.IsAuthenticated = data.IsAuthenticated;
+Fbits.Usuario.UsuarioId = data.UsuarioId;
+Fbits.Usuario.Nome = data.Nome;
+Fbits.Usuario.Email = data.Email;
+Fbits.Usuario.EmailHash = data.EmailHash;
+Fbits.Usuario.DataNascimento = data.DataNascimento != null ? new Date(parseInt(data.DataNascimento.substr(6))).toJSON() : null;
+Fbits.Usuario.DataCriacao = data.DataCriacao != null ? new Date(parseInt(data.DataCriacao.substr(6))).toJSON() : null;
+Fbits.Usuario.TipoUsuario = data.TipoUsuario;
+Fbits.Usuario.PossuiPrimeiraCompra = data.PossuiPrimeiraCompra;
+Fbits.Usuario.Assinante = data.Assinante;
+Fbits.Usuario.LimiteCredito = data.LimiteCredito;
+Fbits.Usuario.LimiteCreditoSaldo = data.LimiteCreditoSaldo;
+}
+else {
+Fbits.Usuario.IsAuthenticated = false;
+Fbits.Usuario.UsuarioId = 0;
+Fbits.Usuario.Nome = "";
+Fbits.Usuario.Email = "";
+Fbits.Usuario.EmailHash = "";
+Fbits.Usuario.DataNascimento = "";
+Fbits.Usuario.DataCriacao = "";
+Fbits.Usuario.TipoUsuario = "";
+Fbits.Usuario.PossuiPrimeiraCompra = false;
+Fbits.Usuario.Assinante = false;
+Fbits.Usuario.LimiteCredito = 0;
+Fbits.Usuario.LimiteCreditoSaldo = 0;
+}
+}
+});
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Pagina = Fbits.Pagina || {};
+Fbits.Pagina.Atual = "produtoviolao-lx-ed-sheeran-3-com-capa-eletroacustico-martin-126681";
+Fbits.Pagina.Url = "https://www.madeinbrazil.com.br/produto/violao-lx-ed-sheeran-3-com-capa-eletroacustico-martin-126681";
+_NEWSLETTERMODALATIVO = false;
+$('#jsFloatButton').hide();
+$(window).scroll(function () {
+if ($(this).scrollTop() != 0) {
+$('#jsFloatButton').fadeIn();
+} else {
+$('#jsFloatButton').fadeOut();
+}
+});
+Made in Brazil - Music Megastore
+Central de Atendimento:
+Ficou na dúvida? Acesse nossos canais de atendimento:
+sac@madeinbrazil.com.br
+ou
+(11) 5094-4466
+Institucional
+Nossa História
+Nossas Lojas
+Nossos Parceiros
+Prêmios
+Trabalhe Conosco
+Dúvidas
+Como Comprar?
+Formas de Pagamento
+Processo de Entrega
+Trocas e Devoluções
+Política de Privacidade
+Dúvidas Frequentes
+Regras do Site
+Siga-nos
+Formas de Pagamento
+Selos e Segurança
+Made in Brazil Coml e Imp. Ltda 64.565.732/0001-01| Preços e condições de pagamento exclusivos para compras via Internet.
+Ofertas válidas até o término de nossos estoques para a Internet. Vendas sujeitas à análise e confirmação de dados. As fotos dos produtos exibidos em nosso site são meramente ilustrativas
+CEP: 04088-005 -
+São Paulo -
+SP -
+(11) 5094-4466. - sac@madeinbrazil.com.br
+Copyright © 2017 Made in Brazil - Todos os direitos reservados.
+Tray Corp by FBITS
+ACúpula - Performance Digital
+Tray Corp by FBITS
+ACúpula - Performance Digital
+$(".toggle .titlefooter").click(function(){
+$(this).next().toggle();
+$(this).toggleClass("opened");
+});
+Mobile -
+Desktop
+$(".tituloPai").click(function(){
+$(this).toggleClass("itemaberto");
+});
+$(document).ready(function(){
+$(".top-icons div[id='ico-busca-topo']").click(function(){
+$(".ico-busca").toggleClass("ico-busca-topo-fecha");
+$(".div-busca-topo-oculta").toggle('slow');
+});
+});
+$('[data-lazyLoad=True]').lazyload({ threshold: 200, effect: "fadeIn" });
+$(document).ready(function () {
+montarHistorico();
+$.exitIntent('enable');
+if (typeof historicoPrecoProduto == 'function') {
+historicoPrecoProduto();
+$("#hdnProdutoVarianteId").on('change', function () {
+historicoPrecoProduto();
+});
+$("[id^='dvGrupoSelecaoAtributos-'] [id^='hdnProdutoVarianteId-']").on('change', function () {
+historicoPrecoProduto();
+});
+}
+});
+$(document).ready(function () {
+$.each(loadEvents, function (_, f) { f(); });
+});
+jQuery(function($){
+$('.minhaConta .sideBar').append('<div class="btnVoltarLoja"><a href="https://www.madeinbrazil.com.br/" class="btnVoltarAsCompras">Voltar para a loja</a></div>');
+});
+jQuery(function($) {
+$('div[id^="produto-spot-item-"] .spotContent').each(function() {
+$(this).children('.fbits-spot-conteudo').children('.spot-parte-dois').children('spotTitle').after($(this).children('.fbits-spot-conteudo').children('.botoesSpot').children('.avaliacao'));
+});
+});
+//BOTÃO NEWSLETTER
+jQuery(function($) {
+$('.btNews').attr('value','OK');
+});
+jQuery(function($) {
+$(window).on('load', function() {
+$('.filtros .tituloPai').unbind('click');
+});
+$('.filtro-lateral-categoria .filtroTitle.title').click(function() {
+$(this).next().slideToggle('medium');
+});
+var larguraTela = $(window).width();
+if (larguraTela <= 767) {
+$('.content.minhaconta .filtroTitle.title').click(function(){
+$('.content.minhaconta .filtroTitle.title+ul').slideToggle();
+});
+} else {
+$(window).on('load', function() {
+$('.content.minhaconta .filtroTitle.title').unbind('click');
+});
+}
+});
+jQuery(function($){
+$(window).on('load', function() {
+if($('.headerLogin .textloginp').children().hasClass('fbits-login-link-login')) {
+$('.header-sublog a.head-entrar').show();
+} else {
+$('.header-sublog a.head-entrar').hide();
+$('.header-sublog a.head-entrar').next().hide();
+$('.header-sublog hr').hide();
+}
+});
+});
+jQuery(function($){
+$(window).on('load', function() {
+$('.carrinho.carrinhoHead').append('<div class="black-box"></div>');
+});
+});
+$(".ico-menu").click(function(){
+$(".menu-container").toggleClass("menu-container-aberto");
+});
+$(".ico-menu-fecha").click(function(){
+$(".menu-container").removeClass("menu-container-aberto");
+});
+jQuery(function($) {
+// PLACEHOLDER PARA CEP
+$('#txtCalculaFreteProduto').attr('placeholder','Informe o seu CEP');
+});
+(function () {
+var yvs = document.createElement("script");
+yvs.type = "text/javascript";
+yvs.async = true;
+yvs.id = "_yvsrc";
+yvs.src = "//service.yourviews.com.br/script/bf92dc25-7af3-4acc-a0b2-ec6d740939b9/yvapi.js";
+var yvs_script = document.getElementsByTagName("script")[0];
+yvs_script.parentNode.insertBefore(yvs, yvs_script);
+})();
+$(".menu li.item.raiz").each(function(){
+if($(this).find("ul.filho").html()) {
+$(this).append("<span class='arrowmenu'></span>");
+}
+});
+$(".menu li.item.raiz ul.filho li.item").each(function(){
+if($(this).find("ul.filho").html()) {
+$(this).append("<span class='arrowmenu arrowmenu-sub'></span>");
+}
+});
+$(".arrowmenu").click(function(){
+$(this).toggleClass("opened");
+$(this).prev().slideToggle("fast");
+$(this).parent().toggleClass("select");
+});

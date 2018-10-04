@@ -1,0 +1,957 @@
+window.loadEvents = [];
+Cavaquinho Rc06 ATN-C Concertista com Case Rozini - Made in Brazil
+var fbits = {
+//Configurações do ecommerce
+ecommerce: {
+nome: "Made in Brazil",
+urlEcommerce: "https://www.madeinbrazil.com.br/",
+urlCarrinho: "https://checkout.madeinbrazil.com.br/",
+urlRecursos: "https://recursos.madeinbrazil.com.br/",
+urlImplantacao: "",
+urlImplantacaoCarrinho: "",
+urlRequest: '{{fbits.ecommerce.urlRequest}}'
+},
+parceiro: {
+_parceiroAtivo: null
+},
+//Configurações do google analytics
+google: {
+analytics: {
+id: "UA-102019484-1",
+domain: "madeinbrazil.com.br"
+}
+},
+search: {
+placeholder: "O que você procura?"
+}
+}
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Usuario = Fbits.Usuario || {};
+$.ajax({
+type: 'POST',
+cache: true,
+url: fbits.ecommerce.urlEcommerce + "Home/SelectUsuarioContext",
+success: function (data) {
+if (data != false) {
+Fbits.Usuario.IsAuthenticated = data.IsAuthenticated;
+Fbits.Usuario.UsuarioId = data.UsuarioId;
+Fbits.Usuario.Nome = data.Nome;
+Fbits.Usuario.Email = data.Email;
+Fbits.Usuario.EmailHash = data.EmailHash;
+Fbits.Usuario.DataNascimento = data.DataNascimento != null ? new Date(parseInt(data.DataNascimento.substr(6))).toJSON() : null;
+Fbits.Usuario.DataCriacao = data.DataCriacao != null ? new Date(parseInt(data.DataCriacao.substr(6))).toJSON() : null;
+Fbits.Usuario.TipoUsuario = data.TipoUsuario;
+Fbits.Usuario.PossuiPrimeiraCompra = data.PossuiPrimeiraCompra;
+Fbits.Usuario.Assinante = data.Assinante;
+Fbits.Usuario.LimiteCredito = data.LimiteCredito;
+Fbits.Usuario.LimiteCreditoSaldo = data.LimiteCreditoSaldo;
+}
+else {
+Fbits.Usuario.IsAuthenticated = false;
+Fbits.Usuario.UsuarioId = 0;
+Fbits.Usuario.Nome = "";
+Fbits.Usuario.Email = "";
+Fbits.Usuario.EmailHash = "";
+Fbits.Usuario.DataNascimento = "";
+Fbits.Usuario.DataCriacao = "";
+Fbits.Usuario.TipoUsuario = "";
+Fbits.Usuario.PossuiPrimeiraCompra = false;
+Fbits.Usuario.Assinante = false;
+Fbits.Usuario.LimiteCredito = 0;
+Fbits.Usuario.LimiteCreditoSaldo = 0;
+}
+}
+});
+function passo2(){
+if ($(".coluna-fechamento.titulocentro.central.indisponivel").html()) {
+$(".passo3").addClass("segundo");
+} else {
+$(".passo3").removeClass("segundo");
+}
+}
+$(document).ready(function(){
+passo2();
+setTimeout("passo2()",100);
+setTimeout("passo2()",200);
+setTimeout("passo2()",400);
+setTimeout("passo2()",1000);
+});
+$("#btnLogin.btRealizarLogin").click(function(){
+passo2();
+setTimeout("passo2()",100);
+setTimeout("passo2()",200);
+setTimeout("passo2()",400);
+setTimeout("passo2()",1000);
+});
+(function(){ var widget_id = 'pXz9jNo1XU';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+var novoCheckout = false;
+var smarthintkey = "SH-673542";
+(function () {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.async = true;
+script.src = 'https://service.smarthint.co/Scripts/i/fstore.min.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(script, s);
+})();
+var google_tag_params = {
+ecomm_prodid: ['70344'],
+ecomm_pagetype: ['product'],
+pproductname: ['Cavaquinho Rc06 ATN-C Concertista com Case Rozini'],
+puserid: null,
+psitetypecriteo: "d",
+categoria: 'Elétrico',
+ecomm_totalvalue: [2390.0000]
+}
+dataLayer = [{
+google_tag_params: window.google_tag_params
+}];
+var GOOGLETAGMANAGERID = 'GTM-59NFXMR';
+//Google Tag Manager script
+(function (w, d, s, l, i) {
+w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+}); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', GOOGLETAGMANAGERID);
+//End Google Tag Manager script
+(11) 5094-4466
+sac@madeinbrazil.com.br
+Meus Pedidos
+Lista de Desejos
+buscar
+Nossas Lojas
+Olá, Faça seu
+Login
+Entrar
+Novo no site?Cadastre-se
+Minha Conta
+Meus Pedidos
+0 ItensCarrinho Vazio
+buscar
+X
+Todas as Categorias
+Audio Profissional
+ACESSÓRIOS
+CABOS
+CAIXAS ACÚSTICAS
+FONE DE OUVIDO
+MICROFONES
+MIXERS & MESAS
+POTÊNCIAS
+PROCESSADORES
+SISTEMA SEM FIO
+TECNOLOGIA
+Bateria & Percussão
+ACESSÓRIOS
+BATERIA ACÚSTICA
+BATERIA ELETRÔNICA
+FERRAGENS
+PELES
+PERCUSSÃO
+PRATOS
+Cordas & Acessórios
+Acessórios
+Amplificadores para Baixo
+Amplificadores para Guitarra
+Amplificadores para Violão
+Bandolim
+Cavaco e Banjo
+Contrabaixo
+Controladores e Footswitch
+Encordoamentos
+Guitarra
+Peças e Reposições
+Pedal de Efeito
+Pedaleira e Multi Efeito
+Ukulele
+Viola Caipira
+Violão Acústico
+Violão Eletroacústico
+Violino
+Violoncello
+Pianos & Teclados
+ACESSÓRIOS
+ACORDEONS
+AMPLIFICADORES
+ARRANJADORES
+CONTROLADORES
+PIANOS
+SYNTHS
+WORKSTATIONS
+Sopro
+ACESSÓRIOS
+CLARINETAS
+FLAUTAS
+GAITAS
+GERAL
+SAX
+TROMPETE
+Instrumentos de Cordas
+Violão Elétrico
+Guitarra
+Contrabaixo
+Amplificador de Guitarra
+Pedal
+Encordoamentos
+Instrumentos de Cordas
+Bateria e Percussão
+Bateria acústica
+Bateria Eletrônica
+Pratos
+Percussão
+Caixas
+Ferragens
+Bateria e Percussão
+Áudio e Tecnologia
+Mixers e mesas
+Caixas e Monitores
+Gravação
+Fone de Ouvido
+Sem fio
+Microfones
+Áudio e Tecnologia
+Arcos e Sopros
+Gaitas
+Saxofone
+Flautas
+Trompete
+Violinos
+Violoncelo
+Arcos e Sopros
+Instrumentos de Teclas
+Pianos
+Workstation
+Sintetizadores
+Arranjadores
+Amplificadores
+Acordeon
+Instrumentos de Teclas
+Minha Conta
+Wishlist
+Olá, Faça seu
+Login
+buscar
+Nossas Lojas
+Olá, Faça seu
+Login
+Entrar
+Novo no site?Cadastre-se
+Minha Conta
+Meus Pedidos
+0 ItensCarrinho Vazio
+Todas as Categorias
+Audio Profissional
+ACESSÓRIOS
+CABOS
+CAIXAS ACÚSTICAS
+FONE DE OUVIDO
+MICROFONES
+MIXERS & MESAS
+POTÊNCIAS
+PROCESSADORES
+SISTEMA SEM FIO
+TECNOLOGIA
+Bateria & Percussão
+ACESSÓRIOS
+BATERIA ACÚSTICA
+BATERIA ELETRÔNICA
+FERRAGENS
+PELES
+PERCUSSÃO
+PRATOS
+Cordas & Acessórios
+Acessórios
+Amplificadores para Baixo
+Amplificadores para Guitarra
+Amplificadores para Violão
+Bandolim
+Cavaco e Banjo
+Contrabaixo
+Controladores e Footswitch
+Encordoamentos
+Guitarra
+Peças e Reposições
+Pedal de Efeito
+Pedaleira e Multi Efeito
+Ukulele
+Viola Caipira
+Violão Acústico
+Violão Eletroacústico
+Violino
+Violoncello
+Pianos & Teclados
+ACESSÓRIOS
+ACORDEONS
+AMPLIFICADORES
+ARRANJADORES
+CONTROLADORES
+PIANOS
+SYNTHS
+WORKSTATIONS
+Sopro
+ACESSÓRIOS
+CLARINETAS
+FLAUTAS
+GAITAS
+GERAL
+SAX
+TROMPETE
+Instrumentos de Cordas
+Violão Elétrico
+Guitarra
+Contrabaixo
+Amplificador de Guitarra
+Pedal
+Encordoamentos
+Instrumentos de Cordas
+Bateria e Percussão
+Bateria acústica
+Bateria Eletrônica
+Pratos
+Percussão
+Caixas
+Ferragens
+Bateria e Percussão
+Áudio e Tecnologia
+Mixers e mesas
+Caixas e Monitores
+Gravação
+Fone de Ouvido
+Sem fio
+Microfones
+Áudio e Tecnologia
+Arcos e Sopros
+Gaitas
+Saxofone
+Flautas
+Trompete
+Violinos
+Violoncelo
+Arcos e Sopros
+Instrumentos de Teclas
+Pianos
+Workstation
+Sintetizadores
+Arranjadores
+Amplificadores
+Acordeon
+Instrumentos de Teclas
+01/10/2018 12:46:05
+{
+"@context": "http://schema.org",
+"@graph": [
+{
+"@type": "Product",
+"name": "Cavaquinho Rc06 ATN-C Concertista com Case Rozini",
+"sku": "70344-0",
+"description": "- Fabricação: Brasil- Não acompanha capa ou case.\n\n\nCORDAS:AÇO \nACABAMENTO :FOSCO \nMADEIRA:ABETO \nLATERAL E FUNDO:MACIÇO \nBORDO:SIM \nTENSOR:NÃO \nTRASTE :CROMO NÍQUEL \nACESS :ESTOJO \nPESTANA:30 MM \nTARRAXA MODELO :DOURADA PINO GROSSO 18:1 \n\nCOR:NATURAL \nTAMPO :MACIÇO \nMOSAICO :MADEIRA \nMADEIRA:MAPLE \nBRAÇO:MAPLE \nESCALA :ÉBANO \nCAPTAÇÃO:FISHMAN ISYS+ AFINADOR \nMEDIDAS // COMP. TOTAL :630 MM \nLARGURA DA CAIXA :85 MM \nCOD#:RAX427GPG",
+"brand": "ROZINI",
+"itemCondition": "NewCondition",
+"gtin14": "7898914264198",
+"mpn": "41109",
+"offers": {
+"priceCurrency": "BRL",
+"price": "2390.00",
+"availability": "http://schema.org/InStock"
+}
+}
+]
+}
+Home
+Cordas & Acessórios
+Cavaco e Banjo
+Elétrico
+// Insere função no array "loadEvents" que é chamado na layout executando todas as funções contidas nele.
+var loadEvents = loadEvents || new Array();
+loadEvents.push(function () {
+//------------------------- Tratamento do carrossel da miniaturas -----------------------------------//
+try {
+var tamanhoMinimoCarrossel = 5;
+if ($('.fbits-produto-imagensMinicarrossel > .fbits-produto-imagensMinicarrossel-item').length >= tamanhoMinimoCarrossel) {
+var tipoCarrossel = null;//Seta a configuração do carrossel como linear por default
+// Marlon 07/01/2016 - linear não existe no novo plugin, null deixa wrap desligado (que é o mesmo comportamento do linear da versão anterior)
+var configTipoCarrossel = "1";//recupera a Configuracao
+// configTipoCarrossel == 1 -> Carrossel Linear
+// configTipoCarrossel == 2 -> Carrossel Circular
+if (configTipoCarrossel == 2) {
+tipoCarrossel = 'circular';
+}
+$(".jcarousel").jcarousel({ wrap: tipoCarrossel, scroll: 1, vertical: false });
+$('.jcarousel-prev')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '-=5'
+});
+$('.jcarousel-next')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '+=5'
+});
+}
+} catch (e) {
+console.log(e);
+}
+//------------------------- Tratamento do carrossel da miniaturas -----------------------------------//
+//------------------------- Tratamento do player de video/iframe -----------------------------------//
+var autoplay = 'manual';
+/** Adiciona os eventos das imagens do produto. **/
+$('#thumbVideo').click(function () {
+//mata o js do player antigo
+clickVideoThumb = null;
+//Tamanho da imagem para atribuir ao vídeo
+var widthImagemPrincipal = $("#zoomImagemProduto").width();
+var heightImagemPrincipal = $("#zoomImagemProduto").height();
+//Oculta a imagem e mostra o vídeo
+$("#zoomImagemProduto").hide();
+$(".zoomWrapper").hide();
+$(".zoomContainer").hide();
+$("#videoPrincipal").show();
+var urlVideo = "//www.youtube.com/embed/";
+var idVideo = $('[id="thumbVideo"]').attr('data-url');
+if (idVideo != undefined && idVideo != '')
+urlVideo += idVideo;
+if (autoplay == "auto")
+urlVideo += '?autoplay=1';
+if ($('#videoPrincipal').find('iframe').attr('src') != urlVideo) {
+var html = '<iframe width="' + widthImagemPrincipal + '" height="' + heightImagemPrincipal + '" src="' + urlVideo + '" frameborder="0" allowfullscreen></iframe>';
+$("#videoPrincipal").html(html);
+}
+});
+//------------------------- Tratamento do player de video/iframe -----------------------------------//
+});
+Cavaquinho Rc06 ATN-C Concertista com Case Rozini
+SKU 41109
+Avalie
+Produto indisponível nesta combinação, por favor, selecione outra combinação.
+Aproveite, ainda temos 3 itens no estoque
+R$ 2.390,00
+10
+x
+de
+R$ 239,00
+sem juros
+ou
+R$ 2.151,00
+à vista
+(com 10,00% de desconto no Boleto Bancário / Transferência Itaú)
+Quantidade
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Comprar
+Produto Indisponível
+Avise-me quando chegar
+Consulte opções de parcelamento
+1 x sem juros de R$ 2.390,00
+2 x sem juros de R$ 1.195,00
+3 x sem juros de R$ 796,66
+4 x sem juros de R$ 597,50
+5 x sem juros de R$ 478,00
+6 x sem juros de R$ 398,33
+7 x sem juros de R$ 341,42
+8 x sem juros de R$ 298,75
+9 x sem juros de R$ 265,55
+10 x sem juros de R$ 239,00
+Aproveite, ainda temos 3 itens no estoque
+R$ 2.390,00
+10
+x
+de
+R$ 239,00
+sem juros
+ou
+R$ 2.151,00
+à vista
+(com 10,00% de desconto no Boleto Bancário / Transferência Itaú)
+Quantidade
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Comprar
+Produto Indisponível
+Avise-me quando chegar
+Consulte frete e prazo de entrega
+Simule o frete e o
+prazo de entrega:
+Não sabe o CEP?
+Sugestões de compra
+Cavaco Concertista RC06 ACN-C com Case Rozini - Natural (Maple) (MA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.789,00
+à vista
+10
+x
+de
+R$ 178,90
+R$ 1.610,10
+02025 Case para Cavaquinho Rae03 Luxo Rozini
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+479,00
+à vista
+10
+x
+de
+R$ 47,90
+R$ 431,10
+Violão Clássico Concertista Nylon RX216ACN com Case Rozini - Natural (Maple) (MA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+3.949,00
+à vista
+10
+x
+de
+R$ 394,90
+R$ 3.554,10
+Case para Violão Clássico RAI001 Rozini
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+699,00
+à vista
+10
+x
+de
+R$ 69,90
+R$ 629,10
+Case para Violão Folk Dread Flight Case Trava Tsa com Rodas SKB
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+2.099,00
+à vista
+10
+x
+de
+R$ 209,90
+R$ 1.889,10
+Cavaquinho Ademir Fogaça Ativo RC13ATN-F Rozini - Mogno (NMH)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.180,00
+à vista
+10
+x
+de
+R$ 118,00
+R$ 1.062,00
+Cavaquinho Profissional Ativo RC07ATNE Rozini - Jacaranda (NTJ)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.399,00
+à vista
+10
+x
+de
+R$ 139,90
+R$ 1.259,10
+2688 Violão Rx213atn Clássico Ativo Nat Rozini
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+2.249,00
+à vista
+10
+x
+de
+R$ 224,90
+R$ 2.024,10
+Case Gator para Violão Clássico Gc-classic 4pk Gator
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+899,00
+à vista
+10
+x
+de
+R$ 89,90
+R$ 809,10
+Case Gator para Violão Folk Gc- Dread Gator
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+849,00
+à vista
+10
+x
+de
+R$ 84,90
+R$ 764,10
+Case para Amplificador Amplificador 1x12" Skb-r112auv SKB
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+2.179,00
+à vista
+10
+x
+de
+R$ 217,90
+R$ 1.961,10
+Case para Amplificador Amplificador 2x12" Skb-710 SKB
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+2.579,00
+à vista
+10
+x
+de
+R$ 257,90
+R$ 2.321,10
+detalhes do produto
+- Fabricação: Brasil- Não acompanha capa ou case.
+CORDAS:AÇO
+ACABAMENTO :FOSCO
+MADEIRA:ABETO
+LATERAL E FUNDO:MACIÇO
+BORDO:SIM
+TENSOR:NÃO
+TRASTE :CROMO NÍQUEL
+ACESS :ESTOJO
+PESTANA:30 MM
+TARRAXA MODELO :DOURADA PINO GROSSO 18:1
+COR:NATURAL
+TAMPO :MACIÇO
+MOSAICO :MADEIRA
+MADEIRA:MAPLE
+BRAÇO:MAPLE
+ESCALA :ÉBANO
+CAPTAÇÃO:FISHMAN ISYS+ AFINADOR
+MEDIDAS // COMP. TOTAL :630 MM
+LARGURA DA CAIXA :85 MM
+COD#:RAX427GPG
+sobre a marca
+A Rozini produz de forma artesanal Violões, Violas Caipira, Cavacos, Banjos e Bandolins, Percussão, Pandeiros e o exclusivo Tanajura, além de distribuir acessórios musicais como Tarraxas, Equalizadores, Cases, etc.É uma marca nacional, criada em meados da década de 90, por José Roberto Rozini com seu grande tino comercial, acompanhado de José Pereira, experiente Luthier, aposentado depois de 30 anos de trabalho. Constantemente preocupada com a principal matéria-prima dos instrumentos, a madeira. Adquiri um produto manufaturado somente com madeiras legais, que provêm de áreas de manejo florestal. Desde 2006, quando foi estabelecida pelo IBAMA uma portaria que regulamenta atividades com produtos florestais, compram apenas madeiras sob a licença do órgão. Ou seja, madeiras que tenham DOF (Documento de Origem Florestal).
+Indique a um amigo
+Preencha os campos abaixo e clique em Indicar Produto.
+A sua indicação será enviada para o e-mail especificado.
+Comentários
+Número máximo de caracteres atingido (120)
+Indicar Produto
+Avaliar produto
+Preencha seus dados, avalie e clique no botão Avaliar Produto.
+Comentários
+Número maximo de caracteres atingido (4000)
+Excelente
+Muito Bom
+Bom
+Ruim
+Muito Ruim
+Avaliar Produto
+Produtos que você já viu
+Você ainda não visualizou nenhum produto
+Termos Buscados
+Você ainda não realizou nenhuma busca
+var Fbits = Fbits || {};
+Fbits.Componentes = Fbits.Componentes || {};
+Fbits.Componentes.Historico = Fbits.Componentes.Historico || {};
+Fbits.Componentes.Historico.Buscas = Fbits.Componentes.Historico.Buscas || {};
+Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens = Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens || false;
+Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens = 'True';
+Newsletter
+CADASTRE-SE E RECEBA OFERTAS EXCLUSIVAS:
+var grupoProduto = eval('[]');
+Fbits.Evento = {
+TemEventoAtivo : false,
+Perfil : ""
+};
+var slider = $("div#tp1").sliderTabs({
+autoplay: false,
+mousewheel: false
+});
+//Frete
+var freteAberto = "False";
+//Configuracao de Zoom
+var tipoZoom = "1";
+function jsonConcat(o1, o2) {
+for (var key in o2) {
+o1[key] = o2[key];
+}
+return o1;x
+}
+var decodeEntities = (function() {
+// this prevents any overhead from creating the object each time
+var element = document.createElement('div');
+function decodeHTMLEntities (str) {
+if(str && typeof str === 'string') {
+// strip script/html tags
+str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
+str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+element.innerHTML = str;
+str = element.textContent;
+element.textContent = '';
+}
+return str;
+}
+return decodeHTMLEntities;
+})();
+var Fbits = Fbits || {};
+Fbits.Produto = Fbits.Produto || {};
+Fbits.Produto.ProdutoVariante = Fbits.Produto.ProdutoVariante || {};
+Fbits.Produto.Atributos = Fbits.Produto.Atributos || {};
+//Atributos de Configuracao----------//
+Fbits.Produto.ProdutoId = 70344;
+Fbits.Produto.ParentId = 88696;
+Fbits.Produto.Nome = "Cavaquinho Rc06 ATN-C Concertista com Case Rozini";
+Fbits.Produto.PrecoDe = 2390.00;
+Fbits.Produto.PrecoPor = 2390.00;
+Fbits.Produto.Parcelamento = {"NumeroParcelas":10.0,"ValorParcela":239.0};
+Fbits.Produto.Url = "https://www.madeinbrazil.com.br/produto/cavaquinho-rc06-atn-c-concertista-com-case-rozini-70344";
+Fbits.Produto.Descricao = decodeEntities("");
+Fbits.Produto.FotoPrincipal = "https://madeinbrazil.fbitsstatic.net/img/p/cavaquinho-rc06-atn-c-concertista-com-case-rozini-70344/256827.jpg?w=800&amp;h=800&amp;v=no-change";
+Fbits.Produto.Sku = "41109";
+Fbits.Produto.IsTelevendas = "false" === "true";
+Fbits.Produto.IsDisponivel = "true"
+=== "true";
+Fbits.Produto.Estoque = (Fbits.Produto.IsDisponivel == "true")? 0 : 1;
+Fbits.Produto.AtributosProduto = [{}];
+Fbits.Produto.Categorias = [{"ProdutoCategoriaId":502989,"ProdutoId":70344,"CategoriaId":1312,"Nome":"Elétrico"}];
+Fbits.Produto.CategoriaGoogle = "";
+Fbits.Produto.Marca = "ROZINI";
+Fbits.Produto.Atributos = jsonConcat(Fbits.Produto.Atributos, eval({}));
+Fbits.Produto.ProdutoVariante = {"256827":{"ProdutoId":70344,"ProdutoVarianteId":256827,"Nome":"Cavaquinho Rc06 ATN-C Concertista com Case Rozini","CubagemAltura":0.0,"CubagemLargura":0.0,"CubagemMetroQuadrado":0.0,"Atributos":{}}};
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Usuario = Fbits.Usuario || {};
+$.ajax({
+type: 'POST',
+cache: true,
+url: fbits.ecommerce.urlEcommerce + "Home/SelectUsuarioContext",
+success: function (data) {
+if (data != false) {
+Fbits.Usuario.IsAuthenticated = data.IsAuthenticated;
+Fbits.Usuario.UsuarioId = data.UsuarioId;
+Fbits.Usuario.Nome = data.Nome;
+Fbits.Usuario.Email = data.Email;
+Fbits.Usuario.EmailHash = data.EmailHash;
+Fbits.Usuario.DataNascimento = data.DataNascimento != null ? new Date(parseInt(data.DataNascimento.substr(6))).toJSON() : null;
+Fbits.Usuario.DataCriacao = data.DataCriacao != null ? new Date(parseInt(data.DataCriacao.substr(6))).toJSON() : null;
+Fbits.Usuario.TipoUsuario = data.TipoUsuario;
+Fbits.Usuario.PossuiPrimeiraCompra = data.PossuiPrimeiraCompra;
+Fbits.Usuario.Assinante = data.Assinante;
+Fbits.Usuario.LimiteCredito = data.LimiteCredito;
+Fbits.Usuario.LimiteCreditoSaldo = data.LimiteCreditoSaldo;
+}
+else {
+Fbits.Usuario.IsAuthenticated = false;
+Fbits.Usuario.UsuarioId = 0;
+Fbits.Usuario.Nome = "";
+Fbits.Usuario.Email = "";
+Fbits.Usuario.EmailHash = "";
+Fbits.Usuario.DataNascimento = "";
+Fbits.Usuario.DataCriacao = "";
+Fbits.Usuario.TipoUsuario = "";
+Fbits.Usuario.PossuiPrimeiraCompra = false;
+Fbits.Usuario.Assinante = false;
+Fbits.Usuario.LimiteCredito = 0;
+Fbits.Usuario.LimiteCreditoSaldo = 0;
+}
+}
+});
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Pagina = Fbits.Pagina || {};
+Fbits.Pagina.Atual = "produtocavaquinho-rc06-atn-c-concertista-com-case-rozini-70344";
+Fbits.Pagina.Url = "https://www.madeinbrazil.com.br/produto/cavaquinho-rc06-atn-c-concertista-com-case-rozini-70344";
+_NEWSLETTERMODALATIVO = false;
+$('#jsFloatButton').hide();
+$(window).scroll(function () {
+if ($(this).scrollTop() != 0) {
+$('#jsFloatButton').fadeIn();
+} else {
+$('#jsFloatButton').fadeOut();
+}
+});
+Made in Brazil - Music Megastore
+Central de Atendimento:
+Ficou na dúvida? Acesse nossos canais de atendimento:
+sac@madeinbrazil.com.br
+ou
+(11) 5094-4466
+Institucional
+Nossa História
+Nossas Lojas
+Nossos Parceiros
+Prêmios
+Trabalhe Conosco
+Dúvidas
+Como Comprar?
+Formas de Pagamento
+Processo de Entrega
+Trocas e Devoluções
+Política de Privacidade
+Dúvidas Frequentes
+Regras do Site
+Siga-nos
+Formas de Pagamento
+Selos e Segurança
+Made in Brazil Coml e Imp. Ltda 64.565.732/0001-01| Preços e condições de pagamento exclusivos para compras via Internet.
+Ofertas válidas até o término de nossos estoques para a Internet. Vendas sujeitas à análise e confirmação de dados. As fotos dos produtos exibidos em nosso site são meramente ilustrativas
+CEP: 04088-005 -
+São Paulo -
+SP -
+(11) 5094-4466. - sac@madeinbrazil.com.br
+Copyright © 2017 Made in Brazil - Todos os direitos reservados.
+Tray Corp by FBITS
+ACúpula - Performance Digital
+Tray Corp by FBITS
+ACúpula - Performance Digital
+$(".toggle .titlefooter").click(function(){
+$(this).next().toggle();
+$(this).toggleClass("opened");
+});
+$(".tituloPai").click(function(){
+$(this).toggleClass("itemaberto");
+});
+$(document).ready(function(){
+$(".top-icons div[id='ico-busca-topo']").click(function(){
+$(".ico-busca").toggleClass("ico-busca-topo-fecha");
+$(".div-busca-topo-oculta").toggle('slow');
+});
+});
+$('[data-lazyLoad=True]').lazyload({ threshold: 200, effect: "fadeIn" });
+$(document).ready(function () {
+montarHistorico();
+$.exitIntent('enable');
+if (typeof historicoPrecoProduto == 'function') {
+historicoPrecoProduto();
+$("#hdnProdutoVarianteId").on('change', function () {
+historicoPrecoProduto();
+});
+$("[id^='dvGrupoSelecaoAtributos-'] [id^='hdnProdutoVarianteId-']").on('change', function () {
+historicoPrecoProduto();
+});
+}
+});
+$(document).ready(function () {
+$.each(loadEvents, function (_, f) { f(); });
+});
+jQuery(function($){
+$('.minhaConta .sideBar').append('<div class="btnVoltarLoja"><a href="https://www.madeinbrazil.com.br/" class="btnVoltarAsCompras">Voltar para a loja</a></div>');
+});
+jQuery(function($) {
+$('div[id^="produto-spot-item-"] .spotContent').each(function() {
+$(this).children('.fbits-spot-conteudo').children('.spot-parte-dois').children('spotTitle').after($(this).children('.fbits-spot-conteudo').children('.botoesSpot').children('.avaliacao'));
+});
+});
+//BOTÃO NEWSLETTER
+jQuery(function($) {
+$('.btNews').attr('value','OK');
+});
+jQuery(function($) {
+$(window).on('load', function() {
+$('.filtros .tituloPai').unbind('click');
+});
+$('.filtro-lateral-categoria .filtroTitle.title').click(function() {
+$(this).next().slideToggle('medium');
+});
+var larguraTela = $(window).width();
+if (larguraTela <= 767) {
+$('.content.minhaconta .filtroTitle.title').click(function(){
+$('.content.minhaconta .filtroTitle.title+ul').slideToggle();
+});
+} else {
+$(window).on('load', function() {
+$('.content.minhaconta .filtroTitle.title').unbind('click');
+});
+}
+});
+jQuery(function($){
+$(window).on('load', function() {
+if($('.headerLogin .textloginp').children().hasClass('fbits-login-link-login')) {
+$('.header-sublog a.head-entrar').show();
+} else {
+$('.header-sublog a.head-entrar').hide();
+$('.header-sublog a.head-entrar').next().hide();
+$('.header-sublog hr').hide();
+}
+});
+});
+jQuery(function($){
+$(window).on('load', function() {
+$('.carrinho.carrinhoHead').append('<div class="black-box"></div>');
+});
+});
+$(".ico-menu").click(function(){
+$(".menu-container").toggleClass("menu-container-aberto");
+});
+$(".ico-menu-fecha").click(function(){
+$(".menu-container").removeClass("menu-container-aberto");
+});
+jQuery(function($) {
+// PLACEHOLDER PARA CEP
+$('#txtCalculaFreteProduto').attr('placeholder','Informe o seu CEP');
+});
+(function () {
+var yvs = document.createElement("script");
+yvs.type = "text/javascript";
+yvs.async = true;
+yvs.id = "_yvsrc";
+yvs.src = "//service.yourviews.com.br/script/bf92dc25-7af3-4acc-a0b2-ec6d740939b9/yvapi.js";
+var yvs_script = document.getElementsByTagName("script")[0];
+yvs_script.parentNode.insertBefore(yvs, yvs_script);
+})();
+$(".menu li.item.raiz").each(function(){
+if($(this).find("ul.filho").html()) {
+$(this).append("<span class='arrowmenu'></span>");
+}
+});
+$(".menu li.item.raiz ul.filho li.item").each(function(){
+if($(this).find("ul.filho").html()) {
+$(this).append("<span class='arrowmenu arrowmenu-sub'></span>");
+}
+});
+$(".arrowmenu").click(function(){
+$(this).toggleClass("opened");
+$(this).prev().slideToggle("fast");
+$(this).parent().toggleClass("select");
+});

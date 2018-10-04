@@ -1,0 +1,998 @@
+window.loadEvents = [];
+Violão Aço Dallas Elétrico com Afinador Série América Tagima - Natural (NA) - Made in Brazil
+var fbits = {
+//Configurações do ecommerce
+ecommerce: {
+nome: "Made in Brazil",
+urlEcommerce: "https://www.madeinbrazil.com.br/",
+urlCarrinho: "https://checkout.madeinbrazil.com.br/",
+urlRecursos: "https://recursos.madeinbrazil.com.br/",
+urlImplantacao: "",
+urlImplantacaoCarrinho: "",
+urlRequest: '{{fbits.ecommerce.urlRequest}}'
+},
+parceiro: {
+_parceiroAtivo: null
+},
+//Configurações do google analytics
+google: {
+analytics: {
+id: "UA-102019484-1",
+domain: "madeinbrazil.com.br"
+}
+},
+search: {
+placeholder: "O que você procura?"
+}
+}
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Usuario = Fbits.Usuario || {};
+$.ajax({
+type: 'POST',
+cache: true,
+url: fbits.ecommerce.urlEcommerce + "Home/SelectUsuarioContext",
+success: function (data) {
+if (data != false) {
+Fbits.Usuario.IsAuthenticated = data.IsAuthenticated;
+Fbits.Usuario.UsuarioId = data.UsuarioId;
+Fbits.Usuario.Nome = data.Nome;
+Fbits.Usuario.Email = data.Email;
+Fbits.Usuario.EmailHash = data.EmailHash;
+Fbits.Usuario.DataNascimento = data.DataNascimento != null ? new Date(parseInt(data.DataNascimento.substr(6))).toJSON() : null;
+Fbits.Usuario.DataCriacao = data.DataCriacao != null ? new Date(parseInt(data.DataCriacao.substr(6))).toJSON() : null;
+Fbits.Usuario.TipoUsuario = data.TipoUsuario;
+Fbits.Usuario.PossuiPrimeiraCompra = data.PossuiPrimeiraCompra;
+Fbits.Usuario.Assinante = data.Assinante;
+Fbits.Usuario.LimiteCredito = data.LimiteCredito;
+Fbits.Usuario.LimiteCreditoSaldo = data.LimiteCreditoSaldo;
+}
+else {
+Fbits.Usuario.IsAuthenticated = false;
+Fbits.Usuario.UsuarioId = 0;
+Fbits.Usuario.Nome = "";
+Fbits.Usuario.Email = "";
+Fbits.Usuario.EmailHash = "";
+Fbits.Usuario.DataNascimento = "";
+Fbits.Usuario.DataCriacao = "";
+Fbits.Usuario.TipoUsuario = "";
+Fbits.Usuario.PossuiPrimeiraCompra = false;
+Fbits.Usuario.Assinante = false;
+Fbits.Usuario.LimiteCredito = 0;
+Fbits.Usuario.LimiteCreditoSaldo = 0;
+}
+}
+});
+function passo2(){
+if ($(".coluna-fechamento.titulocentro.central.indisponivel").html()) {
+$(".passo3").addClass("segundo");
+} else {
+$(".passo3").removeClass("segundo");
+}
+}
+$(document).ready(function(){
+passo2();
+setTimeout("passo2()",100);
+setTimeout("passo2()",200);
+setTimeout("passo2()",400);
+setTimeout("passo2()",1000);
+});
+$("#btnLogin.btRealizarLogin").click(function(){
+passo2();
+setTimeout("passo2()",100);
+setTimeout("passo2()",200);
+setTimeout("passo2()",400);
+setTimeout("passo2()",1000);
+});
+(function(){ var widget_id = 'pXz9jNo1XU';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+var novoCheckout = false;
+var smarthintkey = "SH-673542";
+(function () {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.async = true;
+script.src = 'https://service.smarthint.co/Scripts/i/fstore.min.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(script, s);
+})();
+var google_tag_params = {
+ecomm_prodid: ['69845'],
+ecomm_pagetype: ['product'],
+pproductname: ['Viol&#227;o A&#231;o Dallas El&#233;trico com Afinador S&#233;rie Am&#233;rica Tagima - Natural (NA)'],
+puserid: null,
+psitetypecriteo: "d",
+categoria: 'Aço',
+ecomm_totalvalue: [759.0000]
+}
+dataLayer = [{
+google_tag_params: window.google_tag_params
+}];
+var GOOGLETAGMANAGERID = 'GTM-59NFXMR';
+//Google Tag Manager script
+(function (w, d, s, l, i) {
+w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+}); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', GOOGLETAGMANAGERID);
+//End Google Tag Manager script
+(11) 5094-4466
+sac@madeinbrazil.com.br
+Meus Pedidos
+Lista de Desejos
+buscar
+Nossas Lojas
+Olá, Faça seu
+Login
+Entrar
+Novo no site?Cadastre-se
+Minha Conta
+Meus Pedidos
+0 ItensCarrinho Vazio
+buscar
+X
+Todas as Categorias
+Audio Profissional
+ACESSÓRIOS
+CABOS
+CAIXAS ACÚSTICAS
+FONE DE OUVIDO
+MICROFONES
+MIXERS & MESAS
+POTÊNCIAS
+PROCESSADORES
+SISTEMA SEM FIO
+TECNOLOGIA
+Bateria & Percussão
+ACESSÓRIOS
+BATERIA ACÚSTICA
+BATERIA ELETRÔNICA
+FERRAGENS
+PELES
+PERCUSSÃO
+PRATOS
+Cordas & Acessórios
+Acessórios
+Amplificadores para Baixo
+Amplificadores para Guitarra
+Amplificadores para Violão
+Bandolim
+Cavaco e Banjo
+Contrabaixo
+Controladores e Footswitch
+Encordoamentos
+Guitarra
+Peças e Reposições
+Pedal de Efeito
+Pedaleira e Multi Efeito
+Ukulele
+Viola Caipira
+Violão Acústico
+Violão Eletroacústico
+Violino
+Violoncello
+Pianos & Teclados
+ACESSÓRIOS
+ACORDEONS
+AMPLIFICADORES
+ARRANJADORES
+CONTROLADORES
+PIANOS
+SYNTHS
+WORKSTATIONS
+Sopro
+ACESSÓRIOS
+CLARINETAS
+FLAUTAS
+GAITAS
+GERAL
+SAX
+TROMPETE
+Instrumentos de Cordas
+Violão Elétrico
+Guitarra
+Contrabaixo
+Amplificador de Guitarra
+Pedal
+Encordoamentos
+Instrumentos de Cordas
+Bateria e Percussão
+Bateria acústica
+Bateria Eletrônica
+Pratos
+Percussão
+Caixas
+Ferragens
+Bateria e Percussão
+Áudio e Tecnologia
+Mixers e mesas
+Caixas e Monitores
+Gravação
+Fone de Ouvido
+Sem fio
+Microfones
+Áudio e Tecnologia
+Arcos e Sopros
+Gaitas
+Saxofone
+Flautas
+Trompete
+Violinos
+Violoncelo
+Arcos e Sopros
+Instrumentos de Teclas
+Pianos
+Workstation
+Sintetizadores
+Arranjadores
+Amplificadores
+Acordeon
+Instrumentos de Teclas
+Minha Conta
+Wishlist
+Olá, Faça seu
+Login
+buscar
+Nossas Lojas
+Olá, Faça seu
+Login
+Entrar
+Novo no site?Cadastre-se
+Minha Conta
+Meus Pedidos
+0 ItensCarrinho Vazio
+Todas as Categorias
+Audio Profissional
+ACESSÓRIOS
+CABOS
+CAIXAS ACÚSTICAS
+FONE DE OUVIDO
+MICROFONES
+MIXERS & MESAS
+POTÊNCIAS
+PROCESSADORES
+SISTEMA SEM FIO
+TECNOLOGIA
+Bateria & Percussão
+ACESSÓRIOS
+BATERIA ACÚSTICA
+BATERIA ELETRÔNICA
+FERRAGENS
+PELES
+PERCUSSÃO
+PRATOS
+Cordas & Acessórios
+Acessórios
+Amplificadores para Baixo
+Amplificadores para Guitarra
+Amplificadores para Violão
+Bandolim
+Cavaco e Banjo
+Contrabaixo
+Controladores e Footswitch
+Encordoamentos
+Guitarra
+Peças e Reposições
+Pedal de Efeito
+Pedaleira e Multi Efeito
+Ukulele
+Viola Caipira
+Violão Acústico
+Violão Eletroacústico
+Violino
+Violoncello
+Pianos & Teclados
+ACESSÓRIOS
+ACORDEONS
+AMPLIFICADORES
+ARRANJADORES
+CONTROLADORES
+PIANOS
+SYNTHS
+WORKSTATIONS
+Sopro
+ACESSÓRIOS
+CLARINETAS
+FLAUTAS
+GAITAS
+GERAL
+SAX
+TROMPETE
+Instrumentos de Cordas
+Violão Elétrico
+Guitarra
+Contrabaixo
+Amplificador de Guitarra
+Pedal
+Encordoamentos
+Instrumentos de Cordas
+Bateria e Percussão
+Bateria acústica
+Bateria Eletrônica
+Pratos
+Percussão
+Caixas
+Ferragens
+Bateria e Percussão
+Áudio e Tecnologia
+Mixers e mesas
+Caixas e Monitores
+Gravação
+Fone de Ouvido
+Sem fio
+Microfones
+Áudio e Tecnologia
+Arcos e Sopros
+Gaitas
+Saxofone
+Flautas
+Trompete
+Violinos
+Violoncelo
+Arcos e Sopros
+Instrumentos de Teclas
+Pianos
+Workstation
+Sintetizadores
+Arranjadores
+Amplificadores
+Acordeon
+Instrumentos de Teclas
+01/10/2018 12:42:50
+{
+"@context": "http://schema.org",
+"@graph": [
+{
+"@type": "Product",
+"name": "Violão Aço Dallas Elétrico com Afinador Série América Tagima - Natural (NA)",
+"sku": "69845-0",
+"description": "\nViolão Dallas da Tagima, uma das marcas mais importantes e reconhecidas no Brasil pela fabricação de instrumentos musicais. Cada vez mais músicos e artistas da musica utilizam e apoiam os instrumentos da marca que são fabricados e desenvolvidos nos mais altos padrões de qualidade, para entregar ao consumidor final um produto impecável não só em sonoridade, mas em acabamento. Tudo isso a um custo acessível. \nAlém da qualidade do instrumento, ele oferece excelente acabamento, sonoridade encorpada e ótima captação com equalização de 5 bandas e afinador, o que possibilita a customização do som e timbre da maneira como você imagina com a vantagem de se poder afinar com praticidade aonde estiver. \nUm Violão Açoincrível que serve tanto profissionais como iniciantes na arte! \n",
+"brand": "TAGIMA",
+"itemCondition": "NewCondition",
+"gtin14": "7898566762912",
+"mpn": "52005",
+"offers": {
+"priceCurrency": "BRL",
+"price": "759.00",
+"availability": "http://schema.org/InStock"
+}
+}
+]
+}
+Home
+Cordas & Acessórios
+Violão Eletroacústico
+Aço
+// Insere função no array "loadEvents" que é chamado na layout executando todas as funções contidas nele.
+var loadEvents = loadEvents || new Array();
+loadEvents.push(function () {
+//------------------------- Tratamento do carrossel da miniaturas -----------------------------------//
+try {
+var tamanhoMinimoCarrossel = 5;
+if ($('.fbits-produto-imagensMinicarrossel > .fbits-produto-imagensMinicarrossel-item').length >= tamanhoMinimoCarrossel) {
+var tipoCarrossel = null;//Seta a configuração do carrossel como linear por default
+// Marlon 07/01/2016 - linear não existe no novo plugin, null deixa wrap desligado (que é o mesmo comportamento do linear da versão anterior)
+var configTipoCarrossel = "1";//recupera a Configuracao
+// configTipoCarrossel == 1 -> Carrossel Linear
+// configTipoCarrossel == 2 -> Carrossel Circular
+if (configTipoCarrossel == 2) {
+tipoCarrossel = 'circular';
+}
+$(".jcarousel").jcarousel({ wrap: tipoCarrossel, scroll: 1, vertical: false });
+$('.jcarousel-prev')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '-=5'
+});
+$('.jcarousel-next')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '+=5'
+});
+}
+} catch (e) {
+console.log(e);
+}
+//------------------------- Tratamento do carrossel da miniaturas -----------------------------------//
+//------------------------- Tratamento do player de video/iframe -----------------------------------//
+var autoplay = 'manual';
+/** Adiciona os eventos das imagens do produto. **/
+$('#thumbVideo').click(function () {
+//mata o js do player antigo
+clickVideoThumb = null;
+//Tamanho da imagem para atribuir ao vídeo
+var widthImagemPrincipal = $("#zoomImagemProduto").width();
+var heightImagemPrincipal = $("#zoomImagemProduto").height();
+//Oculta a imagem e mostra o vídeo
+$("#zoomImagemProduto").hide();
+$(".zoomWrapper").hide();
+$(".zoomContainer").hide();
+$("#videoPrincipal").show();
+var urlVideo = "//www.youtube.com/embed/";
+var idVideo = $('[id="thumbVideo"]').attr('data-url');
+if (idVideo != undefined && idVideo != '')
+urlVideo += idVideo;
+if (autoplay == "auto")
+urlVideo += '?autoplay=1';
+if ($('#videoPrincipal').find('iframe').attr('src') != urlVideo) {
+var html = '<iframe width="' + widthImagemPrincipal + '" height="' + heightImagemPrincipal + '" src="' + urlVideo + '" frameborder="0" allowfullscreen></iframe>';
+$("#videoPrincipal").html(html);
+}
+});
+//------------------------- Tratamento do player de video/iframe -----------------------------------//
+});
+Violão Aço Dallas Elétrico com Afinador Série América Tagima - Natural (NA)
+SKU 52005
+Avalie
+1
+COR
+Indisponível
+var loadEvents = loadEvents || new Array();
+loadEvents.push(function () {
+$('[class^="jcarousel-atributos-"]').jcarousel();
+$('[class^="jcarousel-control-prev-atributos-"]')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '-=1'
+});
+$('[class^="jcarousel-control-next-atributos-"]')
+.on('jcarouselcontrol:active', function () {
+$(this).removeClass('inactive');
+})
+.on('jcarouselcontrol:inactive', function () {
+$(this).addClass('inactive');
+})
+.jcarouselControl({
+target: '+=1'
+});
+$('.jcarousel-pagination')
+.on('jcarouselpagination:active', 'a', function () {
+$(this).addClass('active');
+})
+.on('jcarouselpagination:inactive', 'a', function () {
+$(this).removeClass('active');
+})
+.jcarouselPagination();
+if ($("div[data-atributoselecionado='True']").size() > 0) {
+$("div[data-atributoselecionado='True']").each(function (index) {
+var codigoAtributo = $(this).parent().parent().attr('data-codigoatributo');
+var classAtributo = $(this).parent().parent().attr('class');
+var procuraAtributoAtivo = true;
+$("div[data-codigoatributo='" + codigoAtributo + "'] div div[data-valoratributo]").each(function (index) {
+if ($(this).attr('data-atributoselecionado') === 'True') {
+$('.' + classAtributo).jcarousel('scroll', index);
+}
+});
+});
+}
+$("div[data-codigoatributo]").each(function (index) {
+if ($(this).find("div[data-atributoselecionado=True]").length == 0) {
+var classAtributo = $(this).attr('class');
+var indexElemento = $(this).children().first().find("div").not('.disabled').first().index();
+$('.' + classAtributo).jcarousel('scroll', indexElemento);
+}
+});
+});
+Produto indisponível nesta combinação, por favor, selecione outra combinação.
+R$ 759,00
+10
+x
+de
+R$ 75,90
+sem juros
+ou
+R$ 683,10
+à vista
+(com 10,00% de desconto no Boleto Bancário / Transferência Itaú)
+Quantidade
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Comprar
+Produto Indisponível
+Avise-me quando chegar
+Consulte opções de parcelamento
+1 x sem juros de R$ 759,00
+2 x sem juros de R$ 379,50
+3 x sem juros de R$ 253,00
+4 x sem juros de R$ 189,75
+5 x sem juros de R$ 151,80
+6 x sem juros de R$ 126,50
+7 x sem juros de R$ 108,42
+8 x sem juros de R$ 94,87
+9 x sem juros de R$ 84,33
+10 x sem juros de R$ 75,90
+R$ 759,00
+10
+x
+de
+R$ 75,90
+sem juros
+ou
+R$ 683,10
+à vista
+(com 10,00% de desconto no Boleto Bancário / Transferência Itaú)
+Quantidade
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Comprar
+Produto Indisponível
+Avise-me quando chegar
+Consulte frete e prazo de entrega
+Simule o frete e o
+prazo de entrega:
+Não sabe o CEP?
+Compre Junto
+Adicionar ao Carrinho
+Produto indisponível nesta combinação, por favor, selecione outra combinação.
+Sugestões de compra
+Violão Flat Nylon Madrid Elétrico Série Collection Tagima - Natural (NA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+959,00
+à vista
+10
+x
+de
+R$ 95,90
+R$ 863,10
+Violão Clássico Nylon Ottawa Cutaway Elétrico Série Canadá Tagima - Natural (NA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.549,00
+à vista
+10
+x
+de
+R$ 154,90
+R$ 1.394,10
+Violão Aço Vancouver Elétrico Folk Dreadnought Série Canadá Tagima - Natural (NA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.609,00
+à vista
+10
+x
+de
+R$ 160,90
+R$ 1.448,10
+Violão Aço Quebec Elétrico Série Canadá Tagima - Natural (NA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+1.489,00
+à vista
+10
+x
+de
+R$ 148,90
+R$ 1.340,10
+Violão Nylon Vegas Elétrico com Afinador Série América Tagima - Natural (Natural Satin) (NS)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+759,00
+à vista
+10
+x
+de
+R$ 75,90
+R$ 683,10
+Violão Aço Kansas Elétrico Série América Tagima - Natural (NA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+789,00
+à vista
+10
+x
+de
+R$ 78,90
+R$ 710,10
+Violão Aço Dallas Elétrico com Afinador Série América Tagima - Sunburst (SB)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+759,00
+à vista
+10
+x
+de
+R$ 75,90
+R$ 683,10
+Violão Aço Dallas Elétrico com Afinador Série América Tagima - Preto (BK)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+759,00
+à vista
+10
+x
+de
+R$ 75,90
+R$ 683,10
+Violão Nylon Vegas para Canhoto Elétrico com Afinador Série América Tagima - Natural (NA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+789,00
+à vista
+10
+x
+de
+R$ 78,90
+R$ 710,10
+Violão Nylon Vegas Elétrico com Afinador Série América Tagima - Natural (NA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+759,00
+à vista
+10
+x
+de
+R$ 75,90
+R$ 683,10
+Violão Aço Dallas Elétrico com Afinador Série América Tagima - Natural (Natural Satin) (NS)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+759,00
+à vista
+10
+x
+de
+R$ 75,90
+R$ 683,10
+Violão Aço Dallas Canhoto Elétrico com Afinador Série América Tagima - Natural (NA)
+Comprar
+Adicionar ao Carrinho
+FAVORITO
+R$
+759,00
+à vista
+10
+x
+de
+R$ 75,90
+R$ 683,10
+informações
+Violão Dallas da Tagima, uma das marcas mais importantes e reconhecidas no Brasil pela fabricação de instrumentos musicais. Cada vez mais músicos e artistas da musica utilizam e apoiam os instrumentos da marca que são fabricados e desenvolvidos nos mais altos padrões de qualidade, para entregar ao consumidor final um produto impecável não só em sonoridade, mas em acabamento. Tudo isso a um custo acessível.
+Além da qualidade do instrumento, ele oferece excelente acabamento, sonoridade encorpada e ótima captação com equalização de 5 bandas e afinador, o que possibilita a customização do som e timbre da maneira como você imagina com a vantagem de se poder afinar com praticidade aonde estiver.
+Um Violão Aço incrível que serve tanto profissionais como iniciantes na arte!
+detalhes do produto
+* Tampo: Spruce;* Laterais e Fundo: Sapele;* Cavalete: Rosewood;* Bojo: 96mm x 102mm;* Braço em Natowood;* Escala: Rosewood;* Nut (capo traste): 43mm.* Pré: Tagima TEQ-5 ativa com afinador;* Captação: Piezo;* Controles: Volume, grave, médio, agudo, presence e brilliance.* Ferragens: Cromadas blindadas; * Fabricação: China
+* Não acompanha capa
+sobre a marca
+- O encontro entre a Tagima e a Marutec deu-se em 1996. A Tagima era uma marca já conhecida no meio "Underground" dos músicos, a Marutec, importadora de equipamentos musicais e eletrônicos já era um importante player no mercado de instrumentos musicais, conhecida pela solidez e rapidez de seu crescimento. Vislumbrando oportunidades de crescimento, a Marutec Music empenhou-se no compromisso de trazer à marcaTagima, uma nova personalidade: a de uma indústria de porte, com produtos e áreas de atuação ampliadas para atender as crescentes demandas de mercado. Começaram então os grandes investimentos. - A Marutec Music adquiriu os direitos de uso da marca e ainda em 1996 e começou assim todo o trabalho de construção da marca Tagima a nível nacional. Também passaram a expor em grandes feiras internacionais como a MusikMesse de Frankfurt (Alemanha) e a NAMM Show em Los Angeles. Foi lançada a linha Memphis by Tagima, com novos modelos de contrabaixo, guitarras e violões. O Instituto de Guitarra e Tecnologia (IG&T) de São Paulo fechou acordo para utilizar os instrumentos Tagima em suas aulas, aumentando o reconhecimento da marca. - Com o aumento considerável na participação do mercado, um conjunto de ações foi implementado na re-estruturação da empresa, para suprir a demanda crescente, e com essa nova organização, dar a empresa o perfil desejado: mudança da fábrica para uma nova unidade em São Paulo, investimentos em equipamentos para aumento de produção, melhorias de processos de trabalho, ampliação da rede de vendas e distribuição, ações de propaganda e marketing e vários outros, que integrados ajudaram no crescimento da empresa e no fortalecimento da marca a nível nacional.
+Marcio Zaganin o maior Luthier do Brasil e entre os melhores do mundo, é o atual responsável pela produção e desenvolvimento de novos produtos e controle total de qualidade dos instrumentos Tagima. Seja de instrumentos fabricados no Brasil ou dos produtos cuidadosamente desenvolvidos na empresa e fabricados no mais alto padrão de controle de qualidade no exterior. - A Tagima é referência no mercado, competindo em igualdade de condições com as marcas internacionais mais consagradas. A marca é considerada responsável pela erradicação do preconceito em relação ao instrumento musical brasileiro. Se você procura o instrumento que case com suas necessidades e gostos, a "máquina dos seus sonhos", sua peregrinação acabou.
+Indique a um amigo
+Preencha os campos abaixo e clique em Indicar Produto.
+A sua indicação será enviada para o e-mail especificado.
+Comentários
+Número máximo de caracteres atingido (120)
+Indicar Produto
+Avaliar produto
+Preencha seus dados, avalie e clique no botão Avaliar Produto.
+Comentários
+Número maximo de caracteres atingido (4000)
+Excelente
+Muito Bom
+Bom
+Ruim
+Muito Ruim
+Avaliar Produto
+Produtos que você já viu
+Você ainda não visualizou nenhum produto
+Termos Buscados
+Você ainda não realizou nenhuma busca
+var Fbits = Fbits || {};
+Fbits.Componentes = Fbits.Componentes || {};
+Fbits.Componentes.Historico = Fbits.Componentes.Historico || {};
+Fbits.Componentes.Historico.Buscas = Fbits.Componentes.Historico.Buscas || {};
+Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens = Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens || false;
+Fbits.Componentes.Historico.Buscas.termosBuscadosExibirImagens = 'True';
+Newsletter
+CADASTRE-SE E RECEBA OFERTAS EXCLUSIVAS:
+var grupoProduto = eval('[{"ProdutoId":69845,"ProdutoRelacionadoId":68450,"GrupoId":2,"GrupoNome":"Compre Junto","GrupoProdutoRecomendadoProdutoId":233,"ProdutoOrdem":0,"GrupoDescricao":"Capa Violão Folk / Dread - Básica (R$ 600 a R$ 1.399)","SubtipoGrupoProdutoRecomendado":1,"Produtos":null}]');
+Fbits.Evento = {
+TemEventoAtivo : false,
+Perfil : ""
+};
+var slider = $("div#tp1").sliderTabs({
+autoplay: false,
+mousewheel: false
+});
+//Frete
+var freteAberto = "False";
+//Configuracao de Zoom
+var tipoZoom = "1";
+function jsonConcat(o1, o2) {
+for (var key in o2) {
+o1[key] = o2[key];
+}
+return o1;x
+}
+var decodeEntities = (function() {
+// this prevents any overhead from creating the object each time
+var element = document.createElement('div');
+function decodeHTMLEntities (str) {
+if(str && typeof str === 'string') {
+// strip script/html tags
+str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
+str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+element.innerHTML = str;
+str = element.textContent;
+element.textContent = '';
+}
+return str;
+}
+return decodeHTMLEntities;
+})();
+var Fbits = Fbits || {};
+Fbits.Produto = Fbits.Produto || {};
+Fbits.Produto.ProdutoVariante = Fbits.Produto.ProdutoVariante || {};
+Fbits.Produto.Atributos = Fbits.Produto.Atributos || {};
+//Atributos de Configuracao----------//
+Fbits.Produto.ProdutoId = 69845;
+Fbits.Produto.ParentId = 88197;
+Fbits.Produto.Nome = "Violão Aço Dallas Elétrico com Afinador Série América Tagima - Natural (NA)";
+Fbits.Produto.PrecoDe = 759.00;
+Fbits.Produto.PrecoPor = 759.00;
+Fbits.Produto.Parcelamento = {"NumeroParcelas":10.0,"ValorParcela":75.9};
+Fbits.Produto.Url = "https://www.madeinbrazil.com.br/produto/violao-aco-dallas-eletrico-com-afinador-serie-america-tagima-natural-na-69845";
+Fbits.Produto.Descricao = decodeEntities("");
+Fbits.Produto.FotoPrincipal = "https://madeinbrazil.fbitsstatic.net/img/p/violao-aco-dallas-eletrico-com-afinador-serie-america-tagima-natural-na-69845/256328.jpg?w=800&amp;h=800&amp;v=no-change";
+Fbits.Produto.Sku = "52005";
+Fbits.Produto.IsTelevendas = "false" === "true";
+Fbits.Produto.IsDisponivel = "true"
+=== "true";
+Fbits.Produto.Estoque = (Fbits.Produto.IsDisponivel == "true")? 0 : 1;
+Fbits.Produto.AtributosProduto = [{"COR":"NATURAL"}];
+Fbits.Produto.Categorias = [{"ProdutoCategoriaId":550155,"ProdutoId":69845,"CategoriaId":1196,"Nome":"Aço"}];
+Fbits.Produto.CategoriaGoogle = "";
+Fbits.Produto.Marca = "TAGIMA";
+Fbits.Produto.Atributos = jsonConcat(Fbits.Produto.Atributos, eval({}));
+Fbits.Produto.ProdutoVariante = {"256328":{"ProdutoId":69845,"ProdutoVarianteId":256328,"Nome":"Violão Aço Dallas Elétrico com Afinador Série América Tagima - Natural (NA)","CubagemAltura":0.0,"CubagemLargura":0.0,"CubagemMetroQuadrado":0.0,"Atributos":{"COR":"NATURAL"}}};
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Usuario = Fbits.Usuario || {};
+$.ajax({
+type: 'POST',
+cache: true,
+url: fbits.ecommerce.urlEcommerce + "Home/SelectUsuarioContext",
+success: function (data) {
+if (data != false) {
+Fbits.Usuario.IsAuthenticated = data.IsAuthenticated;
+Fbits.Usuario.UsuarioId = data.UsuarioId;
+Fbits.Usuario.Nome = data.Nome;
+Fbits.Usuario.Email = data.Email;
+Fbits.Usuario.EmailHash = data.EmailHash;
+Fbits.Usuario.DataNascimento = data.DataNascimento != null ? new Date(parseInt(data.DataNascimento.substr(6))).toJSON() : null;
+Fbits.Usuario.DataCriacao = data.DataCriacao != null ? new Date(parseInt(data.DataCriacao.substr(6))).toJSON() : null;
+Fbits.Usuario.TipoUsuario = data.TipoUsuario;
+Fbits.Usuario.PossuiPrimeiraCompra = data.PossuiPrimeiraCompra;
+Fbits.Usuario.Assinante = data.Assinante;
+Fbits.Usuario.LimiteCredito = data.LimiteCredito;
+Fbits.Usuario.LimiteCreditoSaldo = data.LimiteCreditoSaldo;
+}
+else {
+Fbits.Usuario.IsAuthenticated = false;
+Fbits.Usuario.UsuarioId = 0;
+Fbits.Usuario.Nome = "";
+Fbits.Usuario.Email = "";
+Fbits.Usuario.EmailHash = "";
+Fbits.Usuario.DataNascimento = "";
+Fbits.Usuario.DataCriacao = "";
+Fbits.Usuario.TipoUsuario = "";
+Fbits.Usuario.PossuiPrimeiraCompra = false;
+Fbits.Usuario.Assinante = false;
+Fbits.Usuario.LimiteCredito = 0;
+Fbits.Usuario.LimiteCreditoSaldo = 0;
+}
+}
+});
+//Atributos de Configuracao----------//
+var Fbits = Fbits || {};
+Fbits.Pagina = Fbits.Pagina || {};
+Fbits.Pagina.Atual = "produtoviolao-aco-dallas-eletrico-com-afinador-serie-america-tagima-natural-na-69845";
+Fbits.Pagina.Url = "https://www.madeinbrazil.com.br/produto/violao-aco-dallas-eletrico-com-afinador-serie-america-tagima-natural-na-69845";
+_NEWSLETTERMODALATIVO = false;
+$('#jsFloatButton').hide();
+$(window).scroll(function () {
+if ($(this).scrollTop() != 0) {
+$('#jsFloatButton').fadeIn();
+} else {
+$('#jsFloatButton').fadeOut();
+}
+});
+Made in Brazil - Music Megastore
+Central de Atendimento:
+Ficou na dúvida? Acesse nossos canais de atendimento:
+sac@madeinbrazil.com.br
+ou
+(11) 5094-4466
+Institucional
+Nossa História
+Nossas Lojas
+Nossos Parceiros
+Prêmios
+Trabalhe Conosco
+Dúvidas
+Como Comprar?
+Formas de Pagamento
+Processo de Entrega
+Trocas e Devoluções
+Política de Privacidade
+Dúvidas Frequentes
+Regras do Site
+Siga-nos
+Formas de Pagamento
+Selos e Segurança
+Made in Brazil Coml e Imp. Ltda 64.565.732/0001-01| Preços e condições de pagamento exclusivos para compras via Internet.
+Ofertas válidas até o término de nossos estoques para a Internet. Vendas sujeitas à análise e confirmação de dados. As fotos dos produtos exibidos em nosso site são meramente ilustrativas
+CEP: 04088-005 -
+São Paulo -
+SP -
+(11) 5094-4466. - sac@madeinbrazil.com.br
+Copyright © 2017 Made in Brazil - Todos os direitos reservados.
+Tray Corp by FBITS
+ACúpula - Performance Digital
+Tray Corp by FBITS
+ACúpula - Performance Digital
+$(".toggle .titlefooter").click(function(){
+$(this).next().toggle();
+$(this).toggleClass("opened");
+});
+$(".tituloPai").click(function(){
+$(this).toggleClass("itemaberto");
+});
+$(document).ready(function(){
+$(".top-icons div[id='ico-busca-topo']").click(function(){
+$(".ico-busca").toggleClass("ico-busca-topo-fecha");
+$(".div-busca-topo-oculta").toggle('slow');
+});
+});
+$('[data-lazyLoad=True]').lazyload({ threshold: 200, effect: "fadeIn" });
+$(document).ready(function () {
+montarHistorico();
+$.exitIntent('enable');
+if (typeof historicoPrecoProduto == 'function') {
+historicoPrecoProduto();
+$("#hdnProdutoVarianteId").on('change', function () {
+historicoPrecoProduto();
+});
+$("[id^='dvGrupoSelecaoAtributos-'] [id^='hdnProdutoVarianteId-']").on('change', function () {
+historicoPrecoProduto();
+});
+}
+});
+$(document).ready(function () {
+$.each(loadEvents, function (_, f) { f(); });
+});
+jQuery(function($){
+$('.minhaConta .sideBar').append('<div class="btnVoltarLoja"><a href="https://www.madeinbrazil.com.br/" class="btnVoltarAsCompras">Voltar para a loja</a></div>');
+});
+jQuery(function($) {
+$('div[id^="produto-spot-item-"] .spotContent').each(function() {
+$(this).children('.fbits-spot-conteudo').children('.spot-parte-dois').children('spotTitle').after($(this).children('.fbits-spot-conteudo').children('.botoesSpot').children('.avaliacao'));
+});
+});
+//BOTÃO NEWSLETTER
+jQuery(function($) {
+$('.btNews').attr('value','OK');
+});
+jQuery(function($) {
+$(window).on('load', function() {
+$('.filtros .tituloPai').unbind('click');
+});
+$('.filtro-lateral-categoria .filtroTitle.title').click(function() {
+$(this).next().slideToggle('medium');
+});
+var larguraTela = $(window).width();
+if (larguraTela <= 767) {
+$('.content.minhaconta .filtroTitle.title').click(function(){
+$('.content.minhaconta .filtroTitle.title+ul').slideToggle();
+});
+} else {
+$(window).on('load', function() {
+$('.content.minhaconta .filtroTitle.title').unbind('click');
+});
+}
+});
+jQuery(function($){
+$(window).on('load', function() {
+if($('.headerLogin .textloginp').children().hasClass('fbits-login-link-login')) {
+$('.header-sublog a.head-entrar').show();
+} else {
+$('.header-sublog a.head-entrar').hide();
+$('.header-sublog a.head-entrar').next().hide();
+$('.header-sublog hr').hide();
+}
+});
+});
+jQuery(function($){
+$(window).on('load', function() {
+$('.carrinho.carrinhoHead').append('<div class="black-box"></div>');
+});
+});
+$(".ico-menu").click(function(){
+$(".menu-container").toggleClass("menu-container-aberto");
+});
+$(".ico-menu-fecha").click(function(){
+$(".menu-container").removeClass("menu-container-aberto");
+});
+jQuery(function($) {
+// PLACEHOLDER PARA CEP
+$('#txtCalculaFreteProduto').attr('placeholder','Informe o seu CEP');
+});
+(function () {
+var yvs = document.createElement("script");
+yvs.type = "text/javascript";
+yvs.async = true;
+yvs.id = "_yvsrc";
+yvs.src = "//service.yourviews.com.br/script/bf92dc25-7af3-4acc-a0b2-ec6d740939b9/yvapi.js";
+var yvs_script = document.getElementsByTagName("script")[0];
+yvs_script.parentNode.insertBefore(yvs, yvs_script);
+})();
+$(".menu li.item.raiz").each(function(){
+if($(this).find("ul.filho").html()) {
+$(this).append("<span class='arrowmenu'></span>");
+}
+});
+$(".menu li.item.raiz ul.filho li.item").each(function(){
+if($(this).find("ul.filho").html()) {
+$(this).append("<span class='arrowmenu arrowmenu-sub'></span>");
+}
+});
+$(".arrowmenu").click(function(){
+$(this).toggleClass("opened");
+$(this).prev().slideToggle("fast");
+$(this).parent().toggleClass("select");
+});
