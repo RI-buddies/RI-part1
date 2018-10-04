@@ -22,3 +22,9 @@ def soups_of_interest(html):
                 if text.find('R$') == -1:
                     interest_soup.append(div)
     return interest_soup
+
+def clean_text(text):
+    x = ['/', ',', '"', "'", '?', '!', ':', ';', '(', ')', '[', ']', '{', '}', '|', '=', ':', '\\', '*', '>', '<']
+    for a in x:
+        text = text.replace(a, " ")
+    return text
