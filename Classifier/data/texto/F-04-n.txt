@@ -1,0 +1,34 @@
+Combo Contrabaixo Staner BX 200 em até 12x sem juros | PlayTech
+var dataLayer = dataLayer || [];
+dataLayer.push({"UA":"UA-4660492-1","UARakuten":"UA-53486592-1","Domain":".playtech.com.br"});
+var JSpid = '0';
+var JScid = '0';
+var JSoid ='0';
+var JSamount ='0';
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBCZ8X');
+* As imagens dos produtos são meramente ilustrativas
+Código do Produto: 241663
+saiba mais...
+Combo Contrabaixo Staner BX 200
+por R$ 2.442,00
+12x de R$ 203,50 sem jurosR$ 2.197,80 à vista
+Pague à vista e economize: R$ 244,20
+Tweet
+Indique para seus amigos
+O Combo BX-200 possui potência de 140W, 1x alto falante de 1...
+Saiba mais
+!window.jQuery && document.write(unescape('%3Cscript src="/js/vendor/jquery-1.10.2.min.js" %3E%3C/script%3E'))
+jQuery.noConflict();
+jQuery(".invite a").fancybox({ 'height': 500, 'width': 400, 'showCloseButton': false });
+jQuery("#fancybox-close-2").click(function () {
+parent.jQuery.fancybox.close();
+});
+//<!--
+CarregaSKU('10259','0');
+CarregaPrazoEntrega('10259');
+SalvarAcessosProduto('10259');
+//-->

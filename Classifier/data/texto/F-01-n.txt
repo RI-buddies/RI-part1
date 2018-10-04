@@ -1,0 +1,657 @@
+Pedaleira Contrabaixo Waldman Bass Voice BV 1 FX - Preta
+var _trustvox = _trustvox || [];
+document.addEventListener("DOMContentLoaded", function () {
+var _tvProductId = document.querySelector('#liCodigoInterno span'), tvProductId = ''
+_tvProductName = document.querySelector('#info-product .name'), tvProductName = ''
+_tvProductPhotos = document.querySelector('#big_photo_container img'), tvProductPhotos = '';
+if (_tvProductId)
+tvProductId = _tvProductId.innerHTML.trim();
+if (_tvProductName)
+tvProductName = _tvProductName.innerHTML.trim();
+if (_tvProductPhotos)
+tvProductPhotos = _tvProductPhotos.src;
+var tvProductUrl = ['http://', location.host, location.pathname].join('');
+_trustvox.push(['_storeId', '718']);
+_trustvox.push(['_productId', tvProductId]);
+_trustvox.push(['_productName', tvProductName]);
+_trustvox.push(['_productPhotos', [tvProductPhotos]]);
+_trustvox.push(['_productUrl', tvProductUrl]);
+_trustvox.push(['_css', ["//trustvox.production.widget.s3-sa-east-1.amazonaws.com/assets/stylesheets/playtech.css"]]);
+(function () {
+var tv = document.createElement('script'); tv.type = 'text/javascript'; tv.async = true;
+tv.charset = "UTF-8";
+tv.src = '//static.trustvox.com.br/trustvox.min.js ';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tv, s);
+})();
+});
+var dataLayer = dataLayer || [];
+dataLayer.push({"RKProductID":"449328","RKProductWebID":"28960","RKProductName":"Pedaleira Contrabaixo Waldman Bass Voice BV 1 FX - Preta","RKProductPrice":"371.00","RKProductOffer":"134.00","RKProductAvailable":"1","RKProductEan13":"7898535732076","RKBrandName":"Waldman","RKPageCategory":"ProductPage","RKPageTitle":"Pedaleira Contrabaixo Waldman Bass Voice BV 1 FX - Preta","RKSiteType":"d","RKCustomerID":"0","RKPartnerID":"0","RKCustomerEmail":"","UA":"UA-4660492-1","UARakuten":"UA-53486592-1","Domain":".playtech.com.br"});
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBCZ8X');
+Veja os + comentados
+A maior loja de instrumentos musicais da internet brasileira
+Central de Atendimento
+SAC: (11) 3224-6240
+PlayTech Instrumentos Musicais
+Meus Pedidos
+Minha Conta
+Novo usuário?
+Cadastre-se
+Busca
+Digite o que voce procura:
+Buscar
+Seu carrinho tem
+0
+itens
+{{item.Name}}
+{{item.InternalCode}}
+{{item.MessageItem}}
+Quantidade:
+{{item.Quantity}}
+{{LabelTotal}}
+{{item.Total}}
+{{data.QuantityBasket}}
+Total:
+{{data.TotalBasket}}
+Comprar todos os produtos
+Seu carrinho de compras está vazio.
+Comprar produtos
+AUDIO
+Amplificador/Potência
+Fone
+Microfone/Pré
+Caixa/Potência
+Acessórios
+Conector
+Conversor
+Cabo
+Energia
+Direct Box
+Pedestal de Microfone
+Caixa Acústica
+Ativa
+Passiva
+Multiuso
+Referência/Monitor Estúdio
+Controlador
+Cases e Bags
+Fone
+Over Ear
+On-Ear
+In-Ear
+Iluminação
+Gravador
+Equipamento DJ
+Kits Promocionais
+Ao Vivo/PA
+Gravação
+Interface
+Mesas
+Amplificada
+Analógica
+Digital
+PA Portátil
+Microfone
+Com Fio
+Sem Fio
+Periféricos
+Compressor
+Equalizador
+Crossover
+Processador
+Outros
+Reprodutor
+Software
+Vídeo
+Acessórios
+Câmera
+Projetor
+CORDAS
+Amplificador
+Contrabaixo
+Guitarra
+Violão
+Acessórios
+Afinador e Metrônomo
+Cabo
+Correia
+Encordoamento
+Estante e Suporte
+Fonte
+Baixolão
+Banjo e Mandolin
+Cases e Bags
+Cavaquinho
+Contrabaixo
+Guitarra
+Pedal e Pedaleira
+Violão
+Outros
+Cavaquinho
+Acústico
+Eletro-acústico
+Contrabaixo
+Ativo
+Passivo
+Guitarra
+Instrumentos de Arco
+Contrabaixo/Rabecão
+Viola
+Violino
+Violoncelo
+Pedal
+Contrabaixo
+Guitarra
+Violão
+Voz
+Kits Promocionais
+Contrabaixo
+Guitarra
+Violão
+Outros
+Ukulele
+Pedaleira
+Contrabaixo
+Guitarra
+Violão
+Viola Caipira
+Acústica
+Eletro-acústica
+Violão
+Acústico
+Eletro-acústico
+PERCUSSÃO
+Acessórios
+Abafador
+Aro
+Borboleta e Feltro
+Chave de Afinação
+Esteira para Caixa
+Óleo e Limpador
+Amplificador de Bateria
+Bateria
+Eletrônica
+Partes
+Acústica
+Banco
+Com Encosto
+Sem Encosto
+Baqueta
+Caixa
+Cajon
+Com Captação
+Sem Captação
+Cases e Bags
+Bateria
+Baqueta
+Caixa
+Bumbo
+Ferragem
+Prato
+Efeito e Multi-Efeito
+Carrilhão
+Cowbell
+Instrumentos de Efeito
+Percussão Digital/Módulo
+Ferragens
+Extensor
+Estante, Suporte e Holder
+Máquina de Chimbau
+Clamp
+Rack
+Adaptador
+Kits Promocionais
+Bateria
+Ferragens
+Prato
+Pandeiro
+Pedal
+Duplo
+Simples
+Pele
+Prato
+Condução/Ride
+Chimbau/Hi-Hat
+Set
+Efeito/China e Splash
+Ataque/Crash
+TECLAS
+Acessórios
+Banco e Banqueta
+Pedal
+Estante e Suporte
+Fonte
+Outros
+Acordeon/Sanfona
+Amplificador
+Cases e Bags
+61 Teclas/5 oitavas
+76 Teclas/6 oitavas
+88 Teclas/7 oitavas
+Outros
+Kits Promocionais
+Piano
+Sintetizador
+Teclado
+Módulo
+Controlador
+Órgão
+Piano
+Sintetizador
+Teclado
+SOPRO
+Acessórios
+Estante e Suporte
+Palheta
+Outros
+Cases e Bags
+Clarineta
+Escaleta
+Flauta
+Doce
+Transversal
+Gaita
+Kits Promocionais
+Saxofone
+Soprano
+Alto
+Tenor
+Trombone
+Trompete
+Outros Instrumentos
+Kits
+Newsletter
+Ligado por e-mail
+Promoções e novidades exclusivas!
+Nome:
+Email:
+OK
+Busca
+Digite o que voce procura:
+Buscar
+Seu carrinho tem
+0
+itens
+{{item.Name}}
+{{item.InternalCode}}
+{{item.MessageItem}}
+Quantidade:
+{{item.Quantity}}
+{{LabelTotal}}
+{{item.Total}}
+{{data.QuantityBasket}}
+Total:
+{{data.TotalBasket}}
+Comprar todos os produtos
+Seu carrinho de compras está vazio.
+Comprar produtos
+AUDIO
+Amplificador/Potência
+Fone
+Microfone/Pré
+Caixa/Potência
+Acessórios
+Conector
+Conversor
+Cabo
+Energia
+Direct Box
+Pedestal de Microfone
+Caixa Acústica
+Ativa
+Passiva
+Multiuso
+Referência/Monitor Estúdio
+Controlador
+Cases e Bags
+Fone
+Over Ear
+On-Ear
+In-Ear
+Iluminação
+Gravador
+Equipamento DJ
+Kits Promocionais
+Ao Vivo/PA
+Gravação
+Interface
+Mesas
+Amplificada
+Analógica
+Digital
+PA Portátil
+Microfone
+Com Fio
+Sem Fio
+Periféricos
+Compressor
+Equalizador
+Crossover
+Processador
+Outros
+Reprodutor
+Software
+Vídeo
+Acessórios
+Câmera
+Projetor
+CORDAS
+Amplificador
+Contrabaixo
+Guitarra
+Violão
+Acessórios
+Afinador e Metrônomo
+Cabo
+Correia
+Encordoamento
+Estante e Suporte
+Fonte
+Baixolão
+Banjo e Mandolin
+Cases e Bags
+Cavaquinho
+Contrabaixo
+Guitarra
+Pedal e Pedaleira
+Violão
+Outros
+Cavaquinho
+Acústico
+Eletro-acústico
+Contrabaixo
+Ativo
+Passivo
+Guitarra
+Instrumentos de Arco
+Contrabaixo/Rabecão
+Viola
+Violino
+Violoncelo
+Pedal
+Contrabaixo
+Guitarra
+Violão
+Voz
+Kits Promocionais
+Contrabaixo
+Guitarra
+Violão
+Outros
+Ukulele
+Pedaleira
+Contrabaixo
+Guitarra
+Violão
+Viola Caipira
+Acústica
+Eletro-acústica
+Violão
+Acústico
+Eletro-acústico
+PERCUSSÃO
+Acessórios
+Abafador
+Aro
+Borboleta e Feltro
+Chave de Afinação
+Esteira para Caixa
+Óleo e Limpador
+Amplificador de Bateria
+Bateria
+Eletrônica
+Partes
+Acústica
+Banco
+Com Encosto
+Sem Encosto
+Baqueta
+Caixa
+Cajon
+Com Captação
+Sem Captação
+Cases e Bags
+Bateria
+Baqueta
+Caixa
+Bumbo
+Ferragem
+Prato
+Efeito e Multi-Efeito
+Carrilhão
+Cowbell
+Instrumentos de Efeito
+Percussão Digital/Módulo
+Ferragens
+Extensor
+Estante, Suporte e Holder
+Máquina de Chimbau
+Clamp
+Rack
+Adaptador
+Kits Promocionais
+Bateria
+Ferragens
+Prato
+Pandeiro
+Pedal
+Duplo
+Simples
+Pele
+Prato
+Condução/Ride
+Chimbau/Hi-Hat
+Set
+Efeito/China e Splash
+Ataque/Crash
+TECLAS
+Acessórios
+Banco e Banqueta
+Pedal
+Estante e Suporte
+Fonte
+Outros
+Acordeon/Sanfona
+Amplificador
+Cases e Bags
+61 Teclas/5 oitavas
+76 Teclas/6 oitavas
+88 Teclas/7 oitavas
+Outros
+Kits Promocionais
+Piano
+Sintetizador
+Teclado
+Módulo
+Controlador
+Órgão
+Piano
+Sintetizador
+Teclado
+SOPRO
+Acessórios
+Estante e Suporte
+Palheta
+Outros
+Cases e Bags
+Clarineta
+Escaleta
+Flauta
+Doce
+Transversal
+Gaita
+Kits Promocionais
+Saxofone
+Soprano
+Alto
+Tenor
+Trombone
+Trompete
+Outros Instrumentos
+Kits
+Home
+CORDAS
+Pedaleira
+Pedaleira Contrabaixo Waldman Bass Voice BV 1 FX - Preta
+Clique aqui para imagem ampliada
+* As imagens dos produtos são meramente ilustrativas
+Código do Produto: 449328
+saiba mais...
+Pedaleira Contrabaixo Waldman Bass Voice BV 1 FX - Preta
+de R$ 505,00por R$ 371,00
+12x de R$ 30,92 sem jurosR$ 333,90 à vista
+Pague à vista e economize: R$ 37,10
+Calcule o preço e prazo do frete
+Tweet
+Indique para seus amigos
+Adicionar a lista de desejos
+Pedaleira Baixo Waldman Bass Voice BV 1 FXA Waldman é uma marca de instrumentos e áudio nova no mercado. Oferecendo uma linha completa, desde instrumentos de corda até equipamentos de áudio profissional, a Waldman notabiliza-se pelo excelente custo dos seus produtos, sem abrir mã...
++Saiba Mais
+Descrição
+Pedaleira Baixo Waldman Bass Voice BV 1 FXA Waldman é uma marca de instrumentos e áudio nova no mercado. Oferecendo uma linha completa, desde instrumentos de corda até equipamentos de áudio profissional, a Waldman notabiliza-se pelo excelente custo dos seus produtos, sem abrir mão da sua grande qualidade.A Bass Voice BV 1 FX é uma pedaleira que possui 55 tipos de efeitos, além de modulações e ritmos de bateria. Funciona com pilhas AA ou com fonte 9V.
+Especificações
+Pedaleira Baixo Waldman Bass Voice BV 1 FXCaracterísticas Gerais- Modelo: BV 1 FX- Módulos de efeitos: 8- Tipos de Efeitos: 55- Presets: 40 de fábrica e 40 definidos pelo usuário- Ritmos de bateria: 40- Funções: Pre-Select recall, afinador preciso- Compatibilidade: Fonte 9V AC ou 4 pilhas AAConteúdo da Embalagem- 01 Pedaleira- 01 Fonte 9VOutras Informações- Estoque: Produto com disponibilidade assegurada no estoque do parceiro. O prazo para a entrega já contemplará todas as etapas do pedido.- Garantia: 03 mesesAtenção:Imagens meramente ilustrativas. Referem-se apenas à pedaleira. Os demais itens e objetos de decoração são vendidos separadamente. As descrições técnicas estão sujeitas à alteração sem aviso prévio.
+Pergunte e veja as opiniões de quem já comprou
+Últimos Produtos Visitados
+Cavaco Acústico Strinberg SV 21 BK
+de R$ 526,00por R$ 424,00
+12x de
+R$ 35,33 sem juros
+Flauta Doce Concert Germânica TRC57G
+de R$ 15,00por R$ 12,00
+2x de
+R$ 6,00 sem juros
+Bateria Acústica Tama SG 50 H4 BK
+de R$ 4.266,00por R$ 3.388,00
+12x de
+R$ 282,33 sem juros
+Guitarra Original EVH Striped Series RBW
+de R$ 12.365,00por R$ 11.128,50
+12x de
+R$ 927,37 sem juros
+Guitarra SG Epiphone Special Killpot
+de R$ 1.710,00por R$ 1.406,70
+12x de
+R$ 117,22 sem juros
+Contrabaixo Ativo 5C Sterling by Music Man S.U.B. Ray 5
+de R$ 3.591,00por R$ 3.283,00
+12x de
+R$ 273,58 sem juros
+Encordoamento Violão Aço D'Addario 0,10 EJ 10
+por R$ 45,00
+8x de
+R$ 5,63 sem juros
+Encordoamento Violão Ernie Ball 2004
+de R$ 44,00por R$ 40,00
+8x de
+R$ 5,00 sem juros
+Termos Pesquisados
+Adicionados ao Carrinho
+Seções Visitadas
+Pedaleira
+Acústico
+Microfone/Pré
+Prato
+Doce
+Teclado
+Com Captação
+Acordeon/Sanfona
+SAC/TELEVENDAS 11.3224-6240
+CARTÕES DE CRÉDITO
+Visa, Mastercard, American Express, Dinners Club
+BOLETO OU DÉBITO
+Itáu, Bradesco, Banco do Brasil e Boleto
+PAGUE COM PAYPAL
+PAYPAL
+SEGURANÇA E CERTIFICADOS
+INSTITUCIONAL
+• Quem Somos
+• Nossas Lojas
+• Fale Conosco
+• Mapa do Site
+ÁREA DO CLIENTE
+• Minha Conta
+• Meu Carrinho
+• Meus Pedidos
+• Afiliados
+ANTES DA COMPRA
+• Como Comprar
+• Politica de Privacidade
+• FAQ
+COMPRANDO
+• Formas de Pagamento
+• Serviço de Entrega
+• Alterar Endereço
+APÓS A COMPRA
+• Acompanhe seu Pedido
+• Prazo de Entrega
+• Trocas e Devoluções
+(function (d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+fjs.parentNode.insertBefore(js, fjs);
+} (document, 'script', 'facebook-jssdk'));
+Veja nosso canal no Youtube
+Fique ligado no Instagram da PlayTech
+Design e marketing digital
+Administrado por
+Mauranos Pontocom Ltda | CNPJ: 21.469.160/0001-54 | I.E: 144.081.577.110
+Rua Teodoro Sampaio, 900, Pinheiros - CEP 05.406-050 - São Paulo | www.playtech.com.br | sac@playtech.com.br | (11) 3224-6240
+PlayTech©
+2014 - 2016 - Todos os direitos reservados. Fotos e Logotipos aqui veiculados são de propriedade da PlayTech e seus parceiros.
+Rakuten - EC Service
+jQuery.noConflict();
+try {
+autocomplete_init({ 'baseurl': 'http://busca.playtech.com.br/', 'scriptDomain': 'https://rksearch.rakuten.com.br/', 'searchPanelQuery': '.search', 'textboxQuery': 'input', 'buttonQuery': '.btn' });
+} catch (r) {
+}
+jQuery(function () {
+if (typeof AjaxPro != 'undefined' && AjaxPro && AjaxPro.Request && AjaxPro.Request.prototype) {
+AjaxPro.Request.prototype.doStateChange = function () {
+this.onStateChanged(this.xmlHttp.readyState, this);
+if (this.xmlHttp.readyState != 4 || !this.isRunning) {
+return;
+}
+this.duration = new Date().getTime() - this.__start;
+if (this.timeoutTimer != null) {
+clearTimeout(this.timeoutTimer);
+}
+var res = this.getEmptyRes();
+if (this.xmlHttp.status == 200 && (this.xmlHttp.statusText == "OK" || !this.xmlHttp.statusText)) {
+res = this.createResponse(res);
+} else {
+res = this.createResponse(res, true);
+res.error = { Message: this.xmlHttp.statusText, Type: "ConnectFailure", Status: this.xmlHttp.status };
+}
+this.endRequest(res);
+};
+}
+});
+jQuery(function () {
+jQuery(".rate a").fancybox({ 'height': 420, 'width': 400, 'showCloseButton': false });
+jQuery(".invite a").fancybox({ 'height': 500, 'width': 400, 'showCloseButton': false });
+jQuery(".delivery a").fancybox({ 'height': 300, 'width': 400, 'showCloseButton': false });
+jQuery(".click").fancybox({ 'hideOnContentClick': false });
+jQuery("#hplRating.iframe, #hplAmountAssessments.iframe").fancybox({ 'height': 370, 'width': 400, 'showCloseButton': false });
+jQuery('#fb-comments-widget').attr('data-width', jQuery('#fb-comments-widget').parent().width() - 20);
+})
+jQuery(window).load(function () {
+jQuery(".scroll").mCustomScrollbar();
+jQuery(".tab-link h2").click(function () {
+jQuery(".scroll").mCustomScrollbar("update");
+});
+});
+//<![CDATA[
+CarregaSKUCrossPrefix();//]]>
+//<!--
+CarregaSKU('28960','0');
+CarregaListas('28960');
+CarregaPrazoEntrega('28960');
+SalvarAcessosProduto('28960');
+ProdutosVisitados('25','28960');
+//-->
