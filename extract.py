@@ -68,7 +68,7 @@ class Extraction:
 
 if __name__ == '__main__':
     htmls = [x for x in os.listdir('.') if x.endswith('html')]
-    texts = []
+    texts = dict()
     for html in htmls:
         extract = Extraction(utils.soups_of_interest(html))
         coi = extract.get_child_of_interest()
@@ -88,12 +88,13 @@ if __name__ == '__main__':
             text = coi.text.replace('; ', '. ').replace(
                 ';', '. ').replace('• ', '. ')
             text = extract.fix_text(text)
-            texts.append(text)
-    texts.sort(key=lambda s: len([i for i in s if i == ':']), reverse=True)
+            texts[html] = text
+
+    texts = sorted(texts.items(), key= lambda h: len(re.findall(':',h[1])), reverse=True)
     bigger = texts[0]
-    words = word_tokenize(bigger)
+    words = word_tokenize(bigger[1])
     stop_words = list()
-    for t in texts[1:]:
+    for _,t in texts[1:]:
         ws = word_tokenize(t)
         for w in ws:
             if w in words:
@@ -103,9 +104,8 @@ if __name__ == '__main__':
         stop_words[i] = sw.lower()
     stop_words = list(set(stop_words))
     stop_words = [w for w in stop_words if len(w) >= 5]
-    aux = stop_words
     characteristcs = list()
-    for t in texts:
+    for html,t in texts:
         char = list()
         t = t.lower()
         for i, sw in enumerate(stop_words):
@@ -113,8 +113,14 @@ if __name__ == '__main__':
             c = re.findall(pattern, t)
             if len(c) > 0:
                 char.append(c[-1])
-        characteristcs.append(char)
-    aux = characteristcs[0]
-    cols = list()
+        characteristcs.append((html,char))
+    aux = characteristcs[0][1]
+    cols = dict()
     for c in aux:
-        cols.append(c.split(':')[0].title())
+        cols[c.split(':')[0].title()] = list()
+    for x in characteristcs:
+        for c in x[1]:
+            tipo = c.split(': ')[0].title()
+            char = c.split(': ')[1]
+            if tipo in cols:
+                cols[tipo].append((char, x[0]))
