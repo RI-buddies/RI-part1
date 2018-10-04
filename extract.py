@@ -10,8 +10,16 @@ import utils
 
 
 class Extraction:
-    def __init__(self, soups):
-        self.soups = soups
+
+    soups = list()
+    texts = dict()
+    coi = str()
+    stop_words = list()
+    characteristcs = list()
+    cols = dict()
+
+    def __init__(self, htmls):
+        self.htmls = htmls
 
     def get_soups(self):
         return self.soups
@@ -48,16 +56,6 @@ class Extraction:
         else:
             return None
 
-    def get_tags_for_real(self, coi):
-        tgs = coi.find_all(['div', 'p', 'strong', 'span', 'font'])
-        tags = list()
-        for t in tgs:
-            if len(list(t.descendants)) == 1:
-                tags.append(t)
-        if tgs == []:
-            tags.append(coi)
-        return tags
-
     def fix_text(self, text):
         subs = re.sub(r"([A-Z])", r" \1", text).split()
         new_text = ''
@@ -65,62 +63,79 @@ class Extraction:
             new_text = new_text + ' ' + sub
         return new_text
 
-
-if __name__ == '__main__':
-    htmls = [x for x in os.listdir('.') if x.endswith('html')]
-    texts = dict()
-    for html in htmls:
-        extract = Extraction(utils.soups_of_interest(html))
-        coi = extract.get_child_of_interest()
-        if coi is not None:
-            for c in coi(['br']):
+    def treat_coi(self):
+        if self.coi is not None:
+            for c in self.coi(['br']):
                 c.extract()
             non_rel = list()
-            for child in coi.descendants:
+            for child in self.coi.descendants:
                 if not isinstance(child, element.NavigableString):
                     if len(list(child.descendants)) < 1:
                         if not child in non_rel:
                             non_rel.append(child)
             for nr in non_rel:
-                for c in coi.find_all(nr.name, nr.attrs):
+                for c in self.coi.find_all(nr.name, nr.attrs):
                     c.extract()
-            coi = BeautifulSoup(str(coi).replace('\n<', '<'), 'lxml')
-            text = coi.text.replace('; ', '. ').replace(
-                ';', '. ').replace('• ', '. ')
-            text = extract.fix_text(text)
-            texts[html] = text
+            self.coi = BeautifulSoup(str(self.coi).replace('\n<', '<'), 'lxml')
 
-    texts = sorted(texts.items(), key= lambda h: len(re.findall(':',h[1])), reverse=True)
-    bigger = texts[0]
-    words = word_tokenize(bigger[1])
-    stop_words = list()
-    for _,t in texts[1:]:
-        ws = word_tokenize(t)
-        for w in ws:
-            if w in words:
-                stop_words.append(w)
-    aux = stop_words
-    for i, sw in enumerate(aux):
-        stop_words[i] = sw.lower()
-    stop_words = list(set(stop_words))
-    stop_words = [w for w in stop_words if len(w) >= 5]
-    characteristcs = list()
-    for html,t in texts:
-        char = list()
-        t = t.lower()
-        for i, sw in enumerate(stop_words):
-            pattern = re.compile(sw+':'+' [aA0-zZ9]*')
-            c = re.findall(pattern, t)
-            if len(c) > 0:
-                char.append(c[-1])
-        characteristcs.append((html,char))
-    aux = characteristcs[0][1]
-    cols = dict()
-    for c in aux:
-        cols[c.split(':')[0].title()] = list()
-    for x in characteristcs:
-        for c in x[1]:
-            tipo = c.split(': ')[0].title()
-            char = c.split(': ')[1]
-            if tipo in cols:
-                cols[tipo].append((char, x[0]))
+    def through_htmls(self):
+        for html in self.htmls:
+            self.soups = utils.soups_of_interest(html)
+            self.coi = extract.get_child_of_interest()
+            self.treat_coi()
+            text = self.coi.text.replace('; ', '. ').replace(
+                ';', '. ').replace('• ', '. ')
+            text = self.fix_text(text)
+            self.texts[html] = text
+
+    def get_stop_words(self):
+        self.texts = sorted(self.texts.items(), key=lambda h: len(
+        re.findall(':', h[1])), reverse=True)
+        bigger = self.texts[0]
+        words = word_tokenize(bigger[1])
+        for _, t in self.texts[1:]:
+            ws = word_tokenize(t)
+            for w in ws:
+                if w in words:
+                    self.stop_words.append(w)
+        aux = self.stop_words
+        for i, sw in enumerate(aux):
+            self.stop_words[i] = sw.lower()
+        self.stop_words = list(set(self.stop_words))
+        self.stop_words = [w for w in self.stop_words if len(w) >= 5]
+        return self.stop_words
+
+    def get_characteristcs(self):
+        for html, t in self.texts:
+            char = list()
+            t = t.lower()
+            for _, sw in enumerate(self.stop_words):
+                pattern = re.compile(sw+':'+' [aA0-zZ9]*')
+                c = re.findall(pattern, t)
+                if len(c) > 0:
+                    char.append(c[-1])
+            self.characteristcs.append((html, char))
+        return self.characteristcs
+
+    def get_cols(self):
+        aux = self.characteristcs[0][1] 
+        for c in aux:
+            self.cols[c.split(':')[0].title()] = list()
+        for x in self.characteristcs:
+            for c in x[1]:
+                tipo = c.split(': ')[0].title()
+                char = c.split(': ')[1]
+                if tipo in self.cols:
+                    self.cols[tipo].append((char, x[0]))
+        return self.cols
+    
+    def execute(self):
+        self.through_htmls()
+        self.get_stop_words()
+        self.get_characteristcs()
+        return self.get_cols()
+
+if __name__ == '__main__':
+    htmls = [x for x in os.listdir('.') if x.endswith('html')]
+    extract = Extraction(htmls)
+    extract.execute()
