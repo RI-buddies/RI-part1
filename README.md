@@ -2,18 +2,18 @@
 
 # Sites to search on:
 
-https://www.multisom.com.br/categorias/cordas/violao
+https://buscas.casasbahia.com.br/ - "H"
 
-https://www.mundomax.com.br/instrumentos-musicais
+https://www.americanas.com.br/categoria/instrumentos-musicais - "G"
 
-https://www.madeinbrazil.com.br
+https://www.multisom.com.br/ - "F"
 
-http://www.novamusic.com.br/
+https://www.playtech.com.br/ - "E"
 
-https://www.milsons.com.br/
+https://www.madeinbrazil.com.br - "D"
 
-https://www.americanas.com.br/categoria/instrumentos-musicais/violao
+https://www.mundomax.com.br/instrumentos-musicais - "C"
 
-https://buscas.casasbahia.com.br/loja/viol%C3%A3o
+http://www.novamusic.com.br/ - "B"
 
-http://www.playtech.com.br/cordas/violao-28.aspx/c?gclid=Cj0KCQjwi8fdBRCVARIsAEkDvnIeeTds2PrP6j758wIDUPonQwEdSqruawjQnLZIHE1rZsjNUlz9aSkaAr3nEALw_wcB
+https://www.milsons.com.br/ - "A"
