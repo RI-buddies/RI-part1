@@ -1,6 +1,7 @@
 import csv
 import os
 import re
+import json
 import urllib.request
 
 from bs4 import BeautifulSoup, element
@@ -17,6 +18,8 @@ class Extraction:
     stop_words = list()
     characteristcs = list()
     cols = dict()
+    chars = {'Acabamento': list(), 'Fundo': list(),
+             'Cordas': list(), 'Braço': list(), 'Preço': list()}
 
     def __init__(self, htmls):
         self.htmls = htmls
@@ -56,7 +59,11 @@ class Extraction:
         else:
             return None
 
-    def fix_text(self, text):
+    def get_text(self, child=None):
+        if child is None:
+            child = self.coi
+        text = child.text.replace('; ', '. ').replace(
+            ';', '. ').replace('• ', '. ')
         subs = re.sub(r"([A-Z])", r" \1", text).split()
         new_text = ''
         for i, sub in enumerate(subs):
@@ -80,17 +87,16 @@ class Extraction:
 
     def through_htmls(self):
         for html in self.htmls:
+            self.get_price(html)
             self.soups = utils.soups_of_interest(html)
             self.coi = extract.get_child_of_interest()
             self.treat_coi()
-            text = self.coi.text.replace('; ', '. ').replace(
-                ';', '. ').replace('• ', '. ')
-            text = self.fix_text(text)
+            text = self.get_text()
             self.texts[html] = text
 
     def get_stop_words(self):
         self.texts = sorted(self.texts.items(), key=lambda h: len(
-        re.findall(':', h[1])), reverse=True)
+            re.findall(':', h[1])), reverse=True)
         bigger = self.texts[0]
         words = word_tokenize(bigger[1])
         for _, t in self.texts[1:]:
@@ -118,24 +124,41 @@ class Extraction:
         return self.characteristcs
 
     def get_cols(self):
-        aux = self.characteristcs[0][1] 
+        aux = self.characteristcs[0][1]
         for c in aux:
             self.cols[c.split(':')[0].title()] = list()
         for x in self.characteristcs:
             for c in x[1]:
                 tipo = c.split(': ')[0].title()
-                char = c.split(': ')[1]
+                char = c.split(': ')[1].title()
                 if tipo in self.cols:
                     self.cols[tipo].append((char, x[0]))
         return self.cols
-    
+
+    def get_real_chars(self, cols):
+        for col in cols:
+            if col in self.chars:
+                self.chars[col] = cols[col]
+        return self.chars
+
+    def get_price(self, html):
+        sauce = open(html, 'r')
+        s = BeautifulSoup(sauce, 'lxml')
+        price = re.findall(
+            '([0-9][0-9][0-9],[0-9][0-9]|[0-9][(.|)][0-9][0-9][0-9],[0-9][0-9])', str(s.text))[0]
+        self.chars['Preço'].append((price, html))
+
     def execute(self):
         self.through_htmls()
         self.get_stop_words()
         self.get_characteristcs()
-        return self.get_cols()
+        return self.get_real_chars(self.get_cols())
+
 
 if __name__ == '__main__':
     htmls = [x for x in os.listdir('.') if x.endswith('html')]
     extract = Extraction(htmls)
-    extract.execute()
+    char = extract.execute()
+    with open('data_generic.json', 'w') as outfile:
+        json.dump(char, outfile)
+#Acabamento, Fundo, Cordas, Braço, Preço
