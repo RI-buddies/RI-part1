@@ -2,7 +2,7 @@
 
 # Sites to search on:
 
-https://buscas.casasbahia.com.br/ - "H"
+https://www.casasbahia.com.br/ - "H"
 
 https://www.americanas.com.br/categoria/instrumentos-musicais - "G"
 
