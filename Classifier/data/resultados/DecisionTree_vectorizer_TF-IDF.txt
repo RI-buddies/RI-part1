@@ -1,0 +1,11 @@
+Modelo: DecisionTree 
+Feature: TF-IDF 
+Shape: (160, 41902) 
+Accuracy is 100.00 
+Train Time is 0.218741 
+             precision    recall  f1-score   support
+
+   Negativo       1.00      1.00      1.00        40
+   Positivo       1.00      1.00      1.00        37
+
+avg / total       1.00      1.00      1.00        77

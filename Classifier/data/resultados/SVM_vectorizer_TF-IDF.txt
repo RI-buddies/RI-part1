@@ -1,0 +1,11 @@
+Modelo: SVM 
+Feature: TF-IDF 
+Shape: (160, 41902) 
+Accuracy is 97.40 
+Train Time is 0.093758 
+             precision    recall  f1-score   support
+
+   Negativo       0.97      0.97      0.97        40
+   Positivo       0.97      0.97      0.97        37
+
+avg / total       0.97      0.97      0.97        77
