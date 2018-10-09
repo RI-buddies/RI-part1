@@ -1,0 +1,1086 @@
+Violão clássico acústico nylon gna 111nt alinhado harmonics - Violão no CasasBahia.com.br
+{ "@context": "http://schema.org/", "@type": "Product",
+"name": "Violão clássico acústico nylon gna 111nt alinhado harmonics", "offers": { "@type": "Offer", "priceCurrency": "BRL", "availability": "InStock", "price": "199.99" } }
+document.domain = 'casasbahia.com.br'; document.carrinho = 'https://carrinho.casasbahia.com.br'; idUnidadeNegocio = 8; token = '38205cdc-39f0-4290-b99a-32c9781767f5';
+if(typeof jQuery == 'undefined') {document.write('<script type="text/javascript" src="https://www.casasbahia-imagens.com.br/Js/jquery.js"></' + 'script>')};
+if(typeof jQuery.ui == 'undefined') {document.write('<script type="text/javascript" src="https://www.casasbahia-imagens.com.br/Js/JQuery/jquery-ui.js"></' + 'script>')};
+var pr_locale= "pt_BR"; var pr_zip_location= "https://www.casasbahia-imagens.com.br/Js/"; var pr_style_sheet ="https://www.casasbahia-imagens.com.br/App_Themes/CasasBahia/css/pr.css";
+{"@context":"http://schema.org", "@type": "Organization", "url": "https://www.casasbahia.com.br", "logo": "https://www.casasbahia-imagens.com.br/html/logo/logo_casasbahia.jpg"} { "@context": "http://schema.org","@type": "WebSite","url": "https://www.casasbahia.com.br","potentialAction": [{"@type": "SearchAction","target": "https://buscas.casasbahia.com.br/?strBusca={strBusca}","query-input": "required name=strBusca"},{"@type": "SearchAction","target": "com.cnova.casasbahia://?query={query}","query-input": "required name=query"},{"@type": "SearchAction","target": "intent://casasbahia.com.br/?query={query}#Intent;scheme=com.cnova.casasbahia;package=com.sonyericsson.casasbahia;end","query-input": "required name=query"}]} { "@context" : "http://schema.org","@type" : "Organization","name" : "Casas Bahia","url" : "https://www.casasbahia.com.br","sameAs" : [ "https://www.facebook.com/casasbahiacombr","https://twitter.com/casasbahiacombr ","https://plus.google.com/+casasbahiacombr "]}
+ValidarBuscaOrganica();
+var siteMetadata = {"site":{"name":"CasasBahia","domain":"casasbahia.com.br","acronym":"CB","country":"BR","region":"pt-br","currency":"BRL","test":false},"page":{"idCategory":"1935","categoryName":"Viol%C3%A3o","name":"Viol%C3%A3o%20cl%C3%A1ssico%20ac%C3%BAstico%20nylon%20gna%20111nt%20alinhado%20harmonics","templateName":"PRODUTO","breadCrumb":[{"id":"C2471","name":"Instrumentos%20Musicais","type":"department"},{"id":"C2093","name":"Cordas","type":"line"},{"id":"C1935","name":"Viol%C3%A3o","type":"subline"}],"banners":{"icid":[]},"hotSites":{"icid":[]},"seoContent":false,"ambienteId":0,"product":{"idSku":"13449442","idProduct":"9869320","idDepartment":"2471","idCategory":"1935","categoryName":"Viol%C3%A3o","idBrand":"24730","nameBrand":"Harmonics","name":"Viol%C3%A3o%20cl%C3%A1ssico%20ac%C3%BAstico%20nylon%20gna%20111nt%20alinhado%20harmonics","fullName":"Viol%C3%A3o%20cl%C3%A1ssico%20ac%C3%BAstico%20nylon%20gna%20111nt%20alinhado%20harmonics","basePrice":199.99,"salePrice":199.99,"attributes":[],"discountPercentage":0.0,"sellers":{"enabled":"12231","highPrice":199.99,"lowPrice":199.99,"id":{"12231":{"name":"Olist","id":12231,"price":199.99}}},"idModel":"44094640","StockAvailability":true,"flagCartao":0,"income":0.0,"HasReview":false,"QtdReview":0,"RatingReview":0.0,"isMicrosoft":false}},"session":{"ip":"187.113.174.136"},"tms":{"coreLocation":"//carrinho.casasbahia.com.br/Js/TagManager/","customLocation":"//carrinho.casasbahia.com.br/App_Themes/CasasBahia/js/TagManager/","version":{"siteMetadata":"1.5.130305"}},"displayCase":{"rectype":[],"recsource":[]}};
+var _JsLivePriceGeradorLocation = 'https://sli.casasbahia.com.br/GeraArqXmlPreco.ashx';
+var _urlLogoLojista = 'https://carrinho.casasbahia.com.br/App_Themes/CasasBahia/img/lojista/';
+var _testeAB = ".testeA";
+window.__tenantCookieName = 'CasasBahia';
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+theForm.__EVENTTARGET.value = eventTarget;
+theForm.__EVENTARGUMENT.value = eventArgument;
+theForm.submit();
+}
+}
+//]]>
+//<![CDATA[
+window.WebForm_PostBackOptions||document.write('<script type="text/javascript" src="/WebResource.axd?d=w6S4E_tCqrMGA8gCgjDS9saK7raTTGfIyG2Vkca8eWsxhi9XMrMU1mrugymvx1mrzrkxfn4Z59yl-DjcA2q2lwS_-R01&amp;t=636476047203255666"><\/script>');//]]>
+//<![CDATA[
+var cs_pid = 13449442;//]]>
+function VerificaBusca(Form, txtTexto, comboCategoria, Url)
+{
+textoBusca = (Form.elements[txtTexto].value.replace(/[\,\+\;\"\'\/\\\<\>]/g,""));
+textoBusca = textoBusca.toUpperCase();
+if(textoBusca == "LISTA DE CASAMENTO" || textoBusca == "LISTAS DE CASAMENTO") { window.location = 'https://carrinho.casasbahia.com.br/Site/ListaGerenciadaCasamentoWelCome.aspx';
+Form.elements[txtTexto].value = "";
+}
+else
+EnviaBusca(Form, txtTexto, comboCategoria, Url)
+}
+//<![CDATA[
+var __cultureInfo = {"name":"pt-BR","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"R$","NaNSymbol":"NaN (Não é um número)","CurrencyNegativePattern":9,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-Infinito","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":2,"PositiveInfinitySymbol":"+Infinito","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135589600000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"dddd, d\u0027 de \u0027MMMM\u0027 de \u0027yyyy HH:mm:ss","LongDatePattern":"dddd, d\u0027 de \u0027MMMM\u0027 de \u0027yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d\u0027 de \u0027MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM\u0027 de \u0027yyyy","AbbreviatedDayNames":["dom","seg","ter","qua","qui","sex","sáb"],"ShortestDayNames":["D","S","T","Q","Q","S","S"],"DayNames":["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"],"AbbreviatedMonthNames":["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez",""],"MonthNames":["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro",""],"IsReadOnly":true,"NativeCalendarName":"Calendário gregoriano","AbbreviatedMonthGenitiveNames":["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez",""],"MonthGenitiveNames":["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro",""]},"eras":[1,"d.C.",null,0]};//]]>
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/js/System.Web.Extensions/4.0.0.0/4.7.2623.0/MicrosoftAjax.js"><\/script>');//]]>
+//<![CDATA[
+(window.Sys && Sys.WebForms)||document.write('<script type="text/javascript" src="/js/System.Web.Extensions/4.0.0.0/4.7.2623.0/MicrosoftAjaxWebForms.js"><\/script>');function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$MasterPageScriptManager', 'aspnetForm', ['tctl00$Conteudo$upMasterPreco','','tctl00$Conteudo$upMasterGarantiaEstendida','','tctl00$Conteudo$upMasterFotoVideo','','tctl00$Conteudo$upMasterProdutoParcelamento','','tctl00$Conteudo$upMaster_10088_SuperBannerDFP','','tctl00$Conteudo$upMasterProdutoLojistaEleito','','tctl00$Conteudo$upMaster_8946_ModalMarketplaceProduto','','tctl00$Conteudo$upMaster_1948_conteudoFlixMedia-MINISITE','','tctl00$Conteudo$upMasterProdutoBasico','','tctl00$Conteudo$upMaster_12853_garante','','tctl00$Conteudo$upMaster_13627_faixaservico','','tctl00$Conteudo$upMasterboxcartao','','tctl00$Conteudo$upMaster_11675_percycle-produtospatrocinados-PAGINAPRODUTO','','tctl00$Conteudo$upMaster_2890_BotaoFormasdePagamento','','tctl00$Conteudo$upMaster_6706_BannerAviso-Chat-Televendas','','tctl00$Conteudo$upMasterBtnComprar','','tctl00$Conteudo$upMasterProdutoFormaPagamento','','tctl00$Conteudo$upMasterProdutoTagDestaque','','tctl00$Conteudo$upMasterControleAlertaEntregaNordeste','','tctl00$Conteudo$upMasterbotaoretira','','tctl00$Conteudo$upMasterlojistas','','tctl00$Conteudo$upMaster_1145_ScriptBoxPagamento','','tctl00$Conteudo$upMasterPercentual','','tctl00$Conteudo$upMaster_8939_TextosaibamaisMarketplace','','tctl00$Conteudo$upMasterProdutoBtnListaCasamento','','tctl00$Conteudo$upMaster_12461_skinbotoestemp','','tctl00$Conteudo$upMaster_14134_script-cartao','','tctl00$Conteudo$upMasterFrete','','tctl00$Conteudo$upMaster_14363_FacebookCheckboxMessenger','','tctl00$Conteudo$upMasterProdutoMelhorFormaPagamento','','tctl00$Conteudo$upMaster_14428_selotemporario-retira','','tctl00$Conteudo$upMasterProdutoMontagemMoveis','','tctl00$Conteudo$upMasterProdutoCompreJuntoOffice','','tctl00$Conteudo$upMaster_4973_alertacepacrerondonia','','tctl00$Conteudo$upMasterAviseMe','','tctl00$Conteudo$upMasterServicodeInstalacaodeAr','','tctl00$Conteudo$upMasterServicodeInstalacaodeTV','','tctl00$Conteudo$upMasterGanheJuntoBrinde','','tctl00$Conteudo$upMaster_9774_SuperBannerDFP-indisponivel','','tctl00$Conteudo$upMaster_8051_DFP-SuperBannerBottom','','tctl00$Conteudo$upMaster_9775_AdsenseforShopping-indisponivel','','tctl00$Conteudo$upMasterEspecificacao','','tctl00$Conteudo$upMaster_12004_DFP-Retangulo','','tctl00$Conteudo$upMaster_6270_BannerPowerReviews','','tctl00$Conteudo$upMaster_1949_conteudoFlixMedia-INPAGE','','tctl00$Conteudo$upMaster_926_Informacoesimportantes','','tctl00$Conteudo$upMaster_10528_ScriptTooltip',''], [], [], 90, 'ctl00');
+//]]>
+Televendas (11)4003-2773Encontre uma lojaDúvidas
+Lista de CasamentoRetira RápidoCartão Casas Bahia
+CasasBahia.com.br
+Buscar Entre ou Cadastre-se para ver seus pedidos
+Ver seus pedidos | Sair
+Compre por toda loja
+Departamentos
+AlimentosAr e VentilaçãoArtesanatoArtigos para FestaÁudioAutomotivoBebêsBebidasBeleza e SaúdeBrinquedosCama, Mesa e BanhoCasa e Construção
+Celulares e TelefonesDecoraçãoDrones, Câmerase FilmadorasDVDs e Blu-RayEletrodomésticosEletroportáteisEsporte e LazerFerramentasFloresGamesInformática
+Instrumentos MusicaisJoiasLivrosLinha IndustrialMalas e MochilasModaMóveisNatalPapelariaPerfumaria
+Pet ShopProdutos ImportadosProdutos de LimpezaRelógiosSuplementos AlimentaresTabletTVs e AcessóriosUtilidades Domésticas
+Serviços
+Download/GamesFique SeguroInstalaçõesLista de CasamentoMontagem de MóveisMultiassistênciaRetira RápidoRevelação DigitalSeguro de Garantia Estendida OriginalSeguro AutoSoluções Corporativas
+Telefonia
+Compre pela marca
+SmartphonesSamsung Galaxy SSamsung Galaxy JiPhone
+MotorolaZenfone
+Eletrodomésticos
+Compre pela marca
+GeladeiraFreezerMáquina de LavarLava e Seca
+Secadoras de RoupasTanquinhoCentrífuga de RoupasFogões
+CooktopMicro-ondasForno de EmbutirCoifas
+TVs e Acessórios
+Compre pela marca
+Smart TVTV 4KTV LEDTV OLED
+QLEDHome Theater
+Móveis
+Campeões de venda
+Guarda-roupaColchõesSofásCozinhas
+Sala de JantarEscritórioQuarto InfantilRacks
+CômodasPenteadeirasMóveis PlanejadosÁrea de Serviço Guarda-Roupas
+Eletroportáteis
+Compre pela marca
+FritadeirasCafeteirasAspiradoresLiquidificadores
+Processador de AlimentosGrill e SanduicheirasCozinha Criativa
+Panelas de ArrozMixerFerro de PassarMáquinas de Costura
+Informática
+Compre pela marca
+Notebook Dell i3 LinuxNotebook Dell i3 Windows 10Notebook Dell i7Notebook Lenovo
+Notebook SamsungMultifuncional EpsonMultifuncional CanonNotebook Positivo
+LenovoAcerPositivo
+Serviços
+Serviços
+Download/GamesFique SeguroInstalaçõesLista de CasamentoMontagem de MóveisMultiassistênciaRetira RápidoRevelação DigitalSeguro de Garantia Estendida OriginalSeguro AutoSoluções Corporativas
+Ofertas da TVOfertas Retira
+Casa de NovelaCartão Casas BahiaDia das CriançasMoto OneSua TV Aqui!Família GalaxySaldãoNovo App
+(function () {
+var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true;
+e.src = 'https://www.casasbahia.com.br/JogoDescontos/build/scripts/ViaVarejo.Pricing.JogoDesconto.Plugin.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(e, s);
+}());
+varIdSku = "ctl00_Conteudo_hdnIdSkuSelecionado";
+// Pega a instancia do post
+var prm = Sys.WebForms.PageRequestManager.getInstance();
+prm.add_initializeRequest(InitializeRequest);
+prm.add_endRequest(EndRequest);
+var postBackElement;
+// Coloca o DIV com o aguarde
+function InitializeRequest(sender, args) {
+if (prm.get_isInAsyncPostBack())
+args.set_cancel(true);
+postBackElement = args.get_postBackElement();
+$get('ctl00_Conteudo_divLoad').style.display = 'block';
+}
+// Esconde o DIV com o aguarde
+function EndRequest(sender, args) {
+$get('ctl00_Conteudo_divLoad').style.display = 'none';
+try { csLoad() } catch (e) { };
+}
+abasDetalhesProdutoAtiva=0; __nElemCarousel=4; sZHeight=400; sZWidth=600;
+Aguarde...
+Casasbahia.com.br >Instrumentos Musicais >Cordas >Violão
+Violão clássico acústico nylon gna 111nt alinhado harmonics (Cód. Item 13449442) (Cód EAN 7898554604941)Outros produtos Harmonics
+TudoAzul 50 Pontos.
++
+Acumule pontos em sua compra
+Você poderá escolher e acumular o grupo de pontos desejado, na página de confirmação do pedido.
+Vendido e entregue por
+Olist
+Garantia Total a Você!
+Este produto é vendido por um lojista parceiro e é garantido pela CasasBahia.com.br, que acompanha o pedido da compra até a entrega. Saiba mais
+$(document).ready(function() {
+$(".cb-garante .cont a span").click(function() {
+$(".cb-garante").fadeOut("slow");
+});
+if ($("div.buying a").text() != "Casas Bahia") {
+$(".cb-garante").addClass("cbGr");
+$("div[id$=LojistaEleito]").addClass("cbGrL");
+$(".descricaoAnuncio").addClass("cbGrA");
+$(".buying").addClass("cbGrB");
+$(".offerDetails").addClass("cbGrD");
+} else {
+$(".cb-garante").remove();
+};
+if ($("div.buying a").text() != "CasasBahia") {
+$(".cb-garante").addClass("cbGr");
+$("div[id$=LojistaEleito]").addClass("cbGrL");
+$(".descricaoAnuncio").addClass("cbGrA");
+$(".buying").addClass("cbGrB");
+$(".offerDetails").addClass("cbGrD");
+} else {
+$(".cb-garante").remove();
+};
+if ($("div.buying a").text() != "CasasBahia.com.br") {
+$(".cb-garante").addClass("cbGr");
+$("div[id$=LojistaEleito]").addClass("cbGrL");
+$(".descricaoAnuncio").addClass("cbGrA");
+$(".buying").addClass("cbGrB");
+$(".offerDetails").addClass("cbGrD");
+} else {
+$(".cb-garante").remove();
+};
+});
+Por:
+R$199,99
+ou até 3x de
+R$ 66,66 sem juros
+tResult = "ctl00_Conteudo_ctl24_hdnSkuDescricao";
+tResultSUC = "ctl00_Conteudo_ctl24_hdnSkuUrlCarrinho";
+tResultDadosBotaoComprar = "ctl00_Conteudo_ctl24_hdnBotaoComprarDados";
+if (typeof arrayBotoesComprar == 'undefined') {
+arrayBotoesComprar = [];
+}
+arrayBotoesComprar.push(tResultDadosBotaoComprar);
+var ProdutoBtnComprar = {
+obterIdBotaoComDados: function () {
+return tResultDadosBotaoComprar;
+}
+};
+Comprar
+var personaliDataLayer = [{'productTitle':'Violão clássico acústico nylon gna 111nt alinhado harmonics','sku':'13449442','brand':'Harmonics','price':'199.99','productImgUrl':'https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=995018717','categoryId':'Marketplace','cartUrl':'https://carrinho.casasbahia.com.br/?idSku=13449442&idLojista=12231&netotiate_offer_id=CART_TOKEN','productAmp':40,'flex1':'12231'}];
+(function(p,e,r,s,o,n,a,l,i){
+n=-1<p.location.href.indexOf(o);
+a=e.createElement("script");
+a.type="text/javascript";a.async=1;
+a.id="canvas-script";a.setAttribute("dl",r);
+a.src=n?s+".p.js":s+".js";
+l=e.getElementsByTagName("script")[0];
+l.parentNode.insertBefore(a,l);
+})(window, document,
+"personaliDataLayer","//www.personalicanvas.com/200","#CANVAS_PREVIEW");
+tResult = "ctl00_Conteudo_ctl46_hdnSkuDescricao";
+setTodasAsListasOver();
+Adicionar à lista de casamento
+Pague com o Cartão Casas Bahia
+à vista R$ 199,99 ou em 5x de R$ 40,00 sem juros.
+Não tem Cartão Casas Bahia? Peça já o seu.
+Ficou com dúvida?
+Conheça mais sobre o Marketplace Casas Bahia
+function botaoCalcularFrete() {
+var msgErroFreteSkuNaoSelecionado = 'Você não escolheu qual produto você quer comprar. Por favor, selecione uma opção para calcular o frete.';
+var skuId = $('#sitem input').val();
+var skuDropdown = $('#ctl00_Conteudo_selecionaSku');
+if (skuDropdown.length > 0) {
+var skuDropDownValue = skuDropdown.val();
+if (skuDropDownValue == null || typeof (skuDropDownValue) == 'undefined' || skuDropDownValue == '') {
+alert(msgErroFreteSkuNaoSelecionado);
+skuDropdown.focus();
+return;
+}
+}
+$('#lCep input').removeClass(' erro');
+$('#spanValida').css('display', 'none');
+$('#dvMensagemCorreios').css('display', 'none');
+$('#ctl00_Conteudo_ctl51_lblErro').css("display", "none");
+if (Page_ClientValidate('valGroupCep') == true) {
+var cep = ajustaCep($('#lCep input').val());
+var jsonText = ({ prefixo: cep.substr(0, 5), sufixo: cep.substr(6, 3), idLojista: $("#ctl00_Conteudo_ctl51_hdnIdLojista").val(), sku: skuId });
+$.ajax({
+url: '/AsyncProduto.ashx',
+data: jsonText,
+type: 'POST',
+success: function (data) {
+var jsObj = JSON.parse(data)[0];
+var dtmData = new Date();
+dtmData.setTime(dtmData.getTime() + (365 * 20 * 24 * 60 * 60 * 1000));
+var strExpires = "; expires=" + dtmData.toGMTString();
+var name = "IPI-" + "CasasBahia" + "=";
+var ca = document.cookie.split(';');
+var clientePlus = false;
+for (var i = 0; i < ca.length; i++) {
+var c = ca[i].trim();
+if (c.indexOf(name) == 0) {
+var valor = c.substring(name.length, c.length);
+if (valor.indexOf('cepClienteProvavel') >= 0)
+valor = valor.replace(/cepClienteProvavel=[\d-]+/, "cepClienteProvavel=" + cep.replace('-', ''));
+else
+valor += "&cepClienteProvavel=" + cep.replace('-', '');
+if (valor.indexOf('Plus') >= 0)
+clientePlus = (valor.substr(valor.indexOf('Plus') + 5, 1) != "0");
+document.cookie = name + valor + strExpires + ";domain=." + "casasbahia.com.br" + ";path=/";
+break;
+}
+}
+if (!jsObj.IsNational)
+$('#ctl00_Conteudo_ctl51_dvMensagemRestricao').css('display', 'block');
+if (typeof (jsObj.ClienteEnderecoFreteEntregasTipos) != 'undefined') {
+$('[data-id=endereco_entrega]').css('display', 'block');
+listarEntregas(jsObj);
+};
+if (jsObj.Exception.length > 0) {
+$('#ctl00_Conteudo_ctl51_lblErro').css("display", "block");
+$('#spanValida').css('display', 'block');
+$('#spanValida').html(jsObj.Exception);
+$('[data-id=endereco_entrega]').css('display', 'none');
+};
+if (jsObj.MensagemCorreios != null && jsObj.MensagemCorreios.length > 0) {
+$('#dvMensagemCorreios').css('display', 'block');
+$('#spanRestricaoCorreios').html(jsObj.MensagemCorreios);
+}
+$('[data-id=endereco_entrega]').find('[id$=lblEnderecoEntrega]').each(function () {
+// por enquanto apenas para tipo de entrega "normal"
+var idFreteEntregaTipo = $(this).attr('data-id').replace('endereco_entrega', '');
+if (idFreteEntregaTipo == 1) {
+atualizarMetaData(idFreteEntregaTipo);
+return false;
+}
+});
+var fidelizacao = JSON.parse(data)[1];
+if (fidelizacao != undefined && fidelizacao != null && fidelizacao.planos.length > 0 && clientePlus == false) {
+$('#ctl00_Conteudo_ctl51_boxClienteFidelizacao').removeClass("box-hide").addClass("box-show");
+} else {
+$('#ctl00_Conteudo_ctl51_boxClienteFidelizacao').removeClass("box-show").addClass("box-hide");
+}
+},
+error: function () {
+var mensagem = 'Produto indisponível para esta região, por favor escolha outro item.';
+$('#ctl00_Conteudo_ctl51_lblErro').css("display", "block");
+$('#spanValida').css('display', 'block');
+$('#spanValida').html(mensagem);
+$('[data-id=endereco_entrega]').css('display', 'none');
+}
+});
+} else {
+$('#ctl00_Conteudo_ctl51_lblErro').css('display', 'block');
+$('#lCep input').addClass(' erro');
+};
+};
+function atualizarMetaData(idFreteEntregaTipo) {
+var shippingPrice;
+var shippingMaxDays;
+var zipCode;
+if ('undefined' == typeof (window._siteMetadataChange)) {
+window._siteMetadataChange = [];
+}
+var cep = ajustaCep($('#lCep input').val());
+var precoFrete = $('[data-id=endereco_entrega' + idFreteEntregaTipo + '_valor]').html();
+var diasFrete = $('[data-id=endereco_entrega' + idFreteEntregaTipo + '_tempo]').html();
+if (typeof (precoFrete) != 'undefined')
+shippingPrice = (precoFrete.replace(/[^0-9,]/g, '')).replace(',', '.');
+if (typeof (diasFrete) != 'undefined')
+shippingMaxDays = diasFrete.replace(/[^0-9,]/g, '');
+if ((typeof (cep) != ''))
+zipCode = cep;
+if (!$.isNumeric(shippingPrice)) {
+if (precoFrete.toLowerCase().replace('á', 'a') == 'gratis') {
+shippingPrice = 0;
+}
+}
+var detail = { page: { product: {} } };
+if (typeof (shippingPrice) != 'undefined') {
+window.siteMetadata.page.product['shippingPrice'] = shippingPrice;
+detail.page.product['shippingPrice'] = shippingPrice;
+}
+if (typeof (shippingMaxDays) != 'undefined') {
+window.siteMetadata.page.product['shippingMaxDays'] = shippingMaxDays;
+detail.page.product['shippingMaxDays'] = shippingMaxDays;
+}
+if (typeof (shippingMaxDays) != 'zipCode') {
+window.siteMetadata.page.product['zipCode'] = zipCode;
+detail.page.product['zipCode'] = zipCode;
+}
+window._siteMetadataChange.push(['product.shipping', detail]);
+}
+function ajustaCep (cep)
+{
+cep = cep.replace(/\D/g, '')
+if (cep.length >= 8)
+cep = cep.substr(0, 5) + '-' + cep.substr(5, 3);
+return cep;
+}
+function listarEntregas(data) {
+var entregas = $('[data-id=endereco_entrega]');
+var item, entrega;
+desativarEntregas();
+entregas.show();
+var dataChegada = $('[data-id=data_chegada]').html();
+var possuiEntregaFidelizada = false;
+var txtMensagemPrazoEntregaEm1Hora = 'HOJE';
+for (var i = data.ClienteEnderecoFreteEntregasTipos.length - 1; i >= 0; i--) {
+item = data.ClienteEnderecoFreteEntregasTipos[i];
+var textoadicional = '';
+if (item.Adicional)
+textoadicional = '_adicional';
+entrega = entregas.find('[data-id=endereco_entrega' + textoadicional + item.IdFreteEntregaTipo + '_valor]');
+if (item.IdFreteEntregaTipo == 11)
+possuiEntregaFidelizada = true;
+if (entrega.length > 0) {
+entrega.text(item.ValorFreteComDesconto != 0 ? FormatarValor(item.ValorFreteComDesconto) : "Grátis");
+if (item.IdFreteEntregaTipo == 26)
+$('[data-id=endereco_entrega' + textoadicional + item.IdFreteEntregaTipo + '_tempo]').text(txtMensagemPrazoEntregaEm1Hora);
+else if (item.IdFreteEntregaTipo != 12) {
+if (item.PrazoEntrega == 0)
+$('[data-id=endereco_entrega' + textoadicional + item.IdFreteEntregaTipo + '_tempo]').text("HOJE");
+else
+$('[data-id=endereco_entrega' + textoadicional + item.IdFreteEntregaTipo + '_tempo]').text(item.PrazoEntrega + " dia" + (item.PrazoEntrega > 1 ? "s" : "") + (item.PrazoEntrega > 1 ? " úteis" : " útil"));
+}
+else {
+$('[data-id=endereco_entrega' + item.IdFreteEntregaTipo + '_tempo]').text("A partir de " + item.PrazoEntrega + " dia" + (item.PrazoEntrega > 1 ? "s" : "") + (item.PrazoEntrega > 1 ? " úteis" : " útil"));
+if (typeof (dataChegada) != 'undefined')
+$('[data-id=endereco_entrega' + item.IdFreteEntregaTipo + '_tempo]').text("A partir de " + dataChegada)
+if (item.PrazoEntregaFormatadoRetiraDefault != 'undefined')
+$('[data-id=endereco_entrega' + item.IdFreteEntregaTipo + '_tempo]').text("A partir de " + item.PrazoEntregaFormatadoRetiraDefault)
+}
+entrega = entrega.parent();
+$('[data-id=endereco_entrega' + textoadicional + item.IdFreteEntregaTipo + ']').prop('disabled', false).parents("[data-id=grp]").removeClass("off");
+}
+}
+}
+function FormatarValor(valor) {
+var strValor = valor.toString();
+if (strValor.indexOf(".") < 0)
+strValor += ".00";
+else if (strValor.substring(strValor.indexOf(".") + 1).length == 1)
+strValor += "0";
+strValor = strValor.replace(".", ",");
+if (valor > 1000) {
+var arr = strValor.split(",");
+strValor = arr[0].substring(0, arr[0].length - 3) + "." + arr[0].substring(arr[0].length - 3) + "," + arr[1];
+}
+strValor = "R$ " + strValor;
+return strValor;
+}
+function desativarEntregas() {
+var items = $('[data-id=endereco_entrega]').find('[data-id=grp]');
+items.removeClass("on").addClass("off");
+items.find('[data-id*=_tempo], [data-id*=_valor]').html('-');
+};
+Calcule o prazo de entrega:
+Calcule o frete e o prazo de entrega estimados para sua região.
+Dúvidas? Saiba mais
+Informe seu CEP:
+Não sei meu CEP
+Atenção:
+Entrega
+Prazo
+Frete
+Mesmo Dia
+-
+-
+Super Expressa
+-
+-
+Expressa
+-
+-
+Retira Rápido
+-
+-
+Normal
+-
+-
+Agendada
+-
+-
+Confira as regras de entrega
+Prazo
+:
+A estimativa é válida para pedidos feitos e aprovados até as 20h, após esse horário acrescentar 1 dia útil ao prazo de entrega. Nossas entregas são realizadas de segunda a sexta, em horário comercial.
+Valor do frete deste produto
+:
+Área com prazo de entrega superior.
+$( "#lprefixo input" ).on('keyup',function() {
+var val = $(this).val();
+if(val.indexOf('699') == 0 || val.indexOf('789') == 0) {
+$('#alertaAcreRondonia').show();
+}else{
+$('#alertaAcreRondonia').hide();
+}
+});
+Pagamento com cartões de credito
+Cartão Casas Bahia
+Pagamento com cartões de credito
+1x sem juros
+R$ 199,99
+2x sem juros
+R$ 100,00
+3x sem juros
+R$ 66,66
+4x com juros (1,29% a.m.)
+R$ 51,62
+Total: R$ 206,48
+5x com juros (1,29% a.m.)
+R$ 41,56
+Total: R$ 207,80
+6x com juros (1,29% a.m.)
+R$ 34,85
+Total: R$ 209,10
+7x com juros (1,29% a.m.)
+R$ 30,06
+Total: R$ 210,42
+8x com juros (1,29% a.m.)
+R$ 26,47
+Total: R$ 211,76
+9x com juros (0,50% a.m.)
+R$ 22,78
+Total: R$ 205,02
+10x com juros (0,50% a.m.)
+R$ 20,55
+Total: R$ 205,50
+11x com juros (1,29% a.m.)
+R$ 19,62
+Total: R$ 215,82
+12x com juros (1,29% a.m.)
+R$ 18,10
+Total: R$ 217,20
+* O financiamento de despesas está sujeito à incidência de juros mensais + IOF. Consulte o CET e a taxa anual de juros no momento da contratação.
+Cartão Casas Bahia
+à vista
+R$ 199,99
+2x sem juros
+R$ 100,00
+3x sem juros
+R$ 66,66
+4x sem juros
+R$ 50,00
+5x sem juros
+R$ 40,00
+6x com juros (1,29% a.m.)
+R$ 35,00
+Total: R$ 210,00
+7x com juros (1,29% a.m.)
+R$ 30,19
+Total: R$ 211,33
+8x com juros (1,29% a.m.)
+R$ 26,58
+Total: R$ 212,64
+9x com juros (1,29% a.m.)
+R$ 23,78
+Total: R$ 214,02
+10x com juros (1,29% a.m.)
+R$ 21,54
+Total: R$ 215,40
+11x com juros (1,49% a.m.)
+R$ 19,94
+Total: R$ 219,34
+12x com juros (1,49% a.m.)
+R$ 18,41
+Total: R$ 220,92
+13x com juros (1,49% a.m.)
+R$ 17,12
+Total: R$ 222,56
+14x com juros (1,49% a.m.)
+R$ 16,01
+Total: R$ 224,14
+15x com juros (1,49% a.m.)
+R$ 15,05
+Total: R$ 225,75
+16x com juros (1,49% a.m.)
+R$ 14,21
+Total: R$ 227,36
+17x com juros (1,49% a.m.)
+R$ 13,47
+Total: R$ 228,99
+18x com juros (1,49% a.m.)
+R$ 12,81
+Total: R$ 230,58
+* Parcela mínima de R$ 39,00
+Saiba Mais.
+Clique aqui e confira todas as formas de pagamento
+Confira todas as formas de pagamento
+Imagens
+Vídeos
+Imagens
+Passe o mouse e veja os detalhes
+Mais Imagens
+Vídeos
+Publicidade
+Detalhes do produto: Harmonics: Violão clássico acústico nylon gna 111nt alinhado harmonics
+Violão clássico acústico nylon gna 111 harmonics
+alinhado
+pronto para tocar
+Violão Clássico com cordas de Nylon ideal para estudo/iniciantes ou músicos
+que procuram um instrumento de custo muito barato e excelente qualidade sonora
+e acabamento.
+Possui tensor bi direcional que mantém o Braço em constante alinhamento...
+Características do produto:
+Tamanho: 4/4 39"
+100cm = Tamanho Adulto
+Modelo: clássico acústico
+Cordas: nylon
+Cor: madeira natural no tampo, tipo mogno nas laterais e fundo
+Acabamento: verniz brilhante
+Madeira do tampo: liden
+Madeira do fundo e laterais: liden
+Madeira do braço e escala: liden
+Tarraxas: 3+3 douradas com pino grosso
+Trastes: 19 trastes de 52mm em cuproníquel
+Garantia do produto: 3 meses contra defeitos de fabricação
+Origem: china
+Sobre a madeira:
+Tilia americana
+também conhecida como american basswood ou liden
+é nativa no leste da américa do norte. É utilizada para polpa, armários,
+acabamentos interiores, fabricação de objetos variados e para esculpir.
+Em instrumentos musicais é utilizada como tampo harmônico (soundboards),
+braço e corpo de guitarra, e baterias. Alburno de cor creme-claro,
+cerne marrom-pálido a marrom-avermelhado, às vezes com riscas mais escuras.
+Textura fina e uniforme, grã direita. Boa trabalhabilidade, fácil de trabalhar
+com ferramentas manuais o que faz dela uma madeira boa para esculpir.
+Aceita prego, parafuso e cola moderadamente bem, bom acabamento.
+Moderadamente rápida para secar com pouca distorção ou degradação.
+Contração moderadamente alta, mas boa estabilidade dimensional quando seca.
+Sobre o produto:
+O que significa alinhado
+A grande maioria dos violões comercializados no brasil tem origem chinesa, que tem
+O Produto antes do envio ao comprador é totalmente revisado e alinhado nos mínimos
+detalhes pela Luthieria da nossa loja.
+Na revisão são conferidos o Alinhamento do Braço, Polimento dos trastes,
+Altura das cordas, lubrificação das tarraxas...
+Esse processo garante ao comprador receber o produto pronto para uso,
+sem a necessidade de ajustes extras com profissionais externos, evitando
+gastos desnecessários e garantindo que o produto chegará em suas mãos
+sem nenhum defeito, sempre bem embalado para inteira proteção.
+O comprador terá apenas que refazer a afinação, pelo fato das cordas de nylon
+nas primeiras afinações sofrerem delatação que se normalizam em poucos dias.
+Medidas do produto:
+Comprimento: 100Cm
+Altura do corpo:10Cm
+Largura: 37Cm
+Peso: 1690Gr
+Medidas do produto embalado:
+Comprimento: 101Cm
+Altura: 12Cm
+Largura: 45Cm
+Peso: 2700Gr
+POWERREVIEWS.display.engine(document, {pr_page_id: '9869320_1',pr_site_id: '1',pr_write_review: 'https://www.casasbahia.com.br/Site/ProdutoReview.aspx?pageId=9869320_1&pr_war_server_path=3.0'});
+POWERREVIEWS.display.productAnswers(document, {pr_page_id: '9869320_1',pr_ask_question: '/Site/ProdutoQA.aspx?appName=askQuestion&pr_page_id=9869320_1',pr_answer_question: '/Site/ProdutoQA.aspx?appName=answerQuestion&questionId=@@@QUESTION_ID@@@&pr_page_id=9869320_1',pr_read_qa: '#QAHeader'});
+Informações importantes sobre este produto:
+- Preços e condições de pagamento válidos somente para compras no site www.casasbahia.com.br ou pelo Televendas 4003-2773.
+- Em caso de divergência de preços, o valor final considerado será o do Carrinho de Compras.
+- Imagens meramente ilustrativas.
+$(window).load(function(){
+$(".area-4 .prPaTotalsLabel").trigger("click");
+});
+if (!GetCookie('porteiro-chat')) {
+var IDLE_TIMEOUT = 10;
+var _idleSecondsCounter = 0;
+document.onclick = function () {
+_idleSecondsCounter = 0;
+};
+document.onmousemove = function () {
+_idleSecondsCounter = 0;
+};
+document.onkeypress = function () {
+_idleSecondsCounter = 0;
+};
+window.setInterval(CheckIdleTime, 4000);
+function CheckIdleTime() {
+_idleSecondsCounter++;
+var oPanel = document.getElementById("SecondsUntilExpire");
+if (oPanel) oPanel.innerHTML = (IDLE_TIMEOUT - _idleSecondsCounter) + "";
+if (_idleSecondsCounter >= IDLE_TIMEOUT) {
+document.getElementById("banner_aviso").style.display = "block";
+SetCookie('porteiro-chat','true',15,'/');
+}
+}
+function OcultarBannerAviso() {
+$('#banner_aviso').remove();
+var vTimer = window.setTimeout("CheckIdleTimeB()", 120000);
+}
+function CheckIdleTimeB() {
+document.getElementById("banner_avisoB").style.display = "block";
+}
+function pfRemove() {
+$('#banner_avisoB').remove();
+}
+};
+Fechar
+Fechar
+$(document).ready(function(){$('.parcelamento .tabs .tab01').removeClass('selected');})
+$(document).ready(function(){
+var $lojistas = $('.listaLojistas').length;
+$marketPlaceButton = $('.sku .saiba-mais-marketplace');
+if($lojistas > 0){
+$marketPlaceButton.fadeIn(200);
+var $modalButton = $('.saiba-mais-marketplace .saiba-link'),
+$closeBtn = $('#modal-infos-marketplace .close-btn');
+$modalButton.on('click', function(){
+$("#modal-infos-marketplace").fadeIn(200);
+});
+$closeBtn.on('click', function(){
+$('#modal-infos-marketplace').fadeOut(200);
+});
+}
+});
+Fechar
+O que é Marketplace?
+Na CasasBahia.com.br, você sabe que pode confiar todas as suas compras online. Por isso, decidimos compartilhar a nossa plataforma com diversas lojas, a fim de aumentar ainda mais a variedade de produtos no site.
+A parceria dos lojistas com a CasasBahia.com.br possibilita que você encontre tudo o que precisa em um só lugar: desde artesanatos delicados até aquela jóia linda para presentear a pessoa amada.
+Sabe o melhor de tudo?
+Nós reiteramos que os parceiros sigam o padrão de qualidade que só a CasasBahia.com.br pode oferecer para você. Fique tranquilo, a entrega é garantida.
+Identifique um produto de lojista:
+Acesse a página do produto e localize, abaixo da descrição do item, o nome do lojista.
+Exemplo: Vendido e entregue por Loja Parceira
+Várias ofertas de um único produto:
+Sim, mais de um lojista pode vender o mesmo produto. Com isso, você pode escolher a opção que mais te agrada:
+lojista favorito; melhor preço;
+melhor prazo de entrega;
+melhor frete ou a combinação de tudo isso. ;)
+Na página do produto, além da oferta principal, você pode encontrar os demais parceiros no campo “Mais opções de compra deste produto”.
+Pagamento e entrega:
+Você pode utilizar qualquer forma de pagamento disponível no site para concluir a compra de um produto Marketplace. O prazo de entrega e o acompanhamento do pedido serão enviados por email.
+$(window).load(function() {
+$( ".sku .parcelamento .tabs .tab01" ).addClass( "selected" );
+})
+//Vitrine
+$(function() {
+$('.flags span').each(function() {
+var bf = $(this).find('img').attr('src');
+if (bf.indexOf('retira-casasbahia_flag.gif') != -1) { //nome
+$(this).parents('li').addClass('busca_el');
+$(this).parents('li').find('.hproduct').prepend('<span class="logo_el"></span>');
+};
+});
+$('.logo_el').click(function() {
+window.open('https://www.casasbahia-imagens.com.br/html/pops/2015/retira/regras_retira.html', 'blank', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,top=0,left=0,width=500,height=600');
+return false;
+});
+});
+//Produto
+$(function() {
+$('.flags span').each(function() {
+var bf = $(this).find('img').attr('src');
+if (bf.indexOf('retira-casasbahia_flag.gif') != -1) { //nome
+$('#contImagens').addClass('busca_el');
+$('#contImagens').find('.boxImg').prepend('<span class="logo_el"></span>');
+};
+});
+$('.logo_el').click(function() {
+window.open('https://www.casasbahia-imagens.com.br/html/pops/2015/retira/regras_retira.html', 'blank', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,top=0,left=0,width=500,height=600');
+return false;
+});
+});
+Televendas
+Capitais e regiões metropolitanas
+Ligar para 4003-2773
+* Demais localidades ligue: (0xx11) 4003-2773
+Dúvidas
+Atendimento para Internet ou Televendas
+Atendimento para Loja Física
+Sobre a Entrega
+Política de Troca e Devolução
+Nota Fiscal Eletrônica
+Editar meu Cadastro
+Nota Fiscal Paulista
+Seguro de Garantia Estendida Original
+Termos e Condições de Uso
+Quantidade de itens por pedido
+Prepare-se para o Black Friday
+Outras informações
+Sobre as Casas Bahia
+Cartão Casas Bahia
+Nossas Filiais
+Lojas Físicas
+Privacidade e Segurança
+Trabalhe Conosco
+Lista de Casamento
+Mapa do Site
+Anuncie com a gente
+Venda seus produtos nas Casas Bahia
+Palavras mais Buscadas
+Formas de Pagamento
+Cartões de Crédito
+Cartões de crédito Visa, Mastercard, American Express, Diners e Aura
+Cartões de crédito Casas Bahia
+Cartões Grupo Pão de Açúcar
+Cartões de crédito Visa, Mastercard, American Express, Diners e Aura, Cartões Multi Cash
+Cartões Multi Cheque, Multi Empresarial, Multi Benefícios
+Outras formas
+Visa Checkout
+Masterpass
+Boleto, Paypal e Cartões de débito Itaú, Bradesco e Unibanco; BB Crediário
+Paypal
+Redes Sociais
+Acompanhe todas as ofertas e novidades do site das Casas Bahia.
+Facebook
+Twitter
+Encontre-nos no Google+
+Youtube
+Blog
+Escolha a sua versão
+Desktop
+Desktop
+Smartphone
+Smartphone
+Atendimento para os Clientes de Internet e Televendas
+Precisando de ajuda? Conheça nossa central de atendimento
+Atendimento
+Site: 4003-4336
+Loja Física: 3003-8889
+Powered By
+Plataforma
+Preços e condições exclusivos para o site www.casasbahia.com.br e para o televendas, podendo sofrer alterações sem prévia notificação.
+CNOVA Comércio Eletrônico S.A. /
+www.casasbahia.com.br / Rua João Pessoa, n° 83 - Piso Mezanino - Sala 02 /
+São Caetano do Sul - SP - CEP: 09520-010 / CNPJ: 07.170.938/0001-07 / Inscrição Estadual: 636.330.646.110 / Telefone: (11) 4003-4336 /
+Nossas filiais /
+Lojas Físicas
+Ambiente Seguro Garantido pelas Casas Bahia
+Departamentos
+Os mais visitados
+Acessórios para Celulares
+Aquecedores
+Ar e Ventilação
+Ar-Condicionado
+Aspiradores e Acessórios
+Áudio
+Automotivo
+Barbeadores Elétricos
+Bebedouros e Purificadores
+Beleza e Saúde
+Cafeteiras
+Celulares e Telefones
+Cozinha
+Depiladores
+Dormitórios / Quartos
+Eletrodomésticos
+Eletroportáteis
+Fogões
+GPS e Acessórios
+Home Theater
+Lavadoras
+Móveis
+Pneus, Rodas e Calotas
+Geladeira e Refrigerador
+Sala de Estar
+Secadores de Cabelo
+Smartphones
+Som Automotivo
+Telefonia Fixa
+Televisores
+TVs e Acessórios
+Demais departamentos
+Alimentos
+Artesanato
+Artigos para Festa
+Bebês
+Bebidas
+Brinquedos
+Câmeras e Filmadoras
+Cama, Mesa e Banho
+Casa e Construção
+Decoração
+DVDs e Blu-Ray
+Esporte e Lazer
+Ferramentas
+Flores
+Games
+Informática
+Instrumentos Musicais
+Joias
+Livros
+Linha Industrial
+Malas e Mochilas
+Moda
+Natal
+Papelaria
+Perfumaria
+Pet Shop
+Produtos Importadosnovidade
+Produtos de Limpeza
+Relógios
+Suplementos Alimentares
+Tablet
+Utilidades Domésticas
+Nossos serviços
+Seguro de Garantia Estendida Original
+Fique Seguro
+Download / Games
+Montagem de Móveis
+Instalações
+Revelação Digital
+Multiassistência
+Lista de Casamento
+Retira Rápido
+Cartão Casas Bahia
+//<![CDATA[
+var Page_ValidationSummaries =
+new Array(document.getElementById("ctl00_Conteudo_ctl51_vldSummary"));
+var Page_Validators =
+new Array(document.getElementById("ctl00_Conteudo_ctl51_reqCep"));
+//]]>
+//<![CDATA[
+var ctl00_Conteudo_ctl51_reqCep = document.all ? document.all["ctl00_Conteudo_ctl51_reqCep"] : document.getElementById("ctl00_Conteudo_ctl51_reqCep");
+ctl00_Conteudo_ctl51_reqCep.controltovalidate = "ctl00_Conteudo_ctl51_txtCep";
+ctl00_Conteudo_ctl51_reqCep.display = "None";
+ctl00_Conteudo_ctl51_reqCep.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_Conteudo_ctl51_reqCep.initialvalue = "";
+//]]>
+//<![CDATA[
+imgZoom();
+Recommendation.trackProdPageVisit({
+cookieName: 'CasasBahia-recomTrackProdPageVisit',
+listSizeLimit: 5,
+idSku:13449442
+});
+$(function() {
+var genRecComp = new Recommendation.GenericRecommendationComponent({
+kind: 'w8',
+key: Recommendation.getSkuIdFromProdPageLoc(),
+oddPosAsPercent: true,
+title: 'Após visitar este item, o que os clientes acabam comprando?',
+targetEl: $('#NovaRecomendacaoQuemViuComprou'),
+settings: {
+tenantName: 'CasasBahia',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+detailsPage: 'https://produto.casasbahia.com.br',
+recSource: 'wproddisp',
+recType: 'w8'
+},
+recomsAjax: new Recommendation.RecommendationsAjax({ server: 'https://rec.casasbahia.com.br/recommender' }),
+productDetailsAjax: new Recommendation.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' }),
+livePriceAjax: new Recommendation.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' })
+});
+genRecComp.update();
+});
+$(function() {
+var genRecComp = new Recommendation.GenericRecommendationComponent({
+kind: 'w9',
+key: Recommendation.getSkuIdFromProdPageLoc(),
+oddPosAsPercent: false,
+title: 'Quem procura este item também se interessa por',
+targetEl: $('#NovaRecomendacaoQuemViuTbViu'),
+settings: {
+tenantName: 'CasasBahia',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+detailsPage: 'https://produto.casasbahia.com.br',
+recSource: 'wproddisp',
+recType: 'w9'
+},
+recomsAjax: new Recommendation.RecommendationsAjax({ server: 'https://rec.casasbahia.com.br/recommender' }),
+productDetailsAjax: new Recommendation.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' }),
+livePriceAjax: new Recommendation.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' })
+});
+genRecComp.update();
+});
+$(function() {
+var genRecComp = new Recommendation.GenericRecommendationComponent({
+kind: 'w6',
+key: Recommendation.getSkuIdFromProdPageLoc(),
+oddPosAsPercent: false,
+title: 'Aproveite e Compre Junto',
+targetEl: $('#NovaRecomendacaoCompreJunto'),
+settings: {
+tenantName: 'CasasBahia',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+detailsPage: 'https://produto.casasbahia.com.br',
+recSource: 'wproddisp',
+recType: 'w6'
+},
+recomsAjax: new Recommendation.RecommendationsAjax({ server: 'https://rec.casasbahia.com.br/recommender' }),
+productDetailsAjax: new Recommendation.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' }),
+livePriceAjax: new Recommendation.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' })
+});
+genRecComp.update();
+});
+$(function() {
+var genRecComp = new Recommendation.GenericRecommendationComponent({
+kind: 'w1',
+key: Recommendation.getSkuIdFromProdPageLoc(),
+oddPosAsPercent: false,
+title: 'Na falta deste produto, você pode se interessar por',
+targetEl: $('#NovaRecomendacaoVcPodeSeInteressarPor'),
+settings: {
+tenantName: 'CasasBahia',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+detailsPage: 'https://produto.casasbahia.com.br',
+recSource: 'wprodindisp',
+recType: 'w1'
+},
+recomsAjax: new Recommendation.RecommendationsAjax({ server: 'https://rec.casasbahia.com.br/recommender' }),
+productDetailsAjax: new Recommendation.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' }),
+livePriceAjax: new Recommendation.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' })
+});
+genRecComp.update();
+});
+$(function() {
+var genRecComp = new Recommendation.GenericRecommendationComponent({
+kind: 'w2',
+key: Recommendation.getSkuIdFromProdPageLoc(),
+oddPosAsPercent: false,
+title: 'Na falta deste produto, confira nossos destaques',
+targetEl: $('#NovaRecomendacaoNaFaltaConfira1'),
+settings: {
+tenantName: 'CasasBahia',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+detailsPage: 'https://produto.casasbahia.com.br',
+recSource: 'wprodindisp',
+recType: 'w2'
+},
+recomsAjax: new Recommendation.RecommendationsAjax({ server: 'https://rec.casasbahia.com.br/recommender' }),
+productDetailsAjax: new Recommendation.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' }),
+livePriceAjax: new Recommendation.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' })
+});
+genRecComp.update();
+});
+$(function() {
+var genRecComp = new Recommendation.GenericRecommendationComponent({
+kind: 'w3',
+key: Recommendation.getSkuIdFromProdPageLoc(),
+oddPosAsPercent: false,
+title: 'Na falta deste produto, confira nossos destaques',
+targetEl: $('#NovaRecomendacaoNaFaltaConfira2'),
+settings: {
+tenantName: 'CasasBahia',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+detailsPage: 'https://produto.casasbahia.com.br',
+recSource: 'wprodindisp',
+recType: 'w3'
+},
+recomsAjax: new Recommendation.RecommendationsAjax({ server: 'https://rec.casasbahia.com.br/recommender' }),
+productDetailsAjax: new Recommendation.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' }),
+livePriceAjax: new Recommendation.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' })
+});
+genRecComp.update();
+});
+var __nomeSite = 'CasasBahia';var __QtdMaximaProdutosComparacao = '3';var __urlCarrinho = 'https://carrinho.casasbahia.com.br';AtualizaItensCookie(null);updatePanelJQuery('ctl00_TopBar_TopBar1_divMenuWelcome','/Control/TopBar_Saudacao.aspx');//]]>
+(function() {
+var autocompCategsAjax = new Search.Autocomplete.AutocompCategoriesAjax({ server: 'https://api-b2c.casasbahia.com.br/Catalogo/V2/' });
+var livePriceAjax = new Search.Autocomplete.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' });
+var productDetailsAjax = new Search.Autocomplete.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' });
+var autocomp = new Search.Autocomplete.AutocompleteComponent({
+solrOrAlgolia: true,
+appId: 'OKADMU8JNY',
+apiKey: 'c19766537b292b1ece46befc8d4b92a6',
+searchTermHitsCountLimit: 8,
+productHitsCountLimit: 3,
+solrServer: 'https://buscaapicb-a.akamaihd.net/Produtos/',
+detailsPage: 'https://produto.casasbahia.com.br',
+searchPage: 'https://buscas.casasbahia.com.br',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+autocompCategsAjax: autocompCategsAjax,
+livePriceAjax: livePriceAjax,
+productDetailsAjax: productDetailsAjax,
+selCategEl: $('#_ddlIdCategoriaClient_'),
+txtEl: $('#strBusca'),
+btnEl: $('#btnOK'),
+cookie: 'IPI-CasasBahia',
+tagueamentoServer: 'https://analytics.api-casasbahia.com.br/eventstracking/trackevent/'
+});
+autocomp.initialize();
+})();
+(function() {
+var autocompCategsAjax = new Search.Autocomplete.AutocompCategoriesAjax({ server: 'https://api-b2c.casasbahia.com.br/Catalogo/V2/' });
+var livePriceAjax = new Search.Autocomplete.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' });
+var productDetailsAjax = new Search.Autocomplete.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' });
+var autocomp = new Search.Autocomplete.AutocompleteComponent({
+solrOrAlgolia: true,
+appId: 'OKADMU8JNY',
+apiKey: 'c19766537b292b1ece46befc8d4b92a6',
+searchTermHitsCountLimit: 8,
+productHitsCountLimit: 3,
+solrServer: 'https://buscaapicb-a.akamaihd.net/Produtos/',
+detailsPage: 'https://produto.casasbahia.com.br',
+searchPage: 'https://buscas.casasbahia.com.br',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+autocompCategsAjax: autocompCategsAjax,
+livePriceAjax: livePriceAjax,
+productDetailsAjax: productDetailsAjax,
+selCategEl: $('#_ddlIdCategoriaClient_'),
+txtEl: $('#ctl00_TopBar_TopBar1_TxtBuscaFlex_ctl00_txtBusca'),
+btnEl: $('#ctl00_TopBar_TopBar1_TxtBuscaFlex_ctl00_btnOK'),
+cookie: 'IPI-CasasBahia',
+tagueamentoServer: 'https://analytics.api-casasbahia.com.br/eventstracking/trackevent/'
+});
+autocomp.initialize();
+})();
+(function() {
+var autocompCategsAjax = new Search.Autocomplete.AutocompCategoriesAjax({ server: 'https://api-b2c.casasbahia.com.br/Catalogo/V2/' });
+var livePriceAjax = new Search.Autocomplete.LivePriceAjax({ server: 'https://preco.api-casasbahia.com.br/V1/' });
+var productDetailsAjax = new Search.Autocomplete.ProductDetailsAjax({ server: 'https://rec.casasbahia.com.br/productdetails' });
+var autocomp = new Search.Autocomplete.AutocompleteComponent({
+solrOrAlgolia: true,
+appId: 'OKADMU8JNY',
+apiKey: 'c19766537b292b1ece46befc8d4b92a6',
+searchTermHitsCountLimit: 8,
+productHitsCountLimit: 3,
+solrServer: 'https://buscaapicb-a.akamaihd.net/Produtos/',
+detailsPage: 'https://produto.casasbahia.com.br',
+searchPage: 'https://buscas.casasbahia.com.br',
+imageServer: 'https://www.casasbahia-imagens.com.br',
+autocompCategsAjax: autocompCategsAjax,
+livePriceAjax: livePriceAjax,
+productDetailsAjax: productDetailsAjax,
+selCategEl: $('#_ddlIdCategoriaClient_'),
+txtEl: $('#ctl00_Conteudo_ctl37_ctl00_txtBusca'),
+btnEl: $('#ctl00_Conteudo_ctl37_ctl00_btnOK'),
+cookie: 'IPI-CasasBahia',
+tagueamentoServer: 'https://analytics.api-casasbahia.com.br/eventstracking/trackevent/'
+});
+autocomp.initialize();
+})();
+//<![CDATA[
+(function(id) {
+var e = document.getElementById(id);
+if (e) {
+e.dispose = function() {
+Array.remove(Page_ValidationSummaries, document.getElementById(id));
+}
+e = null;
+}
+})('ctl00_Conteudo_ctl51_vldSummary');
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+ValidatorOnLoad();
+}
+function ValidatorOnSubmit() {
+if (Page_ValidationActive) {
+return ValidatorCommonOnSubmit();
+}
+else {
+return true;
+}
+}
+tabs();DesabilitaTabVideo();
+document.getElementById('ctl00_Conteudo_ctl51_reqCep').dispose = function() {
+Array.remove(Page_Validators, document.getElementById('ctl00_Conteudo_ctl51_reqCep'));
+}
+//]]>
+_satellite.pageBottom();
