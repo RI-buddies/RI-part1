@@ -18,8 +18,8 @@ class Extraction:
     stop_words = list()
     characteristcs = list()
     cols = dict()
-    chars = {'Acabamento': list(), 'Fundo': list(),
-             'Cordas': list(), 'Braço': list(), 'Preço': list()}
+    chars = {'Acabamento': dict(), 'Fundo': dict(),
+             'Cordas': dict(), 'Braço': dict(), 'Preço': dict()}
 
     def __init__(self, htmls):
         self.htmls = htmls
@@ -59,9 +59,8 @@ class Extraction:
         else:
             return None
 
-    def get_text(self, child=None):
-        if child is None:
-            child = self.coi
+    def get_text(self):
+        child = self.coi
         text = child.text.replace('; ', '. ').replace(
             ';', '. ').replace('• ', '. ')
         subs = re.sub(r"([A-Z])", r" \1", text).split()
@@ -87,12 +86,14 @@ class Extraction:
 
     def through_htmls(self):
         for html in self.htmls:
+            # print(html,'-----------\n')
             self.get_price(html)
             self.soups = utils.soups_of_interest(html)
-            self.coi = extract.get_child_of_interest()
-            self.treat_coi()
-            text = self.get_text()
-            self.texts[html] = text
+            self.coi = self.get_child_of_interest()
+            if self.coi is not None:
+                self.treat_coi()
+                text = self.get_text()
+                self.texts[html] = text
 
     def get_stop_words(self):
         self.texts = sorted(self.texts.items(), key=lambda h: len(
@@ -126,19 +127,21 @@ class Extraction:
     def get_cols(self):
         aux = self.characteristcs[0][1]
         for c in aux:
-            self.cols[c.split(':')[0].title()] = list()
+            self.cols[c.split(':')[0].title()] = dict()
         for x in self.characteristcs:
             for c in x[1]:
                 tipo = c.split(': ')[0].title()
                 char = c.split(': ')[1].title()
                 if tipo in self.cols:
-                    self.cols[tipo].append((char, x[0]))
+                    self.cols[tipo][x[0]] = char
         return self.cols
 
     def get_real_chars(self, cols):
-        for col in cols:
-            if col in self.chars:
-                self.chars[col] = cols[col]
+        for tipo in cols:
+            if tipo in self.chars:
+                self.chars[tipo] = dict()
+                for html in self.cols[tipo]:
+                    self.chars[tipo][html] = self.cols[tipo][html]
         return self.chars
 
     def get_price(self, html):
@@ -146,19 +149,25 @@ class Extraction:
         s = BeautifulSoup(sauce, 'lxml')
         price = re.findall(
             '([0-9][0-9][0-9],[0-9][0-9]|[0-9][(.|)][0-9][0-9][0-9],[0-9][0-9])', str(s.text))[0]
-        self.chars['Preço'].append((price, html))
+        self.chars['Preço'][html] = price
 
     def execute(self):
         self.through_htmls()
-        self.get_stop_words()
-        self.get_characteristcs()
-        return self.get_real_chars(self.get_cols())
+        if self.coi is not None:
+            self.get_stop_words()
+            char = self.get_characteristcs()
+            return self.get_real_chars(self.get_cols())
+        else:
+            return self.chars
 
 
-if __name__ == '__main__':
-    htmls = [x for x in os.listdir('.') if x.endswith('html')]
+def do_generic(htmls):
     extract = Extraction(htmls)
     char = extract.execute()
     with open('data_generic.json', 'w') as outfile:
         json.dump(char, outfile)
-#Acabamento, Fundo, Cordas, Braço, Preço
+        outfile.close()
+
+
+if __name__ == '__main__':
+    do_generic([x for x in os.listdir('.') if x.endswith('html')])
