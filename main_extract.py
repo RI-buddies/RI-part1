@@ -4,22 +4,24 @@ import os
 from extract import do_generic
 from extract_specific import do_specific
 
-def get_metrics():
-    with open('data_generic.json', 'r') as infile:
+def get_metrics(letter):
+    with open('data_generic_'+letter+'.json', 'r') as infile:
         generic = json.load(infile)
 
-    with open('data_specific.json', 'r') as infile:
+    with open('data_specific_'+letter+'.json', 'r') as infile:
         specific = json.load(infile)
 
     n = 0
     for key in specific:
         for html in specific[key]:
-            n += 1
+            if(html.split('/')[-1][0] == letter):   
+                n += 1
 
     e = 0
     for key in generic:
         for html in generic[key]:
-            e += 1
+            if(html.split('/')[-1][0] == letter):
+                e += 1
 
     c = 0
     for key in specific:
@@ -36,10 +38,10 @@ def get_metrics():
 
 def main():
     path = os.path.join(os.path.abspath('.'),'Classifier/data/html')
-    for letter in ['A','B','C','D','F']:
+    for letter in ['A', 'B', 'C', 'D', 'F', 'G', 'H']:
         do_specific([os.path.join(path, x) for x in os.listdir('./Classifier/data/html') if x.endswith('p.html') and x.startswith(letter)])
         do_generic([os.path.join(path, x) for x in os.listdir('./Classifier/data/html') if x.endswith('p.html') and x.startswith(letter)])
-        metrics = get_metrics()
+        metrics = get_metrics(letter)
         print(letter,':\n',metrics)
 
 if __name__ == '__main__':

@@ -164,9 +164,10 @@ class Extraction:
 def do_generic(htmls):
     extract = Extraction(htmls)
     char = extract.execute()
-    with open('data_generic.json', 'w') as outfile:
+    with open('data_generic_'+htmls[0].split('/')[-1][0]+'.json', 'w') as outfile:
         json.dump(char, outfile)
-        outfile.close()
+    outfile.close()
+    
 
 
 if __name__ == '__main__':

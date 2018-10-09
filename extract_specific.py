@@ -23,7 +23,7 @@ def do_specific(htmls):
     ), 'Cordas': dict(), 'Braço': dict(), 'Preço': dict()}
 
     for html in htmls:
-        print(html,'-----------\n')
+        # print(html,'-----------\n')
         sauce = open(html, 'r')
         soup = BeautifulSoup(sauce, 'lxml')
         price = ''
@@ -46,7 +46,7 @@ def do_specific(htmls):
                 price = soup.find('span', {'class': 'product-price-value'})
                 price = price.text.replace('R$', '').replace(' ', '')
             except AttributeError:
-                price = None
+                price = None 
 
         elif re.search('(NOVA MUSIC|B)', html.split('/')[-1]):
             div = soup.find('div', {
@@ -70,7 +70,10 @@ def do_specific(htmls):
 
         elif re.search('(CasasBahia|H)', html.split('/')[-1]):
             div = soup.find('div', {'id': 'descricao', 'class': 'descricao'})
-            res = div.findAll('p')[1]
+            try:
+                res = div.findAll('p')[1]
+            except:
+                res = div
             text = res.text
             try:
                 price = soup.find('i', {'class': 'sale price'}).text.replace(
@@ -89,7 +92,6 @@ def do_specific(htmls):
                 price = None
 
         elif re.search('(Made in Brazil|D)', html.split('/')[-1]):
-            print('lala')
             res = soup.find('div', {'class': 'infoProd'})
             text = res.text
             try:
@@ -98,9 +100,9 @@ def do_specific(htmls):
             except AttributeError:
                 price = None
 
-        else:
-            res = soup.find('div', {'id': 'panCaracteristica',
-                                    'class': 'section about especificacion'})
+        elif re.search('E', html.split('/')[-1]):
+            print(soup)
+            res = soup.find('div', {'id': 'panCaracteristica'})
             text = res.text
             try:
                 price = soup.find('span', {'id': 'lblPrecoPor', 'class': 'price sale'}).find(
@@ -124,9 +126,9 @@ def do_specific(htmls):
                     characteristcs[char.split(': ')[0].title()][html] = char.split(': ')[
                         1].title()
 
-    with open('data_specific.json', 'w') as outfile:
+    with open('data_specific_'+ htmls[0].split('/')[-1][0]+'.json', 'w') as outfile:
         json.dump(characteristcs, outfile)
-        outfile.close()
+    outfile.close()
 
 
 if __name__ == '__main__':
