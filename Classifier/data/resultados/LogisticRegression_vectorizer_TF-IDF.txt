@@ -1,0 +1,11 @@
+Modelo: LogisticRegression 
+Feature: TF-IDF 
+Shape: (160, 41902) 
+Accuracy is 88.31 
+Train Time is 0.093745 
+             precision    recall  f1-score   support
+
+   Negativo       0.84      0.95      0.89        40
+   Positivo       0.94      0.81      0.87        37
+
+avg / total       0.89      0.88      0.88        77

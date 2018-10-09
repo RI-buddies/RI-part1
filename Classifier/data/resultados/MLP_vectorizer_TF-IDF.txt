@@ -1,0 +1,11 @@
+Modelo: MLP 
+Feature: TF-IDF 
+Shape: (160, 41902) 
+Accuracy is 85.71 
+Train Time is 6.819273 
+             precision    recall  f1-score   support
+
+   Negativo       0.78      1.00      0.88        40
+   Positivo       1.00      0.70      0.83        37
+
+avg / total       0.89      0.86      0.85        77

@@ -1,0 +1,11 @@
+Modelo: MultinomialNB 
+Feature: TF-IDF 
+Shape: (160, 41902) 
+Accuracy is 79.22 
+Train Time is 0.015623 
+             precision    recall  f1-score   support
+
+   Negativo       0.93      0.65      0.76        40
+   Positivo       0.71      0.95      0.81        37
+
+avg / total       0.83      0.79      0.79        77

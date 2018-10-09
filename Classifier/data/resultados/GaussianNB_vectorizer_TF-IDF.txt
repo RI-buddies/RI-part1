@@ -1,0 +1,11 @@
+Modelo: GaussianNB 
+Feature: TF-IDF 
+Shape: (160, 41902) 
+Accuracy is 96.10 
+Train Time is 0.244146 
+             precision    recall  f1-score   support
+
+   Negativo       1.00      0.93      0.96        40
+   Positivo       0.93      1.00      0.96        37
+
+avg / total       0.96      0.96      0.96        77

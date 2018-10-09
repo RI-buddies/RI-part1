@@ -1,0 +1,11 @@
+Modelo: RandomForest 
+Feature: TF-IDF 
+Shape: (160, 41902) 
+Accuracy is 96.10 
+Train Time is 0.440863 
+             precision    recall  f1-score   support
+
+   Negativo       0.97      0.95      0.96        40
+   Positivo       0.95      0.97      0.96        37
+
+avg / total       0.96      0.96      0.96        77
