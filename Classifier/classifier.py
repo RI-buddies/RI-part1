@@ -21,6 +21,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import linear_model
+from sklearn import tree
+from sklearn.svm import LinearSVC
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn import metrics
@@ -233,12 +235,25 @@ def trainVectorizer():
     end_time = time.time()
     train_time_lr_tf = end_time - start_time
 
+    start_time = time.time()
+    clf_dt_tf = tree.DecisionTreeClassifier().fit(X_train_tfidf, train_set.target)
+    end_time = time.time()
+    train_time_dt_tf = end_time - start_time
+
+    start_time = time.time()
+    clf_svm_tf = LinearSVC().fit(X_train_tfidf, train_set.target)
+    end_time = time.time()
+    train_time_svm_tf = end_time - start_time
+
     #Predict
     predicted_MLP_tf = clf_MLP_tf.predict(X_test_tfidf)
     predicted_multinomial_tf = clf_multinomial_tf.predict(X_test_tfidf)
     predicted_gaussian_tf = clf_gaussian_tf.predict(X_test_tfidf.toarray())
     predicted_rf_tf = clf_rf_tf.predict(X_test_tfidf)
     predicted_lr_tf = clf_lr_tf.predict(X_test_tfidf)
+    predicted_dt_tf = clf_dt_tf.predict(X_test_tfidf)
+    predicted_svm_tf = clf_svm_tf.predict(X_test_tfidf)
+
 
     #Salvando resultados
     saveVectorizer(predicted_MLP_tf, test_set, "MLP", "TF-IDF", X_train_tfidf.shape, train_time_mlp_tf)
@@ -246,6 +261,8 @@ def trainVectorizer():
     saveVectorizer(predicted_gaussian_tf, test_set, "GaussianNB", "TF-IDF", X_train_tfidf.shape, train_time_gaussian_tf)
     saveVectorizer(predicted_rf_tf, test_set, "RandomForest", "TF-IDF", X_train_tfidf.shape, train_time_rf_tf)
     saveVectorizer(predicted_lr_tf, test_set, "LogisticRegression", "TF-IDF", X_train_tfidf.shape, train_time_lr_tf)
+    saveVectorizer(predicted_dt_tf, test_set, "DecisionTree", "TF-IDF", X_train_tfidf.shape, train_time_dt_tf)
+    saveVectorizer(predicted_svm_tf, test_set, "SVM", "TF-IDF", X_train_tfidf.shape, train_time_svm_tf)
 
 def trainModels(): 
     path_to_bow_aux = r"C:\Users\Lucas\Documents\EC\10º Período\RI\RI-part1\data\bag_of_words\""
@@ -264,6 +281,9 @@ def trainModels():
     createResultcsvFiles("MLP")
     createResultcsvFiles("RandomForest")
     createResultcsvFiles("LogisticRegression")
+    createResultcsvFiles("DecisionTree")
+    createResultcsvFiles("SVM")
+
 
     for arq in BoWs:
         words = pandas.read_csv(arq, engine='python')
@@ -286,12 +306,16 @@ def trainModels():
         clf_mlp = MLPClassifier(solver='lbfgs', random_state=2, hidden_layer_sizes=(10, 5))        
         clf_rf = RandomForestClassifier(n_estimators = 100)
         clf_lr = linear_model.LogisticRegression()
+        clf_dt = tree.DecisionTreeClassifier()
+        clf_svm = LinearSVC()
         
         evaluation(clf_multinomial, words, rotulos, 'MultinomialNB', arq)
         evaluation(clf_gaussian, words, rotulos, 'GaussianNB', arq)
         evaluation(clf_mlp, words, rotulos, 'MLP', arq)
         evaluation(clf_rf, words, rotulos, 'RandomForest', arq)
         evaluation(clf_lr, words, rotulos, 'LogisticRegression', arq)
+        evaluation(clf_dt, words, rotulos, 'DecisionTree', arq)
+        evaluation(clf_svm, words, rotulos, 'SVM', arq)
 
 def main():
     htmlTotext = input("Converter arquivos html para texto?")
