@@ -1,1634 +1,682 @@
-Violão Giannini Elétrico Gsf1 Gnf1 Gdc1 Kit Bag E Acessórios - R$ 598,00 em Mercado Livre
-document.documentElement.className = document.documentElement.className.replace('no-js', '');
-(function(a,b){a.GoogleAnalyticsObject=b;a['MeliAnalyticsData'] = {'dimensions':''};a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date})(window,"meli_ga");
-meli_ga("set", "title", "app-web-vip-0.13.7");
-meli_ga("set", "page", "/VIP/ITEM/MAIN/");
-meli_ga("set", "dimension9", "(none)");
-meli_ga("set", "dimension43", "No");
-meli_ga("set", "dimension37", "custom");
-meli_ga("set", "dimension47", "none");
-meli_ga("set", "dimension51", "NEW");
-meli_ga("set", "dimension38", "BUY_IT_NOW");
-meli_ga("set", "dimension61", "Yes");
-meli_ga("set", "dimension20", "mercadolibre");
-meli_ga("set", "dimension35", "normal");
-meli_ga("set", "dimension19", "gold_special");
-meli_ga("set", "dimension62", "No");
-meli_ga("set", "dimension66", "No");
-meli_ga("set", "dimension71", "gold");
-meli_ga("set", "dimension72", "5_green");
-meli_ga("set", "dimension107", "No");
-meli_ga("set", "dimension85", "No");
-meli_ga("set", "dimension111", "No");
-meli_ga("set", "dimension3", "{'MLB1182':'Instrumentos Musicais'}");
-meli_ga("set", "dimension4", "{'MLB1182':'Instrumentos Musicais','MLB278055':'Instrumentos de Corda'}");
-meli_ga("set", "dimension5", "{'MLB1182':'Instrumentos Musicais','MLB278055':'Instrumentos de Corda','MLB3015':'Viol\u00F5es'}");
-meli_ga("set", "dimension11", "{'MLB1182':'Instrumentos Musicais','MLB278055':'Instrumentos de Corda','MLB3015':'Viol\u00F5es','MLB3017':'El\u00E9tricos'}");
-meli_ga("set", "contentGroup1", "/MARKETPLACE/VIP/ITEM/MAIN/");
-meli_ga("set", "contentGroup2", "/CORE/VIP/ITEM/MAIN/");
-meli_ga("set", "contentGroup3", "/MLB1182/VIP/ITEM/MAIN/");
-meli_ga("set", "dimension1", "desktop");
-meli_ga("set", "dimension7", "MARKETPLACE");
-meli_ga("set", "dimension8", "CORE");
-meli_ga('send', 'pageview');
-(function(b,d){var a=b.createElement("iframe");(a.frameElement||a).style.cssText="width: 0; height: 0; border: 0; position: absolute";a.src="javascript:false";a.id="GoogleAnalyticsIframe";var c=b.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);a=a.contentWindow.document;a.open().write("<body onload=\"var js = document.createElement('script');js.src = '"+d+"';document.body.appendChild(js);\">");a.close()})(document,"https://analytics.mlstatic.com/ga/mlb-ml-analytics.min.gz.js");
-(function(window) {
-var browserTimeNow = new Date();
-var serverTimeNow = new Date("2018-10-01T12:56:43.247-03:00");
-var timeDiff = browserTimeNow.getTime() - serverTimeNow.getTime();
-window.meliAppConfig = {
-hasCombos: false,
-dateTime: {
-now: function() {
-var curentMillis = new Date().getTime() - timeDiff;
-return new Date(curentMillis);
-}
-}
-};
-}(window));
-{"@context":"http://schema.org","@type":"Product","name":"Violão Giannini Elétrico Gsf1 Gnf1 Gdc1 Kit Bag E Acessórios","image":"https://http2.mlstatic.com/violo-giannini-eletrico-D_NQ_NP_911267-MLB27937901835_082018-O.webp","offers":{"@type":"Offer","price":598,"priceCurrency":"BRL"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","ratingCount":31},"review":[{"@type":"Review","datePublished":"2018-04-06T17:46:17Z","reviewBody":"Bom de mais ótimo pode comprar.","author":{"@type":"Person","name":"Usuário do Mercado Livre"}},{"@type":"Review","datePublished":"2018-06-29T12:46:54Z","reviewBody":"Produto mto bom, o som do violão é de primeira, com afinador é bem mais prático para quem não afina por ouvido, e o material da bolsa é mto bom.","author":{"@type":"Person","name":"Usuário do Mercado Livre"}},{"@type":"Review","datePublished":"2018-07-11T13:18:09Z","reviewBody":"Comprei de presente para minha filha aprender a tocar violão, segundo o instrutor é um equipamento muito bom de acabamento e som.","author":{"@type":"Person","name":"Usuário do Mercado Livre"}},{"@type":"Review","datePublished":"2018-08-30T01:16:26Z","reviewBody":"Excelente respondeu a todas as minhas expectativas em beleza,qualidade e pontualidade. Estou muito satisfeita e recomendo o produto.","author":{"@type":"Person","name":"Usuário do Mercado Livre"}},{"@type":"Review","datePublished":"2018-07-07T10:54:10Z","reviewBody":"Produto bom mais não veio completo como esa na foto. \nVeio faltando aquela caixinha preta. \n'afinador\".","author":{"@type":"Person","name":"Usuário do Mercado Livre"}}]}
-{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://lista.mercadolivre.com.br/instrumentos-musicais/","name":"Instrumentos Musicais"}},{"@type":"ListItem","position":2,"item":{"@id":"https://lista.mercadolivre.com.br/instrumentos-corda/","name":"Instrumentos de Corda"}},{"@type":"ListItem","position":3,"item":{"@id":"https://lista.mercadolivre.com.br/instrumentos-corda-violoes/","name":"Violões"}},{"@type":"ListItem","position":4,"item":{"@id":"https://lista.mercadolivre.com.br/instrumentos-musicais/violoes/eletricos/","name":"Elétricos"}},{"@type":"ListItem","position":5,"item":{"@id":"https://lista.mercadolivre.com.br/instrumentos-musicais/violoes/eletricos/giannini/","name":"Giannini"}}]}
-Mercado Livre Brasil - Onde comprar e vender de Tudo
-Crie a sua conta
-Entre
-Suas compras
-Seu histórico
-Categorias
-Descontos Mercado Pontos
-Lojas oficiais
-Ofertas da semana
-Vender
-Contato
-Compre e venda com o app!
-Crie a sua conta
-Entre
-Contato
-Vender
-null
-Buscar
-Categorias
-Ofertas da semana
-Descontos Mercado Pontos
-Seu histórico
-Suas compras
-Vender
-Você também pode gostar: viola - controlador midi - fender - banjo - pedal delay
-Voltar à lista
-Instrumentos Musicais
-Instrumentos de Corda
-Violões
-Elétricos
-Giannini
-Compartilhar
-Compartilhar
-Vender um igual
-Caracteristicas
-Marca
-Giannini
-Modelo
-Giannini Eletroacústico
-Descrição
-Consulte o frete para sua Região:VALORES DE FRETEPR, SP, SC, RS: R$ 35,00ES, MG, RJ: R$ 49,00MT, MS, DF, GO: R$ 58,00AC, RO: R$ 98,00AL, BA, CE, PA, PB, PE, PI, RN, SE,TO: R$ 112,00AP, AM, MA, RR: R$ 128,00Descrição:-Modelo: Violão Cutaway Eletroacústico -Shape GSF1DCEQ e GNF1DCEQ: Mini-Jumbo-Shape GDC1CEQ: Folk-Tampo, Faixa e Fundo em Basswood; Escala em Rosewood-Braço: Okoume com tensor bi-direcional -Trastes: 20 em Alpaca modelos GSF1D e GNF1D, 21 em Alpaca GDC1CEQ -Marcação em Bolinhas: Sim-Tarraxas: GSF1DCEQ Cordas de Aço: Cromadas Blindadas GDC1CEQ Folk Cordas de Aço: Cromadas Blindadas GNF1DCEQ Cordas de Nylon: Pino grosso prateadas 3+3-Captador de Rastilho -Pré-amplificador ativo com afinador cromático embutido e Equalizador de 3 bandas-Controles: Volume, Bass, Middle, Treble, Chave Phase e Tuner -Saída: P-10 -Possui tensor: Sim-Fabricação: ChinaMedidas GSF1DCEQ e GNF1DCEQComprimento total: 40 Polegadas (101,6cm)Comprimento da escala: 45,9cmMaior altura do corpo: 38cmLargura do corpo: 10,2cmLargura do Nut (Pestana): 4,2cm para o Modelo GSF1CEQ Cordas de Aço 4,6cm para o modelo GNF1CEQ Cordas de NylonMedidas GDC1CEQ FolkComprimento total: 42 Polegadas (107cm)Comprimento da escala: Maior altura do corpo: 48,50cmLargura do corpo: 13cmLargura do Nut (Pestana): 4,2cm Observação: Não utilizar cordas de aço no Modelo GNF1CEQ, este é um Violão para utilização somente de cordas de Nylon. Para utilização de cordas de aço compre conosco o modelo GSF1CEQ ou GDC1CEQ Folk.Kit de Acessórios contendo:- Bag Almofadado de espuma grossa- Cabo P10/P10 Plugs de Metal 5 metros- Correia em Nylon 5cm - 3 Palhetas para instrumentos de corda- Chave Allen para regulagem do tensorContém:- Pré-Amplificador instalado de fábrica com afinador digital embutido- Cordas de aço originais instaladas nos modelos GSF1CEQ e GDC1CEQ Folk. Cordas de nylon originais instaladas no Violão no modelo GNF1 CEQ - Bateria 9V inclusa para funcionamento do Pré-Amplificador e Afinador- Tarraxas blindadas instaladas nos modelos com cordas de aço GSF1CEQ e GDC1CEQ Folk para maior durabilidade e Tarraxas Niqueladas de Pino Grosso instaladas no Violão com cordas de nylon GNF1CEQ para maior precisão de afinação no Nylon.SOMOS REVENDEDORES OFICIAIS DA GIANNINI. PRODUTO ORIGINAL COM NOTA FISCAL E GARANTIA DA GIANNINI.
-Opiniões sobre o produto
-4.7
-Média entre
-31
-opiniões
-Bom demais ???????? recomendo
-pra todos
-Bom de mais ótimo pode comprar.
-O usuário contratou o serviço em
-março de 2018
-Perfeito
-Produto mto bom, o som do violão é de primeira, com afinador é bem mais prático para quem não afina por ouvido, e o material da bolsa é mto bom.
-O usuário contratou o serviço em
-maio de 2018
-Muito bom, indico.
-Comprei de presente para minha filha aprender a tocar violão, segundo o instrutor é um equipamento muito bom de acabamento e som.
-O usuário contratou o serviço em
-junho de 2018
-Satisfeitissíma
-Excelente respondeu a todas as minhas expectativas em beleza,qualidade e pontualidade. Estou muito satisfeita e recomendo o produto.
-O usuário contratou o serviço em
-agosto de 2018
-Bom
-Produto bom mais não veio completo como esa na foto.
-Veio faltando aquela caixinha preta.
-'afinador".
-O usuário contratou o serviço em
-junho de 2018
-Ver todas as opiniões
-Perguntas e respostas
-Qual informação você precisa?
-Custo e prazo de envio
-Meios de pagamento e promoções
-Garantia
-Está com dúvidas?
-Estes atalhos ajudarão você a encontrar o que busca.
-Ou pergunte ao vendedor
-Tempo aproximado de resposta 36 minutos
-document.addEventListener("DOMContentLoaded", function() {new BTSDK({ type:'desktop',keyboardForm:'form#questions-form',paramsConstants:{department:'aff0060dd11496b0fea4ad7a364df3bd',form_name:'meli_contact_seller',user_id:-1,site_id:'MLB'}})});
-Últimas perguntas
-Amigo, ele é made in china? Se sim, a qualidade perde muito em relação ao nacional?
-Denunciar
-Olá Evander! A Giannini não mais produz este tipo de modelo no Brasil já há alguns anos. Atualmente some te fabricam Violões Clássico modelos cordas de nylon. A série performance cordas de aço tem ótima qualidade, inclusive em um teste que fizemos recentemente em nossa loja comparando a parte elétrica dos Violões desta faixa de preço o Giannini ganhou em qualidade. O acabamento e o som desplugado também são muitos bons! Temos certeza que irá gostar, temos excelentes feedback de nossos clientes que adquiriram conosco
-30/9/2018 23:41
-Denunciar
-Gostaria de comprar o violão mas sem frete pagaria a vista no boleto
-seis este último da vista da esquerda pra direita q tenho q fazer ?
-Denunciar
-Ola bom dia, infelizmente não conseguimos negociar sem o frete, o frete para seu CEP fica R$ 35,00. Temos todas as cores que estão disponíveis no quadro de seleção de cores e modelos!
-29/9/2018 10:00
-Denunciar
-Moro em Taboão da Serra SP gostei desse modelo cujo o valor é de 598 o q fazer para adquirir o produto
-Denunciar
-Olá amigo basta fechar o pedido e depois de clicar em comprar inserir no campo indicado de frete o valor de R$ 35
-29/9/2018 06:52
-Denunciar
-Corrigindo seria o último aí da fila
-Denunciar
-Olá amigo como podemos ajudá-lo?
-29/9/2018 06:35
-Denunciar
-Esse violao e um violao pra adulto e uso profissional ou iniciante
-Denunciar
-Olá é um violão adulto e seu uso pode ser categorizado como semi-profissional, pois possui um pré-amplificador de boa qualidade para você poder se apresentar
-29/9/2018 00:50
-Denunciar
-Quantos dias pra chegar nesse cep 62480000
-Denunciar
-Amigo o frete para o seu CEP R$ 112,00 prazo aproximado de entrega 15 a 20 dias úteis para o seu CEP
-25/9/2018 18:26
-Denunciar
-Vem esse acessório vem junto
-Denunciar
-Olá sim acompanha todos os acessórios contidos na foto 1 do anúncio
-25/9/2018 18:25
-Denunciar
-bom dia, ja vem com as duas roldanas pra alça ou uma só ? obgd
-Denunciar
-Olá bom dia sim já vai instalado as 2 roldanas!
-24/9/2018 10:47
-Denunciar
-Vc tem ele preto ?
-Denunciar
-Olá bom dia tudo bem? No modelo Folk cordas de aço temos nas cores Natural e Preto sim!
-24/9/2018 09:02
-Denunciar
-esse violão tem cordas de aço?
-Denunciar
-Olá verifique por gentileza no quadro de seleção de cores e modelos você conseguirá ver as cores que temos disponíveis para os modelos de aço e de nylon. Obrigado!
-22/9/2018 15:41
-Denunciar
-Você tem este violão com as cordas de aço?
-Denunciar
-Olá Vagner, sim temos sim, verifique no quadro de seleção de cores e modelos, tem descrito os modelos e cores que utiliza cordas de aço
-22/9/2018 13:58
-Denunciar
-Produto
-original?
-Denunciar
-Olá sim, produto original na Caixa , com selo da Giannini, Nota Fiscal e Garantia
-21/9/2018 21:18
-Denunciar
-Vem com tudo que está na foto? Capa ? Correa do violão?
-Denunciar
-Olá amigo bom dia, sim exatamente, acompanha Capa almofadada, Correia, Cabo, Palhetas e além disso, o Violão vem de fábrica instalado os pinos para utilização da correia e afinador digital embutido no equalizador
-21/9/2018 09:19
-Denunciar
-Boa noite vc não consegue deixar frete grátis cep 08755060
-Denunciar
-Olá boa noite! Amigo este produto não tem frete gratuito. O frete para seu CEP R$ 35,00. Aguardamos o seu pedido
-19/9/2018 21:26
-Denunciar
-dia 10/09
-o prazo da entrega seria dia 18 ou 19, só veio o aviso de que ja estava autorizado o produto para o envio,
-mas diz aqui que ainda não foi feito o envio
-Denunciar
-Amigo procuramos em nosso painel de vendas uma venda registrada com o seu usuário KLEITINHOO80, mas não encontramos. Você realizou o pedido utilizando outro usuário?
-17/9/2018 22:26
-Denunciar
-comprei esse violão, paguei no boleto , mas porem ainda nao foi efetuado o envio dele, o porque nao foi feito o envio ainda?
-Denunciar
-Olá, boa noite! Amigo quando você realizou o pagamento do boleto
-17/9/2018 22:11
-Denunciar
-As cordinha são de nylon?
-Denunciar
-Olá nós temos dos dois modelos no anúncio verifique por gentileza no campo de seleção de cores e modelos!
-17/9/2018 20:45
-Denunciar
-Tem como eu ligar ele na caixa de som ?
-Denunciar
-Olá, sim ele é elétrico e tem saída para caixa de som, inclusive no kit já vem o cabo de ligação do Violão para a caixa.
-16/9/2018 18:00
-Denunciar
-Me avisa que eu compro gostei desse violão!
-Denunciar
-Legal nos mande uma pergunta amanhã por gentileza!
-16/9/2018 17:43
-Denunciar
-Tu não teria esse violão só ele sem acessórios ?
-Denunciar
-Olá por enquanto não temos mas vamos disponibilizar para os próximos dias
-16/9/2018 17:42
-Denunciar
-Boa tarde! Gostaria de comprar um violão elétrico com cordas de aço para dar de presente de aniversário para minha filha. Ela sempre é convidada para fazer apresentações na escola e eventos do município. Queria um violão bom. Qual modelo você me indicaria?
-Denunciar
-Olá amigo, boa tarde. Tudo bem? Indicamos o nosso modelo GSF1D, se preferir um Violão com o corpo de tamanho normal, ou o GDC1 Folk, se preferir um Violão com um corpo maior. Ambos possuem o som elétrico plugado muito bom para ela poder se apresentar.
-16/9/2018 15:26
-Denunciar
-Boa tarde ! Meu violão chegou hoje ,
-tudo certinho , muito lindo ! Amei! recomendo.
-Denunciar
-Olá Cleusa muito obrigado pelo seu feedback!
-15/9/2018 20:09
-Denunciar
-Ok muito obrigada.
-Denunciar
-Ok Tatiana, se precisar tirar mais dúvidas estarei à disposição!
-15/9/2018 12:32
-Denunciar
-Você indica esse violão para tocar profissionalmente?
-Denunciar
-Olá Tatiana, ele pode ser utilizado em apresentações ao vivo tranquilamente, o pré-amplificar da Giannini é melhor de qualidade do que os prés das outras marcas da mesma faixa de valor, e a sonoridade do Violão é muito boa. Claro que, quanto melhor o Violão em qualidade, melhor será seu desempenho, a Giannini mesmo desenvolve linhas profissionais que passam da faixa dos R$ 1.000,00, dos quais você terá um melhor desempenho. Porém, não conhecemos nenhum Violão melhor de qualidade na faixa de R$ 600,00 que este nosso Violão se encaixa, portanto lhe indicamos sim se você procura um Violão nesta faixa de valor.
-15/9/2018 10:14
-Denunciar
-Aqui diz envio a combinar, como faríamos?
-Denunciar
-Olá caro cliente, por gentileza, se estiver utilizando smartphone logo ao lado do "Envio a combinar", tem tem uma setinha, clique nesta seta para abrir a tabela de frete. Se estiver utilizando desktop, abaixo do "Envio a combinar" clique em "ver custos de envio" que também abrirá a mesma tabela
-14/9/2018 12:35
-Denunciar
-Quanto fica o frete para o CEP 36970000
-Denunciar
-Olá bom dia, por gentileza no campo de consulta de frete verifique o campo do seu Estado por gentileza, muito obrigado! Aguardamos o seu pedido, temos todas as cores para pronta entrega!
-14/9/2018 11:16
-Denunciar
-Quanto fica o frete para 29176561
-Denunciar
-Olá meu amigo bom dia verifique na consulta de frete terá um quadro com o cep de seu estado!Obrigado!
-14/9/2018 08:33
-Denunciar
-Amigo as cordas e nilon? Sera meu primeiro para aprender ele e bom mesmo. Sem tortura no braço?
-Denunciar
-Olá amigo temos neste anúncio um modelo de nylon e outros dois modelos de aço. No campo de seleção de cores e modelos você consegue ver estes modelos e também as cores
-13/9/2018 10:19
-Denunciar
-qual é o valor do frete para o CEP 76940000
-Denunciar
-Olá meu amigo, tudo bem, o frete para o seu CEP fica em R$ 228,00. Aguardamos o seu pedido!
-11/9/2018 08:11
-Denunciar
-Quanto frete pra cep 39850000?
-Denunciar
-Olá, tudo bem? O frete para o seu CEP fica em R$ 112,00
-10/9/2018 18:55
-Denunciar
-Qual o valor do frete para 35543-000?
-Denunciar
-Olá amigo o frete para seu CEP fica R$ 112,00
-10/9/2018 18:07
-Denunciar
-tem o modelo gdc1 na cor natural ?
-Denunciar
-Temos sim Hosana!
-10/9/2018 14:53
-Denunciar
-76250-000
-Denunciar
-Sim amigo frete gratuito para o seu CEP!
-10/9/2018 14:13
-Denunciar
-Essa venda não e disponível pra todo Brasil não ?
-Denunciar
-Olá boa tarde qual o seu CEP por gentileza
-10/9/2018 14:09
-Denunciar
-qual seria o valor para o cep 76510000
-Denunciar
-Olá amigo frete gratuito para seu CEP!
-10/9/2018 14:09
-Denunciar
-boa tarde esse modelo e para cordas de aço? pois não diz no anuncio. e qual frete para 88.370.354 santa catarina
-Denunciar
-Olá boa tarde, verifique por gentileza na descrição do anúncio e também na seleção de modelos e cores próximo ao preço, temos no aço sim, mostrará neste quadro de seleção todos os modelos e as cores que temos pronta entrega. O frete é gratuito para seu CEP
-10/9/2018 14:09
-Denunciar
-Ainda tem disponível ?
-Denunciar
-Olá temos sim meu amigo!
-10/9/2018 10:41
-Denunciar
-Tá bom
-Denunciar
-Ok! Obrigado
-09/9/2018 15:13
-Denunciar
-Eu estou procurando um vídeo dele no YouTube mas não acho somente do gf1
-Denunciar
-Soares podemos fazer um Vídeo dele amanhã para você e colocar aqui no anúncio
-09/9/2018 15:12
-Denunciar
-Acabei de ver folk só tem o gdc?
-Denunciar
-Sim amigo o modelo GDC é o Folk
-09/9/2018 15:10
-Denunciar
-Meu amigo esse anúncio e de qual violão parece ter vários modelos escritos ele e folk ou e mini jumbo se der me responde hoje que farei a compra
-Denunciar
-Olá Soares por gentileza, entre no anúncio, e verifique o campo de escolha de cores e modelos, aparecerá o nome e as fotos dos modelos disponíveis a pronta entrega hoje!
-09/9/2018 15:09
-Denunciar
-Ver mais perguntas
-Novo
--
-507
-vendidos
-Violão Giannini Elétrico Gsf1 Gnf1 Gdc1 Kit Bag E Acessórios
-31
-opiniões
-R$
-598
-12x
-R$ 5715
-sem juros
-Mais informações
-Entrega a combinar com o vendedor
-Maringá, Paraná
-Ver custos de envio
-Selecionador de variações
-Cor:
-GDC1-Folk Cordas de Aço-NS(Natural Satin)
-GDC1-Folk Cordas de Aço-NS(Natural Satin)
-GDC1-Folk Cordas de Aço-NS(Natural Satin)
-Sem estoque
-GDC1-Folk Cordas de Aço-SBK(Black Satin)
-Sem estoque
-GDC1-Folk Cordas de Aço-VSB(Sunburst Satin)
-Sem estoque
-GNF1D-Cordas de Nylon-BK(PRETO)
-Sem estoque
-GNF1D-Cordas de Nylon-NG(Natural Verniz)
-Sem estoque
-GNF1D-Cordas de Nylon-NS(Natural Fosco)
-Sem estoque
-GSF1D-Cordas de Aço-BK(Preto)
-Sem estoque
-GSF1D-Cordas de Aço-NG(Natural Verniz)
-Sem estoque
-GSF1D-Cordas de Aço-NS(Natural Fosco)
-Sem estoque
-GSF1R-Cordas de Aço-BGS(Vinho Fosco)
-Sem estoque
-Quantidade:
-1 unidade
-(24 disponíveis)
-1 unidade
-2 unidades
-3 unidades
-4 unidades
-5 unidades
-6 unidades
-+ de 6 unidades
-Quantidade
-Ingrese la cantidad
-Você superou o limite de estoque disponível.
-Adicionar aos favoritos
-Compra Garantida, receba o produto que está esperando ou devolvemos o dinheiro.
-Você ganha 199 Mercado Pontos.
-Informação sobre o vendedor
-Localização
-Maringá, Paraná
-MercadoLíder GoldÉ um dos melhores do site!
-Vermelho
-Laranja
-Amarelo
-Verde claro
-Verde
-964 vendas nos últimos 4 meses.
-Presta um bom atendimento
-Entrega os produtos dentro do prazo
-Ver mais dados deste vendedor
-Garantia
-Compra Garantida com o Mercado Pago
-Receba o produto que está esperando ou devolvemos o seu dinheiro
-Garantia do vendedor
-Garantia Giannini 90 dias contra defeito de fabricacao.
-Saiba mais sobre garantia
-Formas de pagamento
-Cartões de crédito
-Pague em até 24x!
-Boleto bancário
-Conheça outros meios de pagamento
-Formas de entrega
-Envio a combinar com o vendedor
-Localizado em Maringá (Paraná)
-Saiba mais sobre as formas de envio
-Publicidade
-Anúncio #709083800
-Denunciar
-(function(w, r) {
-w[r] = w[r] || function() {
-(w[r].q = w[r].q || []).push(arguments)
-}
-})(window,'melidata');
-(function(d,u) {
-if (! document.getElementById("MelidataIframe")) {
-var i = d.createElement('iframe');
-(i.frameElement || i).style.cssText = "width: 0; height: 0; border: 0; position: absolute";
-i.src = "javascript:false";
-i.id = "MelidataIframe";
-var t = d.getElementsByTagName('script')[0];
-t.parentNode.insertBefore(i, t);
-var doc = i.contentWindow.document;
-doc.open().write('<body onload="' +
-'window.inDapIF = true;' +
-'var js = document.createElement(\'script\');' +
-'js.src = \'' + u + '\';' +
-'document.body.appendChild(js);">');
-doc.close();
-}
-else {
-/* This page is charged async via AJAX and inserted into another one who has
-already download melidata js lib => Just clean the track */
-melidata("clean");
-}
-})(document,'https://http2.mlstatic.com/storage/melidata-web-sdk/js/3/0.0.74/melidata.min.js');
-melidata("configure", "melidata_api_url", "//data.mercadolibre.com/tracks");
-melidata("add", "id", "cded663b-9cc9-4f47-8118-8f5ec91259af");
-melidata("add", "server_id", "cded663b-9cc9-4f47-8118-8f5ec91259af" );
-melidata("add", "application", {"version":"0.119.0","server_hostname":"i-059f27a420f753424-10","server_poolname":"web-vip-mlbdesktop","business":"mercadolibre","site_id":"MLB"});
-melidata("add", "user", {"uid":"b087dd84-009b-42a7-bb16-ddc246a24b86"});
-melidata("add", "device", {"platform":"/web/desktop","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"});
-melidata("add", "platform", {"http":{"cookies":{"orgpms":"99938853","pmsctx":"******IMLB709083800%7CIMLB945780023%7C%7CIMLB908869469%7C%7C**","pmsword":"HOME"},"headers":{"host":"produto.mercadolivre.com.br","x-device-js":"true","x-nginx-host":"i-0b7a4610b9b61b687-10.92.76.238","x-platform":"ml"},"http_url":"http://produto.mercadolivre.com.br/MLB-709083800-violo-giannini-eletrico-gsf1-gnf1-gdc1-kit-bag-e-acessorios-_JM"}});
-melidata("add", "experiments", {"recommendations/recommenders-vip_combo-MLB":"1787","vip/checkoutWarmUp":"278","vip/fitanalyticsMLB":"DEFAULT","vip/sizechartMLB":"DEFAULT","frontend/assetsCdnDomainMLB":"1743","reviewsOnOff":"205"});
-melidata("add", "experiments_timestamp", "2018-10-01T12:42:40.887-0300");
-/* Custom tracks */
-var trackObj;
-melidata("add", "event_data", {"item_id":"MLB709083800","category_id":"MLB29279","buying_mode":"buy_it_now","category_path":["MLB1182","MLB278055","MLB3015","MLB3017","MLB29279"],"vertical":"core","item_condition":"new","listing_type_id":"gold_special","item_status":"active","deal_ids":[],"quantity":60,"price":598,"original_price":598,"currency_id":"BRL","review_rate":4.7,"return_available":false,"cart_content":false,"seller_id":137051720,"available_subscriptions":false,"shipping_mode":"custom","free_shipping":false,"local_pick_up":false,"free_shipping_benefit":false,"shipping_preference":"A acordar con el vendedor","power_seller_status":"gold","reputation_level":"5_green","logistic_type":"custom","specifications_size":2,"description_type":"plain_text","max_size_gallery":"660x660","recommendations":{"hidden_by_client":false,"client":"vip_combo","has_errors":false,"recommendation_id":"5d5dfff6-736d-4087-aca9-94954d7850ef","backend_id":"l3-l7-pp-ngrams-multiseller-combo-v2","track_info":{"has_recommendations":false,"trigger":{"trigger_type":"item","item_info":{"id":"MLB709083800","category_id":"MLB29279","category_path":"MLB1182/MLB278055/MLB3015/MLB3017/MLB29279","title":"Violão Giannini Elétrico Gsf1 Gnf1 Gdc1 Kit Bag E Acessórios","price_usd":149,"price":598,"free_shipping":false,"seller_id":137051720,"official_store_id":null,"site_id":"MLB","status":"active","tags":["brand_verified","loyalty_discount_eligible","good_quality_picture","immediate_payment"],"with_forbidden_variations":false,"has_only_one_variation":false,"logistic_type":"custom","currency_id":"BRL","attributes":[{"id":"BRAND","name":"Marca","value_id":null,"value_name":"Giannini","value_struct":null,"attribute_group_id":"OTHERS","attribute_group_name":"Outros"},{"id":"ITEM_CONDITION","name":"Condição do item","value_id":"2230284","value_name":"Novo","value_struct":null,"attribute_group_id":"OTHERS","attribute_group_name":"Outros"},{"id":"MODEL","name":"Modelo","value_id":null,"value_name":"Giannini Eletroacústico","value_struct":null,"attribute_group_id":"OTHERS","attribute_group_name":"Outros"}]}},"recommended_categories":[],"backend_id":"combo-prod-mlb.recommendations-backend-api","model_id":"l3-l7-pp-ngrams-multiseller-combo-v2","model_version":"v4","multiget":false,"recommendation_source":"model_reco_cache","empty_result_cause":"EMPTY_MODEL_RESPONSE","recommended_items":[]}}});
-melidata("send", "view", {
-path:"/vip",
-data: {}
-});
-Array.prototype.forEach.call(document.querySelectorAll('.gallery-trigger, .iframe-modal'), function(trigger) {
-trigger.addEventListener('click', function(event) {
-event.preventDefault();
-});
-});
-Mais informações
-Sobre o
-Mercado Livre
-Investor relations
-Mapa do site
-Tendências
-Outros sites
-Desenvolvedores
-Mercado Pago
-Mercado Envios
-Mercado Shops
-Mercado Livre Publicidade
-Vale-Presente Mercado Livre
-Mercado Livre Ideias
-Contato
-Comprar
-Vender
-Solução de problemas
-Segurança
-Redes sociais
-Twitter
-Facebook
-Instagram
-YouTube
-Minha conta
-Entre
-Vender
-Minha conta
-Suas compras
-Seu histórico
-Ofertas da semana
-Favoritos
-Lojas oficiais
-Categorias
-Mercado Pontos
-Contato
-Vender
-Entre
-Crie a sua conta
-Copyright © 1999-2018 Ebazar.com.br LTDA.
-Trabalhe conosco
-Termos e condições
-Políticas de privacidade
-Contato
-CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa do grupo Mercado Livre.
-Baixe grátis o App do Mercado Livre!
-!function e(t,n,i){function r(s,a){if(!n[s]){if(!t[s]){var c="function"==typeof require&&require;if(!a&&c)return c(s,!0);if(o)return o(s,!0);var u=new Error("Cannot find module '"+s+"'");throw u.code="MODULE_NOT_FOUND",u}var l=n[s]={exports:{}};t[s][0].call(l.exports,function(e){var n=t[s][1][e];return r(n?n:e)},l,l.exports,e,t,n,i)}return n[s].exports}for(var o="function"==typeof require&&require,s=0;s<i.length;s++)r(i[s]);return r}({1:[function(e,t,n){function i(){this._events=this._events||{},this._maxListeners=this._maxListeners||void 0}function r(e){return"function"==typeof e}function o(e){return"number"==typeof e}function s(e){return"object"==typeof e&&null!==e}function a(e){return void 0===e}t.exports=i,i.EventEmitter=i,i.prototype._events=void 0,i.prototype._maxListeners=void 0,i.defaultMaxListeners=10,i.prototype.setMaxListeners=function(e){if(!o(e)||0>e||isNaN(e))throw TypeError("n must be a positive number");return this._maxListeners=e,this},i.prototype.emit=function(e){var t,n,i,o,c,u;if(this._events||(this._events={}),"error"===e&&(!this._events.error||s(this._events.error)&&!this._events.error.length)){if(t=arguments[1],t instanceof Error)throw t;throw TypeError('Uncaught, unspecified "error" event.')}if(n=this._events[e],a(n))return!1;if(r(n))switch(arguments.length){case 1:n.call(this);break;case 2:n.call(this,arguments[1]);break;case 3:n.call(this,arguments[1],arguments[2]);break;default:o=Array.prototype.slice.call(arguments,1),n.apply(this,o)}else if(s(n))for(o=Array.prototype.slice.call(arguments,1),u=n.slice(),i=u.length,c=0;i>c;c++)u[c].apply(this,o);return!0},i.prototype.addListener=function(e,t){var n;if(!r(t))throw TypeError("listener must be a function");return this._events||(this._events={}),this._events.newListener&&this.emit("newListener",e,r(t.listener)?t.listener:t),this._events[e]?s(this._events[e])?this._events[e].push(t):this._events[e]=[this._events[e],t]:this._events[e]=t,s(this._events[e])&&!this._events[e].warned&&(n=a(this._maxListeners)?i.defaultMaxListeners:this._maxListeners,n&&n>0&&this._events[e].length>n&&(this._events[e].warned=!0,console.error("(node) warning: possible EventEmitter memory leak detected. %d listeners added. Use emitter.setMaxListeners() to increase limit.",this._events[e].length),"function"==typeof console.trace&&console.trace())),this},i.prototype.on=i.prototype.addListener,i.prototype.once=function(e,t){function n(){this.removeListener(e,n),i||(i=!0,t.apply(this,arguments))}if(!r(t))throw TypeError("listener must be a function");var i=!1;return n.listener=t,this.on(e,n),this},i.prototype.removeListener=function(e,t){var n,i,o,a;if(!r(t))throw TypeError("listener must be a function");if(!this._events||!this._events[e])return this;if(n=this._events[e],o=n.length,i=-1,n===t||r(n.listener)&&n.listener===t)delete this._events[e],this._events.removeListener&&this.emit("removeListener",e,t);else if(s(n)){for(a=o;a-- >0;)if(n[a]===t||n[a].listener&&n[a].listener===t){i=a;break}if(0>i)return this;1===n.length?(n.length=0,delete this._events[e]):n.splice(i,1),this._events.removeListener&&this.emit("removeListener",e,t)}return this},i.prototype.removeAllListeners=function(e){var t,n;if(!this._events)return this;if(!this._events.removeListener)return 0===arguments.length?this._events={}:this._events[e]&&delete this._events[e],this;if(0===arguments.length){for(t in this._events)"removeListener"!==t&&this.removeAllListeners(t);return this.removeAllListeners("removeListener"),this._events={},this}if(n=this._events[e],r(n))this.removeListener(e,n);else if(n)for(;n.length;)this.removeListener(e,n[n.length-1]);return delete this._events[e],this},i.prototype.listeners=function(e){var t;return t=this._events&&this._events[e]?r(this._events[e])?[this._events[e]]:this._events[e].slice():[]},i.prototype.listenerCount=function(e){if(this._events){var t=this._events[e];if(r(t))return 1;if(t)return t.length}return 0},i.listenerCount=function(e,t){return e.listenerCount(t)}},{}],2:[function(e,t,n){"function"==typeof Object.create?t.exports=function(e,t){e.super_=t,e.prototype=Object.create(t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}})}:t.exports=function(e,t){e.super_=t;var n=function(){};n.prototype=t.prototype,e.prototype=new n,e.prototype.constructor=e}},{}],3:[function(e,t,n){"use strict";function i(e){return e&&"object"===("undefined"==typeof e?"undefined":q(e))&&"default"in e?e["default"]:e}function r(e){if(void 0===e||"object"!==("undefined"==typeof e?"undefined":q(e)))throw new Error('The "obj" parameter is required and must be an object.');var t={},n=void 0;for(n in e)void 0!==e[n]&&(t[n]=e[n]);return t}function o(e){return null==e?!1:"object"!==("undefined"==typeof e?"undefined":q(e))||e.nodeType||e===e.window?!1:!e.constructor||Object.prototype.hasOwnProperty.call(e.constructor.prototype,"isPrototypeOf")}function s(){var e=void 0,t=void 0,n=void 0,i=void 0,r=void 0,a=void 0,c=arguments[0]||{},u=1,l=arguments.length,h=!1;if("boolean"==typeof c&&(h=c,c=arguments[u]||{},u++),"object"!==("undefined"==typeof c?"undefined":q(c))&&"function"===!("undefined"==typeof c?"undefined":q(c))&&(c={}),u>=l)return c;for(;l>u;u++)if(null!=(e=arguments[u]))for(t in e)n=c[t],i=e[t],c!==i&&(h&&i&&(o(i)||(r=Array.isArray(i)))?(r?(r=!1,a=n&&Array.isArray(n)?n:[]):a=n&&o(n)?n:{},c[t]=s(h,a,i)):void 0!==i&&(c[t]=i));return c}function a(e,t){var n=arguments,i=void 0;t=1===n.length?n[0]:n[1];var r=function(){},o={url:2===n.length&&"string"==typeof e?e:".",cache:!0,data:null,headers:{},context:null,dataType:"text",method:"GET",credentials:"omit",success:r,error:r,complete:r,preload:!1};i=s(o,t||{});var a={"application/json":"json","text/html":"html","text/plain":"text"},c={};for(var u in a)a.hasOwnProperty(u)&&(c[a[u]]=u);i.cache||(i.url=i.url+(~i.url.indexOf("?")?"&":"?")+"nc="+Math.floor(9e9*Math.random()));var l=function(e,t){i.complete.call(i.context,t,e)},h=function(e,t){var n="success";i.success.call(i.context,e,n,t),l(n,t)},p=function(e,t,n){i.error.call(i.context,n,t,e),l(t,n)},d=Object.prototype.toString,f=function(e,t,n){var i="charset=UTF-8",r="application/x-www-form-urlencoded; "+i;return"undefined"!=typeof FormData&&e instanceof FormData||/^\[object\s(ArrayBuffer|File|Blob)\]$/.test(d.call(e))?e:"undefined"!=typeof URLSearchParams&&e instanceof URLSearchParams||"string"==typeof e?(void 0===t["Content-Type"]&&(t["Content-Type"]=r),e.toString()):null!==e&&"object"===("undefined"==typeof e?"undefined":q(e))?(void 0===t["Content-Type"]&&(n?t["Content-Type"]=r:t["Content-Type"]="application/json;
-"+i),JSON.stringify(e)):e};i.method=i.method.toUpperCase();var v=document.createElement("a"),y=document.createElement("a");y.href=location.href;try{v.href=i.url,v.href=v.href,i.crossDomain=y.protocol+"//"+y.host!=v.protocol+"//"+v.host}catch(m){i.crossDomain=!0}var b=new XMLHttpRequest,g=i.crossDomain&&!("withCredentials"in b)&&"XDomainRequest"in window;if(g?(b=new XDomainRequest,b.onload=function(){var e=b.contentType,t=e&&a[e[1]]?a[e[1]].toLowerCase():"json",n=void 0;if("json"===t)try{n=JSON.parse(b.responseText)}catch(i){n=b.responseText}else n=b.responseText;h(n,b)}):b.onreadystatechange=function(){if(4!==b.readyState);else{var e=void 0,t=1223===b.status?204:b.status;if(t>=200&&300>t||304===t){var n=/([\/a-z]+)(;|\s|$)/.exec(b.getResponseHeader("content-type")),r=n&&a[n[1]]?a[n[1]].toLowerCase():"text";if(e=b.responseText,"json"===r)try{e=JSON.parse(e)}catch(o){e=b.responseText}h(e,b)}else p(new Error(b.statusText),"error",b,i)}},b.onerror=function(){p(new Error(b.statusText||"Network request failed"),"error",b,i)},"GET"!==i.method&&"HEAD"!==i.method||"string"!=typeof i.data||(i.url+=(~i.url.indexOf("?")?"&":"?")+i.data),b.open(i.method,i.url),"include"===i.credentials&&(b.withCredentials=!0),!i.preload&&(i.dataType&&c[i.dataType.toLowerCase()]&&(i.headers.Accept=c[i.dataType.toLowerCase()]+", */*; q=0.01"),i.crossDomain||i.headers["X-Requested-With"]||(i.headers["X-Requested-With"]="XMLHttpRequest"),i.data=f(i.data,i.headers,i.crossDomain),!g))for(var w in i.headers)b.setRequestHeader(w,i.headers[w]);return b.send(i.data),this}function c(e){if("string"==typeof e){var t=N.cloneNode(!1);t.text=e,H.parentNode.insertBefore(t,H)}else e.apply(window)}function u(e,t){P[e]=t}function l(e){u(e,null),B=e+1}function h(){for(var e=!0,t=void 0,n=B,i=P.length;i>n&&e;)t=P[n],void 0!==t&&null!==t?(c(t),l(n),n+=1):e=!1}function p(){P.length&&!function(){var e=P.pop(),t=void 0;"string"==typeof e?(t=N.cloneNode(!0),t.type="text/javascript",t.async=!0,t.src=e,t.onload=t.onreadystatechange=function(){t.readyState&&!/loaded|complete/.test(t.readyState)||(t.onload=t.onreadystatechange=null,t=void 0,p())},H.parentNode.insertBefore(t,H)):(e.apply(window),p())}()}function d(e,t){return function(){u(t,e.responseText),h(),e=void 0}}function f(){var e,t,n=arguments.length;for(e=0;n>e;e+=1)"string"==typeof arguments[e]?(t=I(arguments[e]),t.onload=d(t,P.length),u(P.length,null),t.send()):(u(P.length,arguments[e]),h())}function v(){P.push(Array.prototype.slice.call(arguments,0).reverse()),p()}function y(e,t){F?e.classList.add(t):e.setAttribute("class",e.getAttribute("class")+" "+t)}function m(e,t){F?e.classList.remove(t):e.setAttribute("class",e.className.replace(new RegExp("(^|\\b)"+t.split(" ").join("|")+"(\\b|$)","gi")," "))}function b(e,t){var n;return n=F?e.classList.contains(t):new RegExp("(^| )"+t+"( |$)","gi").test(e.className)}function g(e){var t=document.cookie.split("; "),n=null,i=t.length;if(!i)return n;for(var r=0;i>r;r++){var o=t[r].split("="),s=decodeURIComponent(o.shift());if(e===s){n=decodeURIComponent(o.join("="));break}}return n}function w(e,t,n){n="object"===("undefined"==typeof n?"undefined":q(n))?n:{expires:n};var i=null!=n.expires?n.expires:J.expires;"string"==typeof i&&""!==i?i=new Date(i):"number"==typeof i&&(i=new Date(+new Date+1e3*G*i)),i&&"toGMTString"in i&&(i=";expires="+i.toGMTString());var r=";path="+(n.path||J.path),s=n.domain||J.domain;s=s?";domain="+s:"";var a=n.secure||J.secure?";secure":"";"object"==("undefined"==typeof t?"undefined":q(t))&&(t=Array.isArray(t)||o(t)?JSON.stringify(t):""),document.cookie=x(e)+"="+x(t)+i+r+s+a}function E(e){w(e,"",-1)}function _(){if(navigator.cookieEnabled)return!0;w("__","_");var e="_"===g("__");return E("__"),e}function x(e){return String(e).replace(/[,;"\\=\s%]/g,function(e){return encodeURIComponent(e)})}function L(e){return e?"string"==typeof e?C(document.querySelectorAll(e)):/^\[object (HTMLCollection|NodeList|Object)\]$/.test(Object.prototype.toString.call(e))&&("number"==typeof e.length||Object.prototype.hasOwnProperty.call(e,"length"))?0===e.length||e[0].nodeType<1?[]:C(e):Array.isArray(e)?[].concat(e):[e]:[]}function C(e){for(var t=0,n=e.length,i=[];n>t;t++)i.push(e[t]);return i}function T(e,t){"string"!=typeof e&&(t=e,e=t.type);var n=void 0,i=-1!==V.indexOf(e),r=i&&-1!==W.indexOf(e),o=s({bubbles:i,cancelable:i,detail:void 0},t);return document.createEvent?(n=document.createEvent(r&&window.MouseEvent?"MouseEvents":"Events"),n.initEvent(e,o.bubbles,o.cancelable,o.detail)):document.createEventObject&&(n=document.createEventObject(window.event),r&&(n.button=1),o.bubbles||(n.cancelBubble=!0)),n}function j(e){return"on"===e.substr(0,2)?Y?e.substr(2):e:Y?e:"on"+e}function S(e,t,n,i){L(e).forEach(function(e){e[K](j(t),n,i||!1)})}function k(e,t,n,i){L(e).forEach(function(e){var r=n;n=function(t){return O(e,t.type,n),r.apply(e,arguments)},e[K](j(t),n,i||!1)})}function O(e,t,n){L(e).forEach(function(e){e[Q](j(t),n)})}function A(e,t,n){var i=this,r="string"==typeof t?t:t.type;t="string"==typeof t||o(t)?T(t,n):t,L(e).forEach(function(e){t.type in focus&&"function"==typeof i[t.type]?i[t.type]():Y?e[Z](t):e[Z](j(r),t)})}var q="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol?"symbol":typeof e},D=i(e("inherits")),M=i(e("events")),R=window.document,N=R.createElement("script"),H=R.getElementsByTagName("script")[0],P=[],B=0,I=function(){var e=void 0,t=void 0;return window.XMLHttpRequest&&(e=new window.XMLHttpRequest,"withCredentials"in e?t=function(t){return e=new window.XMLHttpRequest,e.open("get",t,!0),e}:window.XDomainRequest&&(t=function(t){return e=new window.XDomainRequest,e.open("get",t),e})),t}(),U=I?f:v,X=document.createElement("div"),F=!!X.classList,$={addClass:y,removeClass:m,hasClass:b},J={expires:"",path:"/",secure:!1,domain:""},G=86400,z={get:g,set:w,remove:E,isEnabled:_},V=function(){var e=[];for(var t in document)if("on"===t.substring(0,2)){var n=t.replace("on","");e.push(n)}return e}(),W=V.filter(function(e){return/^(?:click|dblclick|mouse(?:down|up|over|move|out))$/.test(e)}),Y=!!document.addEventListener,K=Y?"addEventListener":"attachEvent",Q=Y?"removeEventListener":"detachEvent",Z=Y?"dispatchEvent":"fireEvent";!Event.prototype.preventDefault&&Object.defineProperties&&Object.defineProperties(window.Event.prototype,{bubbles:{value:!0,writable:!0},cancelable:{value:!0,writable:!0},preventDefault:{value:function(){this.cancelable&&(this.defaultPrevented=!0,this.returnValue=!1)}},stopPropagation:{value:function(){this.stoppedPropagation=!0,this.cancelBubble=!0}},stopImmediatePropagation:{value:function(){this.stoppedImmediatePropagation=!0,this.stopPropagation()}}});var ee={on:S,once:k,off:O,trigger:A},te={clone:r,extend:s,inherits:D,EventEmitter:M,ajax:a,jcors:U,isPlainObject:o,addClass:$.addClass,removeClass:$.removeClass,hasClass:$.hasClass,cookies:z,on:ee.on,bind:ee.on,one:ee.once,once:ee.once,off:ee.off,trigger:ee.trigger};"undefined"!=typeof window&&(window.tiny=te),t.exports=te},{events:1,inherits:2}]},{},[3]),function(e){"use strict";function t(){return this instanceof t||void 0!==t.instance?t.instance?t.instance:(t.instance=this,this.setMaxListeners(0),this.version="1.0.5",this.executors={},this):new t}tiny.inherits(t,tiny.EventEmitter),t.prototype.execute=function(t,n){var i=this.executors[t];return"undefined"!=typeof i?n.call(e,i):this.on(t,n),this},t.prototype.registerExecutor=function(e,t){return this.emit(e,t),this.executors[e]=t||null,this},t.prototype.unRegisterHandler=function(e){return this.executors[e]=void 0,this},t.prototype.getInstance=function(){return t.instance},t.prototype.init=function(e){if(!e||!e.siteId||!e.domain)throw new Error("Meli: Error in settings");return this.siteId=e.siteId,this.domain=e.domain,this},e.Meli=t,e.meli=new t}(this),function(e,t){"use strict";var n=tiny.cookies;t.cookies={get:n.get,set:function(e,t,i){return i=i||{},i.domain=i.domain||"."+meli.domain,n.set(e,t,i)},remove:n.remove}}(this,Meli.prototype),function(e,t,n){"use strict";function i(){return this.setMaxListeners(0),this}tiny.inherits(i,tiny.EventEmitter),i.prototype.settings={eventsExecuted:{}},i.prototype.subscribeEvent=function(e,t){var n,i=this,r=this.settings.eventsExecuted[e];return r?"function"==typeof t&&t():(n=function(){i.executeEvent(e),"function"==typeof t&&t()},this.once(e,n)),n},i.prototype.unsubscribeEvent=function(e,t){this.removeListener(e,t)},i.prototype.executeEvent=function(e){this.settings.eventsExecuted[e]=!0,this.emit(e)},i.prototype.preventDefault=function(e){e&&(e.preventDefault?e.preventDefault():e.returnValue=!1)},i.prototype.stopPropagation=function(e){e&&(e.bubbles?e.stopPropagation():e.cancelBubble=!0)},i.prototype.each=function(e,t){var n,i=!1;if(void 0===e.length)t(e);else for(n=0;n<e.length&&(i=t(e[n]),i!==!0);n+=1);},i.prototype.debug=function(){console&&console.log&&console.log(arguments)},i.prototype.registerEvents=function(){function n(){r.executeEvent("load"),r.executeEvent("asap")}function i(){r.executeEvent("scroll"),r.executeEvent("asap")}var r=this,o="complete"===t.readyState;o?n():tiny.once(e,"load",n),e.pageYOffset||t.documentElement.scrollTop?i():tiny.once(e,"scroll",i)},i.prototype.hash=function(e){var t,n,i,r=0;if(0===e.length)return r;for(t=0,i=e.length;i>t;t+=1)n=e.charCodeAt(t),r=(r<<5)-r+n,r|=0;return r},i.prototype.lazy=function(e){function n(){o||(o=!0,i=t.querySelectorAll(s),Array.prototype.forEach.call(i,function(e){e.setAttribute("src",e.getAttribute("data-src")),tiny.removeClass(e,"lazy")}))}var i,r="complete"===t.readyState,o=!1,s=e||"img.lazy";r?n():this.subscribeEvent("load",n)},i.prototype.retina=function(e){function n(){s||(s=!0,i=t.querySelectorAll(a),r.each(i,function(e){var t=e.getAttribute("data-srcset");null!==t&&e.setAttribute("srcset",t)}))}var i,r=this,o="complete"===t.readyState,s=!1,a=e||"[data-srcset]";o?n():this.subscribeEvent("load",n)},i.prototype.getHostname=function(n){var i,r,o;return e.URL&&"function"==typeof e.URL?(i=new URL(n),o=i.hostname):(r=t.createElement("a"),r.href=n,o=r.hostname),o};var r=new i;r.registerEvents(),n.utils=r}(this,this.document,Meli.prototype),function(e,t){function n(e){var t=tiny.extend(!0,{tr:{legend:"Agregaste a tu carrito",action:"Ver carrito",success:"El producto se agregó correctamente",error:"Algo salió mal al agregar el producto al carrito. Inténtalo nuevamente.",item:"producto",items:"productos"},element:null,endpoints:{},environment:"desktop",link:"",useAnimations:!1},e);this.validateOptions(t),this.ui={icon:t.element,number:t.element.querySelector(".nav-icon-cart-quantity")},this.endpoints=t.endpoints,this.tr=t.tr,this.link=t.link,this.environment=t.environment,this.hideDelay=7e3,this.newBehaviour=t.newBehaviour,this.hasCombos=t.hasCombos,this._layerHidingTimer=null,this._isHeaderShown=!1,Snackbar&&this.init()}n.prototype.validateOptions=function(e){if(!e.element)throw new Error("Cart: element is required.");if(!e.endpoints||"object"!=typeof e.endpoints)throw new Error("Cart: endpoints are required.");if(!e.endpoints.get||""===e.endpoints.get)throw new Error("Cart: endpoints.get is required.");if(!e.endpoints.post||""===e.endpoints.post)throw new Error("Cart: endpoints.post is required.");if(!e.link||""===e.link)throw new Error("Cart: link is required.")},n.prototype.init=function(){this.isMobile()?this.snackbar={}:this.layer=new chs.Layer({offsetX:this.newBehaviour?-6:-3,offsetY:14,reference:[this.ui.icon],hiddenby:"none",shownby:"none",align:"right",position:"fixed",fx:this.newBehaviour?!1:"fadeIn"}),this.bindEvents()},n.prototype.bindEvents=function(){meli.on("cart:refresh",this.refresh.bind(this)),meli.on("notifications:cart-icon",this.refresh.bind(this)),meli.on("cart:add",this.add.bind(this)),meli.on("cart:update",this.update.bind(this)),meli.on("header:shown",function(){this._isHeaderShown=!0}.bind(this)),meli.on("header:hidden",function(){this._isHeaderShown=!1}.bind(this))},n.prototype.refresh=function(e,t){var n=function(t){"function"==typeof e&&e(t),this.handleRefresh(t)}.bind(this),i=function(e){"function"==typeof t&&t(),this.handleError(e)}.bind(this);_$_.ajax({url:this.endpoints.get,type:"GET",xhrFields:{withCredentials:!0},success:n,error:i})},n.prototype.add=function(e){e.hasCombos=this.hasCombos,_$_.ajax({context:this,url:this.endpoints.post,type:"POST",data:JSON.stringify(e),xhrFields:{withCredentials:!0},dataType:"json",contentType:"application/json",headers:{Accept:"application/json"},success:function(t){t.item=e.item,this.handleAdd(t)},error:function(t){t.item=e.item,this.handleError(t)}})},n.prototype.update=function(e){e&&(this.updateItems(e),this.manageClasses(parseInt(e)))},n.prototype.handleRefresh=function(e){this.updateItems(e.badge_icon.label),this.manageClasses(e.badge_icon.quantity)},n.prototype.handleError=function(e){var t=e.responseJSON?e.responseJSON.message:this.tr.error;this.snackbar=new Snackbar({message:t,type:"error",delay:this.hideDelay}),meli.emit("header:hide"),meli.emit("cart:error",e)},n.prototype.updateItems=function(e){var t=this.ui.icon,n=this.ui.number;if("mobile"!==this.environment&&this.newBehaviour){var i=n.querySelector("b"),r=document.createElement("b");r.innerText=e,n.appendChild(r),tiny.support.animation?(t.classList.add("nav-icon-quantity--changing"),t.classList.contains("nav-cart-empty")?n.removeChild(i):setTimeout(function(){n.removeChild(i)},150),setTimeout(function(){t.classList.remove("nav-icon-quantity--changing")},500)):n.removeChild(i)}else n.innerHTML=e},n.prototype.handleAdd=function(t){var n=t.item;if("redirect"===t.successAction)return void(e.location.href=t.redirectUrl);if(meli.emit("header:show"),this.newBehaviour&&"mobile"!==this.environment){var i=function(e,t){this.showFeedback(e,t&&t.badge_icon&&t.badge_icon.quantity)}.bind(this,n);this._isHeaderShown?this.refresh(i):meli.once("header:shown",function(){this.refresh(i)}.bind(this))}else this.showFeedback(n),this.refresh();meli.emit("cart:added",n)},n.prototype.manageClasses=function(e){0===e?(tiny.removeClass(this.ui.icon,"nav-cart-full"),tiny.addClass(this.ui.icon,"nav-cart-empty")):(tiny.addClass(this.ui.icon,"nav-cart-full"),tiny.removeClass(this.ui.icon,"nav-cart-empty"))},n.prototype.showFeedback=function(e){this.isMobile()?this.showSnackbar(e):this.showLayer(e)},n.prototype.showSnackbar=function(e){this.snackbar=new Snackbar({message:this.tr.success,type:"success",autoClose:!1,action:{title:this.tr.action,link:this.link}}),this.hideSnackbar()},n.prototype.hideSnackbar=function(){setTimeout(function(){this.snackbar.hide()}.bind(this),this.hideDelay)},n.prototype.showLayer=function(e){var t=this.layer.$container[0];this.newBehaviour?(t.classList.add("nav-cart-layer--plus"),this.layer._shown?this.layer.content(this.getTemplate(e)):(t.classList.add("nav-cart-layer--opening"),this.layer.show(this.getTemplate(e)),setTimeout(function(){t.classList.remove("nav-cart-layer--opening")},300))):this.layer.show(this.getTemplate(e)),this.hideLayer()},n.prototype.hideLayer=function(){var e=this.layer,t=e.$container[0];this.newBehaviour?(clearTimeout(this._layerHidingTimer),this._layerHidingTimer=setTimeout(function(){t.classList.add("nav-cart-layer--closing"),tiny.once(t,tiny.support.animation.end,function(){e.hide(),t.classList.remove("nav-cart-layer--closing"),setTimeout(function(){meli.emit("header:hide")},250)})}.bind(this),this.hideDelay)):setTimeout(function(){this.layer.hide()}.bind(this),this.hideDelay)},n.prototype.getTemplate=function(e){var t='<div class="nav-cart-layer"><a href="'+this.link+'"><img src="'+e.image+'" class="nav-cart-layer__img" /><div class="nav-cart-layer__text-container"><span class="nav-cart-layer__legend">'+this.tr.legend+'</span><p class="nav-cart-layer__title">'+e.title+"</p></div></a></div>";return t},n.prototype.isMobile=function(){return"mobile"===this.environment},n.prototype.isDesktop=function(){return"mobile"!==this.environment},t.Cart=n}(this,Meli.prototype),"function"!=typeof Object.assign&&(Object.assign=function(e,t){if(null==e)throw new TypeError("Cannot convert undefined or null to object");for(var n=Object(e),i=1;i<arguments.length;i++){var r=arguments[i];if(null!=r)for(var o in r)Object.prototype.hasOwnProperty.call(r,o)&&(n[o]=r[o])}return n});
-window.meliAsync = function () {
-meli.init({
-siteId: 'MLB',
-domain: 'mercadolivre.com.br'
-});
-meli.iframeModal && meli.iframeModal.init();
-};
-(function(win, doc) {
-function loadScripts () {
-var s = Array.prototype.slice.call(arguments, 0);
-if (!s || !s.length) return;
-var h = doc.head || doc.getElementsByTagName('head')[0];
-var cbStack = {};
-for (var i = 0; i < s.length; i++) {
-var c = s[i];
-var t = doc.createElement('script');
-if (typeof c === 'function') {
-t.textContent = '(' + c + ').apply(window);';
-} else {
-t.async = false;
-t.defer = true;
-t.crossOrigin = 'anonymous';
-t.src = c;
-c = t.src;
-cbStack[c] = [];
-while(s[i+1] && typeof s[i+1] === 'function') {
-cbStack[c].push(s[i+1]);
-i++;
-}
-t.onerror = function(err) {
-throw new URIError("The script " + err.target.src + " is not accessible.");
-}
-t.onload = function(e) {
-cbStack[e.target.src] && cbStack[e.target.src].forEach(function(cb){ (cb).apply(window) });
-}
-}
-h.appendChild(t);
-}
-}
-loadScripts(function() {
-document.addEventListener('DOMContentLoaded', function() {
-var reviewsLink = document.querySelector('.vip-rating a.iframe-modal');
-if (reviewsLink) {
-reviewsLink.addEventListener('click', function() {
-meli_ga('send','event','ITEM','VIEW_REVIEW_SHORT', 'VIP');
-});
-}
-});
-});
-meli.utils.subscribeEvent("load", function () {
-loadScripts(function() {
-(function defineMessages(exports){
-var messages = {
-stock: {
-limit: 'Restam 24 unidades deste produto.'
-}, autocomplete: {
-lastSearches: {
-title: 'Últimas buscas'
-}
-}, variations: {
-error: 'Escolha uma opção'
-},
-customs: {
-limit: 'El máximo permitido por la AFIP es 0 unidad.'
-}
-};
-exports.messages = messages;
-})(window);
-}, function() {
-(function vipMessages(window, document, meli) {
-'use strict';
-function Notice(m, c, t) {
-this.message = m;
-this.container = c;
-this.type = t;
-this.notice = function () {
-var p = document.createElement('p'),
-span = document.createElement('span');
-p.className = "ch-box-ok ch-box-icon";
-p.innerHTML = this.message;
-p.style = 'margin: 0; text-align: center; border-radius: 0; -webkit-border-radius: 0px; -moz-border-radius: 0px;';
-p.id = 'notice';
-span.style = 'font-weight: bold; position: absolute; top: 0px; right: 5px; font-size: 10px; cursor: pointer; padding: 5px;'
-span.innerHTML = 'X';
-p.appendChild(span);
-tiny.on(span, 'click', function() {
-p.style = 'display: none;';
-});
-if (this.container) {
-if (this.container.firstChild) {
-this.container.insertBefore(p, this.container.firstChild);
-} else {
-this.container.appendChild(p);
-}
-}
-};
-}
-var hash = window.location.hash,
-notices = {},
-reference = document.getElementsByClassName('nav-main-content')[0];
-notices['#REG_FAVORITE=OK'] = new Notice('<strong>Salvamos o seu favorito!</strong> Você o encontrará na sua conta quando precisar.', reference, 'favorite');
-notices['#REG_QUESTION=OK'] = new Notice('<strong>Já enviamos a sua pergunta!</strong> Avisaremos quando a responderem.', reference, 'question');
-notices['#REG_QUESTION_EMAIL=OK'] = new Notice('<strong>Já enviamos a sua pergunta!</strong> Avisaremos quando a responderem.', reference, 'question');
-if( hash != '' ) {
-if( notices[hash] != undefined ) {
-var notice = notices[hash];
-notice.notice();
-}
-}
-window.Notice = Notice;
-})(this, this.document, meli);
-}, "https://http2.mlstatic.com/resources/frontend/web-vip/ui-dist/js/breadcrumb-aff39a7c7c.js", function() {
-}, "https://http2.mlstatic.com/resources/frontend/commons-frontend/ui-dist/js/bundle__chico_desktop.8a20c382.js", "https://http2.mlstatic.com/resources/frontend/commons-frontend/ui-dist/js/bundle__commons_desktop.7abb93f1.js", "https://http2.mlstatic.com/resources/frontend/commons-frontend/ui-dist/js/bundle__plus-web-mobile-menu.66ec18d7.js", "https://http2.mlstatic.com/resources/frontend/commons-frontend/ui-dist/js/bundle__vendor-tiny-addons.c37e885e.js", function() {
-window.meliAsync();
-}, function() {
-window.bookmarksAsync = function () {
-meli.bookmarksHandler.init({
-text: {
-add: 'Favorito',
-remove: 'Excluir dos favoritos',
-closed: 'Finalizado',
-last: 'Últimos disponíveis',
-shipping: 'Frete grátis',
-contingency: 'Ocorreu um erro. Tente novamente mais tarde.'
-}, price: {
-separator: '.',
-empty: 'Preço a combinar'
-}, mobile: false,
-itemId: 'MLB709083800'
-});
-};
-}, function() {
-meli.utils.lazy();
-meli.utils.retina();
-}, "https://http2.mlstatic.com/resources/frontend/web-vip/ui-dist/js/core__large-8362a7c4d5.js", function() {
-(function(window, exports) {
-var
-share = share || {},
-elements = document.querySelectorAll(".share-item-link");
-tiny.on(elements, 'click', function() {
-var network = this.getAttribute('data-network'),
-label = document.location.host + "/VIP/ITEM/MAIN";
-meli_ga('send', 'social', network, 'share', label);
-});
-share = {
-elements: elements
-};
-exports.share = share;
-}(this, Meli.prototype));
-}, function() {
-meli.dropdownQuantity = new meli.DropdownQuantity({
-id: 'dropdown-quantity',
-environment: 'desktop',
-initialQuantity: 1,
-availableQty: 24,
-customsLimit: '0',
-withVariations: true,
-messages: {
-textfieldDefaultText:'Ingrese la cantidad',
-missingValue:'Ingrese la cantidad',
-units:'unidades',
-higherThan:'Sem estoque',
-available:'disponíveis',
-last: 'Último disponível!',
-variationsTooltip: 'Primeiro, escolha os detalhes do produto que deseja.'
-}
-});
-}, "https://http2.mlstatic.com/ui/searchbox/2.0.8/index.js", function() {
-(function(win) {
-if (win.Searchbox) {
-new Searchbox('.nav-search-input', {
-platformId: 'ML',
-siteId: 'MLB',
-siteDomain: 'mercadolivre.com.br',
-limit: 6,
-searchEndpoint: 'https://lista.mercadolivre.com.br/$query',
-categoryCheckbox: document.getElementById('categorySearch'),
-identifiedUser: 'false',
-bus: meli,
-deviceType: 'desktop'
-});
-(function (doc) {
-'use strict';
-var header = doc.querySelector('.nav-header'),
-searchInput = doc.querySelector('.nav-search-input'),
-searchForm = doc.querySelector('.nav-search'),
-menuSwitch = document.getElementById('nav-header-menu-switch'),
-clearBtn = doc.querySelector('.nav-search-clear-btn'),
-searchInputHasFocus = false,
-searchInputFocusTimer;
-function checkInputText() {
-clearTimeout(searchInputFocusTimer);
-searchInputFocusTimer = setTimeout(function() {
-searchForm.classList[searchInput.value.length && searchInputHasFocus ? 'add' : 'remove']('nav-search--has-text');
-}, 100);
-}
-searchInput.addEventListener('focus', function() {
-header.classList.add('nav-header-has-search-active');
-header.classList.remove('nav-header--is-leave');
-menuSwitch.checked = false;
-searchInputHasFocus = true;
-checkInputText();
-setTimeout(function() {
-header.classList.add('nav-header--is-enter');
-}, 1);
-});
-searchInput.addEventListener('blur', function() {
-header.classList.remove('nav-header--is-enter');
-header.classList.add('nav-header--is-leave');
-searchInputHasFocus = false;
-checkInputText();
-setTimeout(function() {
-if (!searchInputHasFocus) {
-header.classList.remove('nav-header-has-search-active');
-}
-}, 100);
-});
-searchInput.addEventListener('input', checkInputText);
-clearBtn && clearBtn.addEventListener('mousedown', function(e) {
-e.preventDefault();
-searchInput.value = '';
-checkInputText();
-setTimeout(function(){
-searchInput.focus();
-}, 50);
-}, false);
-}(document));
-}
-})(window);
-}, "https://http2.mlstatic.com/resources/frontend/statics/ml-widgets/categories/v1.0.8/categories.js", function() {
-(function(win, meli) {
-if (win.CategoriesWidget && meli) {
-new CategoriesWidget({
-bus: meli,
-endpoint: 'https://www.mercadolivre.com.br/menu/departments',
-});
-}
-})(window, window.meli);
-}, "https://http2.mlstatic.com/resources/frontend/commons-frontend/ui-dist/js/messages-plus.1f9ef8b7.js", function() {
-meli.messages.showMessageForUser({
-user: {
-name: "",
-email: "",
-nickname: "",
-company: false
-},
-urls: {
-modifyUserUrl: "https://myaccount.mercadolivre.com.br/profile/changeNickName",
-docsUrl: null
-},
-siteId: "MLB"
-})
-}, function() {
-(function initFacebookShare(win, doc){
-var fbShare = doc.querySelector('#fbShare'),
-fbTooltipTrigger = doc.querySelector('#fbShare');
-var permalink = 'https://produto.mercadolivre.com.br/MLB-709083800-violo-giannini-eletrico-gsf1-gnf1-gdc1-kit-bag-e-acessorios-_JM';
-var variationId = '401616462';
-tiny.on(fbShare, 'click', function(event) {
-event.preventDefault();
-var url = permalink + '?variation=' + encodeURIComponent(variationId);
-FB.ui({
-method: 'share',
-href: url
-}, function(response){ });
-});
-meli.on('variations:changeImage', function(data) {
-variationId = data && data.variationId ?
-data.variationId : '';
-});
-})(window, document);
-}, function() {
-(function(doc){
-var targetElement = doc.querySelector('.ui-dropdown');
-var input = doc.querySelector('#share-btn');
-doc.addEventListener('click', function(event) {
-var isClickInside = targetElement.contains(event.target);
-if (!isClickInside && event.target !== input) {
-if (input.checked) {
-input.checked = false;
-}
-}
-});
-})(document);
-}, function() {
-(function checkRedirectedHash(doc) {
-var insertMessage = function (message, link, linkText) {
-var container = doc.querySelector('.item-status-notification__title');
-var parent = doc.querySelector('.item-status--redirect');
-if (container) {
-container.innerHTML = message;
-}
-if (link) {
-var a = doc.createElement('a');
-a.href = link;
-a.className = 'u-link redirect';
-a.rel = 'nofollow';
-a.textContent = linkText;
-container.appendChild(a);
-}
-if (parent) {
-parent.style.display = 'block';
-}
-};
-if( "#redirectedFromParent" == window.location.hash ) {
-} else if( "#redirectedFromSimilar" == window.location.hash ) {
-insertMessage("Você está vendo um novo anúncio, pois o produto que queria visitar finalizou.");
-} else {
-var similarWithId = window.location.hash.match(/^#redirectedFromSimilar=(.*)/);
-if( similarWithId ) {
-var itemUri = decodeURIComponent(similarWithId[1]) + '?redirectedFromSimilar=true';
-var lnk = doc.createElement('a');
-lnk.href = itemUri;
-if( lnk.hostname == doc.location.hostname ) {
-insertMessage("Você está vendo um novo anúncio, pois o produto que queria visitar finalizou.", itemUri, "Ver produto finalizado");
-}
-}
-}
-})(window.document);
-}, function() {
-(function initGallery(exports, doc){
-/**
-* Init gallery
-*/
-meli.gallery = new meli.Gallery({
-'defaultGalleryId': '401616462',
-'defaultVariationId': '27158928863',
-'url': '/noindex/images/MLB709083800?noIndex=true',
-'messages': {
-'waiting': 'Carregando zoom...'
-},
-'video': {
-'videoId': 'undefined',
-'position': undefined
-},
-'isReservationVideo': undefined,
-'isMotorsVertical' : false
-});
-})(window, document);
-}, function() {
-tiny.on(document.querySelector('.link-content .ui-button--primary'), 'click', function() {
-meli_ga('send','event','COMPLETE_SPECIFICATIONS','CLICK_BUTTON','VIP');
-});
-}, "https://http2.mlstatic.com/resources/frontend/web-vip/ui-dist/js/questions-core__medium-8fca4bd406.js", function() {
-if (window.meli !== undefined && meli.Question) {
-meli.question = new meli.Question({
-'tr': {
-'Pregunta:': 'Pergunta:',
-'Quedan # caracteres.': 'Restam # caracteres.',
-'Queda # caracter.': 'Resta # caractere.',
-'¡Listo! Ya enviamos tu pregunta.': 'Pronto! A sua pergunta foi enviada.',
-'¡Ups! Hubo un problema al preguntar': 'Ops! Ocorreu um problema ao perguntar',
-'Tu pregunta': 'Sua pergunta',
-'Tus preguntas': 'Suas perguntas'
-},
-'melidata':
-{
-category_id: 'MLB29279',
-item_id: 'MLB709083800',
-vertical: 'core',
-listing_type_id: 'gold_special',
-item_seller_type: 'normal',
-source: 'form'
-}
-});
-}
-}, function() {
-var target = document.querySelector('.actions-secondary__btn--like');
-var isUserLog = false;
-target.addEventListener('click', function(){
-if(tiny.hasClass(target, 'selected')){
-target.lastElementChild.innerHTML = 'Adicionar aos favoritos';
-} else if(isUserLog) {
-target.lastElementChild.innerHTML = 'Excluir dos favoritos';
-}
-})
-}, function() {
-var actionButton = new meli.ActionButton({
-environment: 'desktop',
-withVariations: true,
-text: {
-variationsTooltip: 'Primeiro, escolha os detalhes do produto que deseja.'
-},
-selectedTab: '',
-subscriptions: false,
-});
-}, function() {
-tiny.on(document.getElementById('BidButtonTop'), 'click', function() {
-melidata('cleanAndSend', 'event', {
-path: '/vip/buy_action',
-data: {"item_id":"MLB709083800","cart_content":false,"shipping_preference":"A acordar con el vendedor","free_shipping":false,"local_pick_up":false,"free_shipping_benefit":false,"logistic_type":"custom","shipping_mode":"custom","shipping_promise":""}
-});
-});
-}, function() {
-(function WidgetManager(meli) {
-if (meli) {
-var notificationsLink = document.getElementById('notiLink');
-function handleWidgetClose(event, widget) {
-// Close user menu widget
-if (widget !== 'user-menu') {
-var userMenu = document.getElementById('nav-header-user-switch');
-if (userMenu && userMenu.checked) {
-userMenu.checked = false;
-}
-meli.emit('user-menu:hide');
-}
-// Close notifications
-if (widget !== 'notifications') {
-meli.emit('notifications:hide');
-}
-// Close bookmarks
-if (widget !== 'bookmarks') {
-meli.emit('bookmarks:hide');
-}
-// Close categories
-if (widget !== 'categories') {
-meli.emit('categories:hide');
-}
-// Close searchbox suggestions
-if (widget !== 'searchbox') {
-meli.emit('searchbox:hide');
-}
-};
-function bindNotificationsHandler() {
-notificationsLink.addEventListener('click', function(ev) {
-handleWidgetClose(ev, 'notifications');
-});
-};
-meli.on('categories:show:before', function(ev) {
-handleWidgetClose(ev, 'categories');
-});
-meli.on('searchbox:show:before', function(ev) {
-handleWidgetClose(ev, 'searchbox');
-});
-meli.on('user-menu:show:before', function(ev) {
-handleWidgetClose(ev, 'user-menu');
-});
-}
-})(window.meli);
-}, "https://http2.mlstatic.com/resources/frontend/statics/ml-widgets/snackbar/v1.0.0/snackbar.js", function() {
-(function(win, meli) {
-if (win.SnackbarWidget && meli) {
-new SnackbarWidget({
-bus: meli,
-scope: win,
-});
-}
-})(window, window.meli);
-}, "https://http2.mlstatic.com/resources/frontend/web-vip/ui-dist/js/variations__medium-fe1289a6c1.js", function() {
-var variations = new meli.Variations({
-model: [{"id":27158928863,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R0RDMS1Gb2xrIENvcmRhcyBkZSBBw6dvLU5TKE5hdHVyYWwgU2F0aW4p","value_name":"GDC1-Folk Cordas de Aço-NS(Natural Satin)","value_struct":null,"source":5033071320073938}],"available_quantity":24,"sold_quantity":14,"sale_terms":[],"picture_ids":["911267-MLB27937901835_082018","921734-MLB27937894385_082018"],"seller_custom_field":"GDC1 CEQ NS","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021037","value_struct":null,"source":1577},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021037","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GDC1 CEQ NS","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157020951,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R1NGMUQtQ29yZGFzIGRlIEHDp28tTlMoTmF0dXJhbCBGb3Njbyk=","value_name":"GSF1D-Cordas de Aço-NS(Natural Fosco)","value_struct":null,"source":17405550362297}],"available_quantity":2,"sold_quantity":1,"sale_terms":[],"picture_ids":["710120-MLB27405262666_052018","795185-MLB27117701347_042018"],"seller_custom_field":"GSF1 CEQ NS","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021747","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021747","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GSF1 CEQ NS","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157020962,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R0RDMS1Gb2xrIENvcmRhcyBkZSBBw6dvLVZTQihTdW5idXJzdCBTYXRpbik=","value_name":"GDC1-Folk Cordas de Aço-VSB(Sunburst Satin)","value_struct":null,"source":17405550362297}],"available_quantity":4,"sold_quantity":8,"sale_terms":[],"picture_ids":["614689-MLB27937944047_082018","628544-MLB27937894391_082018"],"seller_custom_field":"GDC1 CEQ VSB","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021051","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021051","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GDC1 CEQ VSB","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27352941615,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R1NGMUQtQ29yZGFzIGRlIEHDp28tQksoUHJldG8p","value_name":"GSF1D-Cordas de Aço-BK(Preto)","value_struct":null,"source":17405550362297}],"available_quantity":4,"sold_quantity":1,"sale_terms":[],"picture_ids":["836937-MLB26938030244_032018","647431-MLB26938054150_032018","626063-MLB26938034468_032018"],"seller_custom_field":"GSF1 CEQ BK","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443017221","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443017221","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GSF1 CEQ BK","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157020978,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R05GMUQtQ29yZGFzIGRlIE55bG9uLUJLKFBSRVRPKQ==","value_name":"GNF1D-Cordas de Nylon-BK(PRETO)","value_struct":null,"source":17405550362297}],"available_quantity":4,"sold_quantity":2,"sale_terms":[],"picture_ids":["696704-MLB27405018163_052018","612602-MLB27405025127_052018"],"seller_custom_field":"GNF1 CEQ BK","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021792","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021792","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GNF1 CEQ BK","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157020992,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R05GMUQtQ29yZGFzIGRlIE55bG9uLU5HKE5hdHVyYWwgVmVybml6KQ==","value_name":"GNF1D-Cordas de Nylon-NG(Natural Verniz)","value_struct":null,"source":17405550362297}],"available_quantity":4,"sold_quantity":2,"sale_terms":[],"picture_ids":["835090-MLB27405018360_052018","900263-MLB27405038662_052018"],"seller_custom_field":"GNF1 CEQ NG","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021761","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021761","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GNF1 CEQ NG","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157020997,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R1NGMUQtQ29yZGFzIGRlIEHDp28tREJCKEF6dWwp","value_name":"GSF1D-Cordas de Aço-DBB(Azul)","value_struct":null,"source":17405550362297}],"available_quantity":0,"sold_quantity":0,"sale_terms":[],"picture_ids":["807735-MLB26938046815_032018","610940-MLB26937828511_032018","632770-MLB26938065530_032018"],"seller_custom_field":"GSF1 CEQ DBB","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443017214","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443017214","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GSF1 CEQ DBB","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157021002,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R1NGMUQtQ29yZGFzIGRlIEHDp28tM1RTKDMgVG9ucyBTdW5idXJzdCk=","value_name":"GSF1D-Cordas de Aço-3TS(3 Tons Sunburst)","value_struct":null,"source":17405550362297}],"available_quantity":0,"sold_quantity":0,"sale_terms":[],"picture_ids":["967147-MLB26938053609_032018","943662-MLB26937822914_032018","694947-MLB26938063013_032018"],"seller_custom_field":"GSF1 CEQ 3TS","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443017245","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443017245","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GSF1 CEQ 3TS","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157021009,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R1NGMUQtQ29yZGFzIGRlIEHDp28tQlJCKFZlcm1lbGhvKQ==","value_name":"GSF1D-Cordas de Aço-BRB(Vermelho)","value_struct":null,"source":17405550362297}],"available_quantity":0,"sold_quantity":0,"sale_terms":[],"picture_ids":["735730-MLB26938052670_032018","950812-MLB26937812462_032018","795683-MLB26938042879_032018"],"seller_custom_field":"GSF1 CEQ BRB","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443017207","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443017207","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GSF1 CEQ BRB","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157021014,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R1NGMUQtQ29yZGFzIGRlIEHDp28tTkcoTmF0dXJhbCBWZXJuaXop","value_name":"GSF1D-Cordas de Aço-NG(Natural Verniz)","value_struct":null,"source":17405550362297}],"available_quantity":4,"sold_quantity":1,"sale_terms":[],"picture_ids":["717011-MLB27405274002_052018","920519-MLB27117646974_042018"],"seller_custom_field":"GSF1 CEQ NG","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021730","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021730","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GSF1 CEQ NG","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157021019,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R1NGMVItQ29yZGFzIGRlIEHDp28tQkdTKFZpbmhvIEZvc2NvKQ==","value_name":"GSF1R-Cordas de Aço-BGS(Vinho Fosco)","value_struct":null,"source":17405550362297}],"available_quantity":3,"sold_quantity":2,"sale_terms":[],"picture_ids":["754044-MLB26938046806_032018","925021-MLB20682460739_042016","959718-MLB26938054164_032018","120521-MLB20795727385_072016"],"seller_custom_field":"GSF1R CEQ BGS","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443017238","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443017238","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GSF1R CEQ BGS","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157021024,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R05GMUQtQ29yZGFzIGRlIE55bG9uLU5TKE5hdHVyYWwgRm9zY28p","value_name":"GNF1D-Cordas de Nylon-NS(Natural Fosco)","value_struct":null,"source":17405550362297}],"available_quantity":6,"sold_quantity":0,"sale_terms":[],"picture_ids":["947528-MLB27405035742_052018","813852-MLB27405030325_052018"],"seller_custom_field":"GNF1 CEQ NS","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021778","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021778","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GNF1 CEQ NS","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157021029,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R05GMUQtQ29yZGFzIGRlIE55bG9uLUJSQihWZXJtZWxobyk=","value_name":"GNF1D-Cordas de Nylon-BRB(Vermelho)","value_struct":null,"source":17405550362297}],"available_quantity":0,"sold_quantity":0,"sale_terms":[],"picture_ids":["814448-MLB27405038765_052018","859706-MLB27405018449_052018"],"seller_custom_field":"GNF1 CEQ BRB","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021785","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021785","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GNF1 CEQ BRB","value_struct":null,"source":5033071320073938}],"inventory_id":null},{"id":27157021037,"price":598,"attribute_combinations":[{"id":"Q29y","name":"Cor","value_id":"R0RDMS1Gb2xrIENvcmRhcyBkZSBBw6dvLVNCSyhCbGFjayBTYXRpbik=","value_name":"GDC1-Folk Cordas de Aço-SBK(Black Satin)","value_struct":null,"source":17405550362297}],"available_quantity":5,"sold_quantity":1,"sale_terms":[],"picture_ids":["642468-MLB27937953514_082018","602775-MLB27937908291_082018"],"seller_custom_field":"GDC1 CEQ SBK","catalog_product_id":null,"attributes":[{"id":"GTIN","name":"Código universal do produto","value_id":null,"value_name":"7890443021044","value_struct":null,"source":17405550362297},{"id":"EAN","name":"EAN","value_id":null,"value_name":"7890443021044","value_struct":null,"source":5033071320073938},{"id":"SELLER_SKU","name":"SKU ","value_id":null,"value_name":"GDC1 CEQ SBK","value_struct":null,"source":5033071320073938}],"inventory_id":null}],
-text: {
-validateText: 'Escolha uma opção',
-dropdown: '<span class="variation-title--default">Selecione uma opção</span>'
-},
-variationsImageHash: {"27158928863":401616462,"27157020951":-1728350174,"27157020962":-1438686346,"27352941615":1521836045,"27157020978":-1386758558,"27157020992":-2004688029,"27157020997":-749499272,"27157021002":-1520052468,"27157021009":-1463674208,"27157021014":-1026181460,"27157021019":-548507973,"27157021024":90833217,"27157021029":-221582034,"27157021037":488656582}
-});
-}, function() {
+Violão Clássico Strinberg SA 20 C
+var _trustvox = _trustvox || [];
+document.addEventListener("DOMContentLoaded", function () {
+var _tvProductId = document.querySelector('#liCodigoInterno span'), tvProductId = ''
+_tvProductName = document.querySelector('#info-product .name'), tvProductName = ''
+_tvProductPhotos = document.querySelector('#big_photo_container img'), tvProductPhotos = '';
+if (_tvProductId)
+tvProductId = _tvProductId.innerHTML.trim();
+if (_tvProductName)
+tvProductName = _tvProductName.innerHTML.trim();
+if (_tvProductPhotos)
+tvProductPhotos = _tvProductPhotos.src;
+var tvProductUrl = ['http://', location.host, location.pathname].join('');
+_trustvox.push(['_storeId', '718']);
+_trustvox.push(['_productId', tvProductId]);
+_trustvox.push(['_productName', tvProductName]);
+_trustvox.push(['_productPhotos', [tvProductPhotos]]);
+_trustvox.push(['_productUrl', tvProductUrl]);
+_trustvox.push(['_css', ["//trustvox.production.widget.s3-sa-east-1.amazonaws.com/assets/stylesheets/playtech.css"]]);
 (function () {
-var link = 'https://advertising.mercadolivre.com.br/tags/iframe/VIP?categId=MLB29279&positions=Middle&itemId=MLB709083800';
-var iframe = document.createElement('iframe');
-iframe.scrolling = "no";
-iframe.id = "advertising-iframe";
-iframe.setAttribute("src", link);
-iframe.setAttribute("seamless", "seamless");
-iframe.setAttribute("width", "300");
-iframe.setAttribute("height", "250");
-document.getElementsByClassName("vip-section-advertising__container")[0].appendChild(iframe);
+var tv = document.createElement('script'); tv.type = 'text/javascript'; tv.async = true;
+tv.charset = "UTF-8";
+tv.src = '//static.trustvox.com.br/trustvox.min.js ';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tv, s);
 })();
-}, function() {
-window.fbAsyncInit = function() {
-FB.init({
-appId
-: 253960718025486,
-channelUrl : window.location.protocol + "//" + window.location.hostname + "/fb-channel.html",
-status	 : false,
-cookie	 : false,
-xfbml
-: true
 });
-};
-(function(d) {
-var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-if (d.getElementById(id)) {return;}
-js = d.createElement('script'); js.id = id; js.async = true;
-js.src = "//connect.facebook.net/pt_BR/all.js";
-ref.parentNode.insertBefore(js, ref);
-}(document));
-}, function() {
-(function(doc) {
-var supportsLocalStorage = function() {
-var test = 'test';
-try {
-localStorage.setItem(test, test);
-localStorage.removeItem(test);
-return true;
-} catch(e) {
-return false;
-}
-}();
-var message = doc.querySelector('.question-tooltip');
-if (supportsLocalStorage && message) {
-if (!localStorage.getItem('question-tooltip')) {
-tiny.addClass(message, 'show');
-tiny.on(message.querySelector('.question-tooltip__close'), 'click', function() {
-tiny.removeClass(message, 'show');
-localStorage.setItem('question-tooltip', 'true');
-});
-}
-}
-})(document);
-}, "https://http2.mlstatic.com/resources/frontend/commons-frontend/ui-dist/js/bundle__header.84358c53.js", function() {
-new meli.Header({
-environment: 'desktop'
-});
-}, "https://http2.mlstatic.com/resources/frontend/commons-frontend/ui-dist/js/bundle__ML-MLB.21c49c56.js", function() {
-window.dataLayer = [{"pageId":"VIP","itemId":"MLB709083800","sellerId":137051720,"categoryId":"MLB29279","rootCategoryId":"MLB1182","pathToRoot":"MLB1182,MLB278055,MLB3015,MLB3017,MLB29279","thumbnailQuality":"unknown","itemPrice":149.38,"localItemPrice":598.00,"availableStock":60,"soldStock":507,"listingType":"gold_special","startTime":"2015-09-29T16:31:24.000Z","stopTime":"2036-04-17T15:43:34.000Z","condition":"new","status":"active","siteId":"MLB","categL1":"MLB1182","categL2":"MLB278055","categL3":"MLB3015","categL4":"MLB3017","categL5":"MLB29279"}];
-setTimeout(function() {
+var dataLayer = dataLayer || [];
+dataLayer.push({"RKProductID":"459129","RKProductWebID":"29694","RKProductName":"Violão Clássico Strinberg SA 20 C","RKProductPrice":"709.00","RKProductOffer":"171.00","RKProductAvailable":"1","RKProductEan13":"7898923269528","RKBrandName":"Strinberg","RKPageCategory":"ProductPage","RKPageTitle":"Violão Clássico Strinberg SA 20 C","RKSiteType":"d","RKCustomerID":"0","RKPartnerID":"0","RKCustomerEmail":"","UA":"UA-4660492-1","UARakuten":"UA-53486592-1","Domain":".playtech.com.br"});
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T9PL');
-}, 1000);
-}, function() {
-var word = 'ITEM';
-performNaturalCheck(document.referrer, location.pathname, word);
-}, function() {
-if(document.referrer && isSessionStorageEnabled()) {
-var lastURL = '';
-lastURL = document.referrer;
-if(false) {
-sessionStorage.setItem('lastListing', lastURL);
-linkRedirectTo(lastURL);
-} else {
-if(comeFromNoIndex(lastURL)) {
-var listing = sessionStorage.getItem('lastListing');
-if(listing) {
-linkRedirectTo(listing);
-};
-} else {
-sessionStorage.removeItem('lastListing');
-}
-};
-};
-function comeFromNoIndex(url){
-return url.indexOf('noIndex') != -1;
-};
-function isSessionStorageEnabled(){
-var test = 'test';
+})(window,document,'script','dataLayer','GTM-WBCZ8X');
+Veja os + comentados
+A maior loja de instrumentos musicais da internet brasileira
+Central de Atendimento
+SAC: (11) 3224-6240
+PlayTech Instrumentos Musicais
+Meus Pedidos
+Minha Conta
+Novo usuário?
+Cadastre-se
+Busca
+Digite o que voce procura:
+Buscar
+Seu carrinho tem
+0
+itens
+{{item.Name}}
+{{item.InternalCode}}
+{{item.MessageItem}}
+Quantidade:
+{{item.Quantity}}
+{{LabelTotal}}
+{{item.Total}}
+{{data.QuantityBasket}}
+Total:
+{{data.TotalBasket}}
+Comprar todos os produtos
+Seu carrinho de compras está vazio.
+Comprar produtos
+AUDIO
+Amplificador/Potência
+Fone
+Microfone/Pré
+Caixa/Potência
+Acessórios
+Conector
+Conversor
+Cabo
+Energia
+Direct Box
+Pedestal de Microfone
+Caixa Acústica
+Ativa
+Passiva
+Multiuso
+Referência/Monitor Estúdio
+Controlador
+Cases e Bags
+Fone
+Over Ear
+On-Ear
+In-Ear
+Iluminação
+Gravador
+Equipamento DJ
+Kits Promocionais
+Ao Vivo/PA
+Gravação
+Interface
+Mesas
+Amplificada
+Analógica
+Digital
+PA Portátil
+Microfone
+Com Fio
+Sem Fio
+Periféricos
+Compressor
+Equalizador
+Crossover
+Processador
+Outros
+Reprodutor
+Software
+Vídeo
+Acessórios
+Câmera
+Projetor
+CORDAS
+Amplificador
+Contrabaixo
+Guitarra
+Violão
+Acessórios
+Afinador e Metrônomo
+Cabo
+Correia
+Encordoamento
+Estante e Suporte
+Fonte
+Baixolão
+Banjo e Mandolin
+Cases e Bags
+Cavaquinho
+Contrabaixo
+Guitarra
+Pedal e Pedaleira
+Violão
+Outros
+Cavaquinho
+Acústico
+Eletro-acústico
+Contrabaixo
+Ativo
+Passivo
+Guitarra
+Instrumentos de Arco
+Contrabaixo/Rabecão
+Viola
+Violino
+Violoncelo
+Pedal
+Contrabaixo
+Guitarra
+Violão
+Voz
+Kits Promocionais
+Contrabaixo
+Guitarra
+Violão
+Outros
+Ukulele
+Pedaleira
+Contrabaixo
+Guitarra
+Violão
+Viola Caipira
+Acústica
+Eletro-acústica
+Violão
+Acústico
+Eletro-acústico
+PERCUSSÃO
+Acessórios
+Abafador
+Aro
+Borboleta e Feltro
+Chave de Afinação
+Esteira para Caixa
+Óleo e Limpador
+Amplificador de Bateria
+Bateria
+Eletrônica
+Partes
+Acústica
+Banco
+Com Encosto
+Sem Encosto
+Baqueta
+Caixa
+Cajon
+Com Captação
+Sem Captação
+Cases e Bags
+Bateria
+Baqueta
+Caixa
+Bumbo
+Ferragem
+Prato
+Efeito e Multi-Efeito
+Carrilhão
+Cowbell
+Instrumentos de Efeito
+Percussão Digital/Módulo
+Ferragens
+Extensor
+Estante, Suporte e Holder
+Máquina de Chimbau
+Clamp
+Rack
+Adaptador
+Kits Promocionais
+Bateria
+Ferragens
+Prato
+Pandeiro
+Pedal
+Duplo
+Simples
+Pele
+Prato
+Condução/Ride
+Chimbau/Hi-Hat
+Set
+Efeito/China e Splash
+Ataque/Crash
+TECLAS
+Acessórios
+Banco e Banqueta
+Pedal
+Estante e Suporte
+Fonte
+Outros
+Acordeon/Sanfona
+Amplificador
+Cases e Bags
+61 Teclas/5 oitavas
+76 Teclas/6 oitavas
+88 Teclas/7 oitavas
+Outros
+Kits Promocionais
+Piano
+Sintetizador
+Teclado
+Módulo
+Controlador
+Órgão
+Piano
+Sintetizador
+Teclado
+SOPRO
+Acessórios
+Estante e Suporte
+Palheta
+Outros
+Cases e Bags
+Clarineta
+Escaleta
+Flauta
+Doce
+Transversal
+Gaita
+Kits Promocionais
+Saxofone
+Soprano
+Alto
+Tenor
+Trombone
+Trompete
+Outros Instrumentos
+Kits
+Newsletter
+Ligado por e-mail
+Promoções e novidades exclusivas!
+Nome:
+Email:
+OK
+Busca
+Digite o que voce procura:
+Buscar
+Seu carrinho tem
+0
+itens
+{{item.Name}}
+{{item.InternalCode}}
+{{item.MessageItem}}
+Quantidade:
+{{item.Quantity}}
+{{LabelTotal}}
+{{item.Total}}
+{{data.QuantityBasket}}
+Total:
+{{data.TotalBasket}}
+Comprar todos os produtos
+Seu carrinho de compras está vazio.
+Comprar produtos
+AUDIO
+Amplificador/Potência
+Fone
+Microfone/Pré
+Caixa/Potência
+Acessórios
+Conector
+Conversor
+Cabo
+Energia
+Direct Box
+Pedestal de Microfone
+Caixa Acústica
+Ativa
+Passiva
+Multiuso
+Referência/Monitor Estúdio
+Controlador
+Cases e Bags
+Fone
+Over Ear
+On-Ear
+In-Ear
+Iluminação
+Gravador
+Equipamento DJ
+Kits Promocionais
+Ao Vivo/PA
+Gravação
+Interface
+Mesas
+Amplificada
+Analógica
+Digital
+PA Portátil
+Microfone
+Com Fio
+Sem Fio
+Periféricos
+Compressor
+Equalizador
+Crossover
+Processador
+Outros
+Reprodutor
+Software
+Vídeo
+Acessórios
+Câmera
+Projetor
+CORDAS
+Amplificador
+Contrabaixo
+Guitarra
+Violão
+Acessórios
+Afinador e Metrônomo
+Cabo
+Correia
+Encordoamento
+Estante e Suporte
+Fonte
+Baixolão
+Banjo e Mandolin
+Cases e Bags
+Cavaquinho
+Contrabaixo
+Guitarra
+Pedal e Pedaleira
+Violão
+Outros
+Cavaquinho
+Acústico
+Eletro-acústico
+Contrabaixo
+Ativo
+Passivo
+Guitarra
+Instrumentos de Arco
+Contrabaixo/Rabecão
+Viola
+Violino
+Violoncelo
+Pedal
+Contrabaixo
+Guitarra
+Violão
+Voz
+Kits Promocionais
+Contrabaixo
+Guitarra
+Violão
+Outros
+Ukulele
+Pedaleira
+Contrabaixo
+Guitarra
+Violão
+Viola Caipira
+Acústica
+Eletro-acústica
+Violão
+Acústico
+Eletro-acústico
+PERCUSSÃO
+Acessórios
+Abafador
+Aro
+Borboleta e Feltro
+Chave de Afinação
+Esteira para Caixa
+Óleo e Limpador
+Amplificador de Bateria
+Bateria
+Eletrônica
+Partes
+Acústica
+Banco
+Com Encosto
+Sem Encosto
+Baqueta
+Caixa
+Cajon
+Com Captação
+Sem Captação
+Cases e Bags
+Bateria
+Baqueta
+Caixa
+Bumbo
+Ferragem
+Prato
+Efeito e Multi-Efeito
+Carrilhão
+Cowbell
+Instrumentos de Efeito
+Percussão Digital/Módulo
+Ferragens
+Extensor
+Estante, Suporte e Holder
+Máquina de Chimbau
+Clamp
+Rack
+Adaptador
+Kits Promocionais
+Bateria
+Ferragens
+Prato
+Pandeiro
+Pedal
+Duplo
+Simples
+Pele
+Prato
+Condução/Ride
+Chimbau/Hi-Hat
+Set
+Efeito/China e Splash
+Ataque/Crash
+TECLAS
+Acessórios
+Banco e Banqueta
+Pedal
+Estante e Suporte
+Fonte
+Outros
+Acordeon/Sanfona
+Amplificador
+Cases e Bags
+61 Teclas/5 oitavas
+76 Teclas/6 oitavas
+88 Teclas/7 oitavas
+Outros
+Kits Promocionais
+Piano
+Sintetizador
+Teclado
+Módulo
+Controlador
+Órgão
+Piano
+Sintetizador
+Teclado
+SOPRO
+Acessórios
+Estante e Suporte
+Palheta
+Outros
+Cases e Bags
+Clarineta
+Escaleta
+Flauta
+Doce
+Transversal
+Gaita
+Kits Promocionais
+Saxofone
+Soprano
+Alto
+Tenor
+Trombone
+Trompete
+Outros Instrumentos
+Kits
+Home
+Violão Clássico Strinberg SA 20 C
+Clique aqui para imagem ampliada
+* As imagens dos produtos são meramente ilustrativas
+Código do Produto: 459129
+saiba mais...
+Violão Clássico Strinberg SA 20 C
+de R$ 880,00por R$ 709,00
+12x de R$ 59,08 sem jurosR$ 638,10 à vista
+Pague à vista e economize: R$ 70,90
+Calcule o preço e prazo do frete
+Tweet
+Indique para seus amigos
+Adicionar a lista de desejos
+Violão Clássico Strinberg SA 20 CA Strinberg nasceu na década de 90 com o intuito de oferecer aos músicos uma linha de instrumentos de cordas diferenciada e com estilo próprio. Seguindo os padrões de qualidade exigidos pelo mercado americano, a marca possui em sua alma a essência...
++Saiba Mais
+Quem viu, viu também
+Violão Clássico Strinberg SA 20
+por R$ 676,00
+12x de R$ 56,33 sem juros
+Violão Fender Dreadnought
+CD 60 S Natural
+de R$ 2.185,00por R$ 1.966,50
+12x de R$ 163,87 sem juros
+Violão Folk Epiphone DR100 Natural
+de R$ 1.089,00por R$ 895,50
+12x de R$ 74,62 sem juros
+Guitarra Les Paul
+Epiphone Special
+de R$ 1.173,00por R$ 964,80
+12x de R$ 80,40 sem juros
+Descrição
+Violão Clássico Strinberg SA 20 CA Strinberg nasceu na década de 90 com o intuito de oferecer aos músicos uma linha de instrumentos de cordas diferenciada e com estilo próprio. Seguindo os padrões de qualidade exigidos pelo mercado americano, a marca possui em sua alma a essência da musicalidade brasileira. Com produtos modernos e sofisticados, a Strinberg conta com uma extensa linha de instrumentos musicais como guitarras, contrabaixos, violões e diversos acessórios.O violão Strinberg SA 20 C possui encordoamento de aço, madeira do tampo e corpo em Linden, escala Rosewood, tarraxas cromadas e Pré STP-7. Sem dúvida nenhuma um excelente violão para quem procura um instrumento de qualidade, design bonito e bom custo-benefício.
+Especificações
+Violão Clássico Strinberg SA 20 C
+Características Gerais
+- Modelo: SA 20 C
+- Código Fornecedor: 9492
+- Tipo: Eletroacústico
+- Cor: Branca
+- Corte do corpo: Clássico com cutway
+- Número de cordas: 6
+- Tipo de cordas: Aço
+- Madeira do tampo: Linden
+- Madeira do corpo: Linden
+- Escala: Rosewood
+- Tarraxa: Cromada
+- Pré: STP-7
+- Número de trastes: 20
+Conteúdo da Embalagem
+- 01 Violão
+Outras Informações
+- Garantia: 03 meses
+Atenção:Imagens meramente ilustrativas. Referem-se apenas ao violão. Os demais itens e objetos de decoração são vendidos separadamente. As descrições técnicas estão sujeitas à alteração sem aviso prévio.
+Pergunte e veja as opiniões de quem já comprou
+Últimos Produtos Visitados
+Violão Clássico Strinberg SA 20 C
+de R$ 880,00por R$ 709,00
+12x de
+R$ 59,08 sem juros
+Violão Clássico Epiphone PRO 1 Classic
+de R$ 1.067,00por R$ 878,40
+12x de
+R$ 73,20 sem juros
+Violão Folk Takamine GD 10
+de R$ 1.767,00por R$ 1.424,00
+12x de
+R$ 118,67 sem juros
+Violão Folk Strinberg SD 20 C
+de R$ 948,00por R$ 764,00
+12x de
+R$ 63,67 sem juros
+Violão Folk Fender CD 60 CE
+por R$ 3.143,00
+12x de
+R$ 261,92 sem juros
+Violão Clássico Madrid MD 100 EC
+de R$ 465,00por R$ 375,00
+12x de
+R$ 31,25 sem juros
+Violão Clássico Strinberg SA 20 C
+de R$ 880,00por R$ 709,00
+12x de
+R$ 59,08 sem juros
+Violão Clássico Madrid MD 100 EC
+de R$ 465,00por R$ 375,00
+12x de
+R$ 31,25 sem juros
+Termos Pesquisados
+Adicionados ao Carrinho
+Seções Visitadas
+Violão
+SAC/TELEVENDAS 11.3224-6240
+CARTÕES DE CRÉDITO
+Visa, Mastercard, American Express, Dinners Club
+BOLETO OU DÉBITO
+Itáu, Bradesco, Banco do Brasil e Boleto
+PAGUE COM PAYPAL
+PAYPAL
+SEGURANÇA E CERTIFICADOS
+INSTITUCIONAL
+• Quem Somos
+• Nossas Lojas
+• Fale Conosco
+• Mapa do Site
+ÁREA DO CLIENTE
+• Minha Conta
+• Meu Carrinho
+• Meus Pedidos
+• Afiliados
+ANTES DA COMPRA
+• Como Comprar
+• Politica de Privacidade
+• FAQ
+COMPRANDO
+• Formas de Pagamento
+• Serviço de Entrega
+• Alterar Endereço
+APÓS A COMPRA
+• Acompanhe seu Pedido
+• Prazo de Entrega
+• Trocas e Devoluções
+(function (d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+fjs.parentNode.insertBefore(js, fjs);
+} (document, 'script', 'facebook-jssdk'));
+Veja nosso canal no Youtube
+Fique ligado no Instagram da PlayTech
+Design e marketing digital
+Administrado por
+Mauranos Pontocom Ltda | CNPJ: 21.469.160/0001-54 | I.E: 144.081.577.110
+Rua Teodoro Sampaio, 900, Pinheiros - CEP 05.406-050 - São Paulo | www.playtech.com.br | sac@playtech.com.br | (11) 3224-6240
+PlayTech©
+2014 - 2016 - Todos os direitos reservados. Fotos e Logotipos aqui veiculados são de propriedade da PlayTech e seus parceiros.
+Rakuten - EC Service
+jQuery.noConflict();
 try {
-sessionStorage.setItem(test, test);
-sessionStorage.removeItem(test);
-return true;
-} catch(e) {
-return false;
+autocomplete_init({ 'baseurl': 'http://busca.playtech.com.br/', 'scriptDomain': 'https://rksearch.rakuten.com.br/', 'searchPanelQuery': '.search', 'textboxQuery': 'input', 'buttonQuery': '.btn' });
+} catch (r) {
 }
-};
-function linkRedirectTo(url) {
-tiny.on(backToCateg, 'click', function(event){
-event.preventDefault();
-window.location.href = url;
-});
-};
-}, "https://http2.mlstatic.com/resources/frontend/recommendations-plugin/ui-dist/scripts/bundle-recommendations-common-0695e2f807.js", function() {
-(function loadAsyncCarousel(win, doc) {
-function isChicoLoaded() { return typeof win.ch !== 'undefined'; }
-function initCarousel() {
-var carousel = new ch.Carousel(document.querySelector('#recommendationsCarousel-1 .async-carousel'), {
-autoHeight: false,
-autoMargin: false,
-limitPerPage: 5,
-pagination: false
-});
-var wrapper = document.querySelector('#recommendationsCarousel-1 .recommendations-component-wrapper');
-if(wrapper) {
-wrapper.style['visibility'] = 'visible';
+jQuery(function () {
+if (typeof AjaxPro != 'undefined' && AjaxPro && AjaxPro.Request && AjaxPro.Request.prototype) {
+AjaxPro.Request.prototype.doStateChange = function () {
+this.onStateChanged(this.xmlHttp.readyState, this);
+if (this.xmlHttp.readyState != 4 || !this.isRunning) {
+return;
 }
-return carousel;
+this.duration = new Date().getTime() - this.__start;
+if (this.timeoutTimer != null) {
+clearTimeout(this.timeoutTimer);
 }
-function onChicoLoaded(cb) {
-if (isChicoLoaded()) {
-cb();
+var res = this.getEmptyRes();
+if (this.xmlHttp.status == 200 && (this.xmlHttp.statusText == "OK" || !this.xmlHttp.statusText)) {
+res = this.createResponse(res);
 } else {
-var timer = setInterval(function() {
-if (isChicoLoaded()) {
-cb()
-clearInterval(timer);
+res = this.createResponse(res, true);
+res.error = { Message: this.xmlHttp.statusText, Type: "ConnectFailure", Status: this.xmlHttp.status };
 }
-}, 50);
-}
-}
-function registerIODetector(el, track, options) {
-if(track.hasErrors || track.hidden_by_client) return;
-new win.RecommendationsIntersectionDetector(el, track, options);
-}
-function trackMelidata(trackInfo) {
-var track = {};
-melidata('createViewTrack', track);
-var recommendationsTrack = {
-hidden_by_client: trackInfo.hiddenByClient,
-client: trackInfo.client
+this.endRequest(res);
 };
-if (!trackInfo.hiddenByClient) {
-Object.assign(recommendationsTrack, {
-has_errors: trackInfo.hasErrors
-});
-if (!trackInfo.hasErrors) {
-Object.assign(recommendationsTrack, {
-recommendation_id: trackInfo.recommendationId,
-backend_id: trackInfo.backendId,
-track_info: trackInfo.trackInfo
-});
-var experiment = {};
-//TODO: deprecar experiment y dejar solo experiments cuando la migracion este completa
-if (trackInfo.experiments) {
-for (var i = 0, exp; i < trackInfo.experiments.length; i++) {
-exp = trackInfo.experiments[i];
-experiment[exp.name] = exp.variantId.toString();
-}
-melidata("withExperiments", experiment, track);
-} else if (trackInfo.experiment) {
-experiment[trackInfo.experiment.name] = trackInfo.experiment.variantId.toString();
-melidata("withExperiments", experiment, track);
-}
-} else if(trackInfo.errorDescription){
-Object.assign(recommendationsTrack, {
-error_description: trackInfo.errorDescription
-});
-}
-}
-melidata('withPath', '/recommendations', track);
-var trackData = {recommendations: recommendationsTrack};
-melidata('withData', trackData, track);
-melidata("sendTrack", track);
-var track_2_0 = Object.assign({}, track);
-melidata('withPath', '/recommendations/print', track_2_0);
-melidata('withStream', 'recommendations', track_2_0);
-melidata("sendTrack", track_2_0);
-return track;
-}
-var url = "/noindex/moreitems/recommendationsSellerItems?noIndex=true&site_id=MLB&client=vip-seller_items-above&purchased_category=MLB29279&item_id=MLB709083800&user_id=&d2_id=b087dd84-009b-42a7-bb16-ddc246a24b86&limit=20&ignore_min_reco_size=false&image_config=%7Bwebp%3Dtrue%7D&id=recommendationsCarousel-1";
-tiny.ajax(url, {
-preload: true,
-credentials: "include",
-success: function (data) {
-var content = data.html;
-var trackInfo = data.trackInfo;
-var itemWithInstallments = false;
-if (trackInfo && trackInfo.items) {
-var items = trackInfo.items;
-[].forEach.call(items, function (item) {
-if (item.site_id === "MLA") {
-if (item.installments && item.installments.no_interest) {
-itemWithInstallments = true;
-return;
-}
-} else if (item.installments) {
-itemWithInstallments = true;
-return;
 }
 });
-if (!itemWithInstallments) {
-document.getElementById("recommendationsCarousel-1").classList.remove("carousel-common--with-installments")
-}
-}
-var recommendationsTrack;
-if (trackInfo) {
-recommendationsTrack = trackMelidata(trackInfo);
-}
-if (content &&
-content.trim()) {
-content = content.trim();
-var container = doc.getElementById("recommendationsCarousel-1");
-container.innerHTML = content;
-var carousel;
-onChicoLoaded(function(){
-initCarousel();
-registerIODetector(container, recommendationsTrack);
-});
-meli.emit('recommendations:carousel:loaded', { id: 'recommendationsCarousel-1', data: data });
-}
-},
-error: function () {
-throw new Error('Error loading carousel.')
-}
-});
-})(window, document);
-}, function() {
-var melidataTrack = JSON.parse('{&quot;event_data&quot;:{&quot;recommendations&quot;:{&quot;hidden_by_client&quot;:false,&quot;client&quot;:&quot;vip_combo&quot;,&quot;has_errors&quot;:false,&quot;recommendation_id&quot;:&quot;5d5dfff6-736d-4087-aca9-94954d7850ef&quot;,&quot;backend_id&quot;:&quot;l3-l7-pp-ngrams-multiseller-combo-v2&quot;,&quot;track_info&quot;:{&quot;has_recommendations&quot;:false,&quot;trigger&quot;:{&quot;trigger_type&quot;:&quot;item&quot;,&quot;item_info&quot;:{&quot;id&quot;:&quot;MLB709083800&quot;,&quot;category_id&quot;:&quot;MLB29279&quot;,&quot;category_path&quot;:&quot;MLB1182/MLB278055/MLB3015/MLB3017/MLB29279&quot;,&quot;title&quot;:&quot;Violão Giannini Elétrico Gsf1 Gnf1 Gdc1 Kit Bag E Acessórios&quot;,&quot;price_usd&quot;:149,&quot;price&quot;:598,&quot;free_shipping&quot;:false,&quot;seller_id&quot;:137051720,&quot;official_store_id&quot;:null,&quot;site_id&quot;:&quot;MLB&quot;,&quot;status&quot;:&quot;active&quot;,&quot;tags&quot;:[&quot;brand_verified&quot;,&quot;loyalty_discount_eligible&quot;,&quot;good_quality_picture&quot;,&quot;immediate_payment&quot;],&quot;with_forbidden_variations&quot;:false,&quot;has_only_one_variation&quot;:false,&quot;logistic_type&quot;:&quot;custom&quot;,&quot;currency_id&quot;:&quot;BRL&quot;,&quot;attributes&quot;:[{&quot;id&quot;:&quot;BRAND&quot;,&quot;name&quot;:&quot;Marca&quot;,&quot;value_id&quot;:null,&quot;value_name&quot;:&quot;Giannini&quot;,&quot;value_struct&quot;:null,&quot;attribute_group_id&quot;:&quot;OTHERS&quot;,&quot;attribute_group_name&quot;:&quot;Outros&quot;},{&quot;id&quot;:&quot;ITEM_CONDITION&quot;,&quot;name&quot;:&quot;Condição do item&quot;,&quot;value_id&quot;:&quot;2230284&quot;,&quot;value_name&quot;:&quot;Novo&quot;,&quot;value_struct&quot;:null,&quot;attribute_group_id&quot;:&quot;OTHERS&quot;,&quot;attribute_group_name&quot;:&quot;Outros&quot;},{&quot;id&quot;:&quot;MODEL&quot;,&quot;name&quot;:&quot;Modelo&quot;,&quot;value_id&quot;:null,&quot;value_name&quot;:&quot;Giannini Eletroacústico&quot;,&quot;value_struct&quot;:null,&quot;attribute_group_id&quot;:&quot;OTHERS&quot;,&quot;attribute_group_name&quot;:&quot;Outros&quot;}]}},&quot;recommended_categories&quot;:[],&quot;backend_id&quot;:&quot;combo-prod-mlb.recommendations-backend-api&quot;,&quot;model_id&quot;:&quot;l3-l7-pp-ngrams-multiseller-combo-v2&quot;,&quot;model_version&quot;:&quot;v4&quot;,&quot;multiget&quot;:false,&quot;recommendation_source&quot;:&quot;model_reco_cache&quot;,&quot;empty_result_cause&quot;:&quot;EMPTY_MODEL_RESPONSE&quot;,&quot;recommended_items&quot;:[]}}},&quot;experiment&quot;:null,&quot;experiments&quot;:[{&quot;name&quot;:&quot;recommendations/recommenders-vip_combo-MLB&quot;,&quot;variantId&quot;:1787}]}'.replace(/&quot;/g,'"'));
-var track = {}
-melidata('createViewTrack', track);
-melidata('withPath', '/recommendations/print', track);
-melidata('withStream', 'recommendations', track);
-melidata('withData', melidataTrack.event_data, track);
-var experiment = {};
-if (melidataTrack.experiments) {
-for (var i = 0, exp; i < melidataTrack.experiments.length; i++) {
-exp = melidataTrack.experiments[i];
-experiment[exp.name] = exp.variantId.toString();
-}
-melidata("withExperiments", experiment, track);
-} else if (melidataTrack.experiment) {
-experiment[trackInfo.experiment.name] = trackInfo.experiment.variantId.toString();
-melidata("withExperiments", experiment, track);
-}
-melidata("sendTrack", track);
-}, "https://http2.mlstatic.com/resources/frontend/web-vip/ui-dist/js/payment-row__medium-0bda4fe971.js", function() {
-meli.paymentRow = new meli.PaymentRow({
-'hasSemJuros': {
-'item': false,
-'site': true
-},
-'messages': {
-'modify': 'Modificar',
-'noInterest': ' sem juros',
-'installments': {
-'singular': 'x ',
-'plural': 'x '
-},
-'withMercadoPago': 'com Mercado Pago',
-'withCredit': 'com Mercado Crédito'
-},
-transparentPrices: false
-});
-}, function() {
-(function loadAsyncCarousel(win, doc) {
-function isChicoLoaded() { return typeof win.ch !== 'undefined'; }
-function initCarousel() {
-var carousel = new ch.Carousel(document.querySelector('#recommendationsCarousel-2 .async-carousel'), {
-autoHeight: false,
-autoMargin: false,
-limitPerPage: 5,
-pagination: false
-});
-var wrapper = document.querySelector('#recommendationsCarousel-2 .recommendations-component-wrapper');
-if(wrapper) {
-wrapper.style['visibility'] = 'visible';
-}
-return carousel;
-}
-function onChicoLoaded(cb) {
-if (isChicoLoaded()) {
-cb();
-} else {
-var timer = setInterval(function() {
-if (isChicoLoaded()) {
-cb()
-clearInterval(timer);
-}
-}, 50);
-}
-}
-function registerIODetector(el, track, options) {
-if(track.hasErrors || track.hidden_by_client) return;
-new win.RecommendationsIntersectionDetector(el, track, options);
-}
-function trackMelidata(trackInfo) {
-var track = {};
-melidata('createViewTrack', track);
-var recommendationsTrack = {
-hidden_by_client: trackInfo.hiddenByClient,
-client: trackInfo.client
-};
-if (!trackInfo.hiddenByClient) {
-Object.assign(recommendationsTrack, {
-has_errors: trackInfo.hasErrors
-});
-if (!trackInfo.hasErrors) {
-Object.assign(recommendationsTrack, {
-recommendation_id: trackInfo.recommendationId,
-backend_id: trackInfo.backendId,
-track_info: trackInfo.trackInfo
-});
-var experiment = {};
-//TODO: deprecar experiment y dejar solo experiments cuando la migracion este completa
-if (trackInfo.experiments) {
-for (var i = 0, exp; i < trackInfo.experiments.length; i++) {
-exp = trackInfo.experiments[i];
-experiment[exp.name] = exp.variantId.toString();
-}
-melidata("withExperiments", experiment, track);
-} else if (trackInfo.experiment) {
-experiment[trackInfo.experiment.name] = trackInfo.experiment.variantId.toString();
-melidata("withExperiments", experiment, track);
-}
-} else if(trackInfo.errorDescription){
-Object.assign(recommendationsTrack, {
-error_description: trackInfo.errorDescription
-});
-}
-}
-melidata('withPath', '/recommendations', track);
-var trackData = {recommendations: recommendationsTrack};
-melidata('withData', trackData, track);
-melidata("sendTrack", track);
-var track_2_0 = Object.assign({}, track);
-melidata('withPath', '/recommendations/print', track_2_0);
-melidata('withStream', 'recommendations', track_2_0);
-melidata("sendTrack", track_2_0);
-return track;
-}
-var url = "/noindex/moreitems/recommendations?noIndex=true&site_id=MLB&client=vip-v2p&purchased_category=MLB29279&item_id=MLB709083800&user_id=&d2_id=b087dd84-009b-42a7-bb16-ddc246a24b86&limit=20&id=recommendationsCarousel-2";
-var imageConfig = encodeURIComponent('{&quot;lazy&quot;:&quot;progressive&quot;,&quot;webp&quot;:true,&quot;x1&quot;:{&quot;version&quot;:&quot;E&quot;,&quot;square&quot;:false,&quot;retina&quot;:false},&quot;x2&quot;:{&quot;version&quot;:&quot;O&quot;,&quot;square&quot;:false,&quot;retina&quot;:true}}'.replace(/&quot;/g,'"'));
-url += "&image_config=" + imageConfig;
-tiny.ajax(url, {
-preload: false,
-credentials: "include",
-success: function (data) {
-var content = data.html;
-var trackInfo = data.trackInfo;
-var itemWithInstallments = false;
-if (trackInfo && trackInfo.items) {
-var items = trackInfo.items;
-[].forEach.call(items, function (item) {
-if (item.site_id === "MLA") {
-if (item.installments && item.installments.no_interest) {
-itemWithInstallments = true;
-return;
-}
-} else if (item.installments) {
-itemWithInstallments = true;
-return;
-}
-});
-if (!itemWithInstallments) {
-document.getElementById("recommendationsCarousel-2").classList.remove("carousel-common--with-installments")
-}
-}
-var recommendationsTrack;
-if (trackInfo) {
-recommendationsTrack = trackMelidata(trackInfo);
-}
-if (content &&
-content.trim()) {
-content = content.trim();
-var container = doc.getElementById("recommendationsCarousel-2");
-container.innerHTML = content;
-var carousel;
-onChicoLoaded(function(){
-initCarousel();
-registerIODetector(container, recommendationsTrack);
-});
-var images = document.querySelectorAll('#recommendationsCarousel-2 .item-img-wrapper__image--lazy');
-var fallbackImage = 'https://http2.mlstatic.com/resources/frontend/statics/img-not-available/1.1.0/E.jpg';
-var strategy = new LazyProgressive(images, { fallbackImage: fallbackImage });
-strategy.register();
-meli.emit('recommendations:carousel:loaded', { id: 'recommendationsCarousel-2', data: data });
-}
-},
-error: function () {
-throw new Error('Error loading carousel.')
-}
-});
-})(window, document);
-}, function() {
-window.vip = window.vip || {},
-window.vip.async = window.vip.async || {};
-function setStatus(status) {
-window.vip.async["recommendedItemsCarrousel"] = status;
-}
-function getStatus() {
-return window.vip.async["recommendedItemsCarrousel"];
-}
-(function loadAsyncCarousel(win, doc){
-if( getStatus() == undefined ) {
-setStatus('pending');
-}
-function loadCarousel() {
-if( getStatus() === 'loaded' ) {
-return;
-}
-var container = doc.querySelector('#recommendedItemsCarrousel');
-if( container ) {
-setStatus('loading');
-tiny.ajax('/noindex/moreitems/recommended?noIndex=true&itemId=MLB709083800', {
-headers: { 'X-Requested-With': 'XMLHttpRequest' },
-success: function(data) {
-var content = data.trim();
-container.innerHTML = content;
-if( content ) {
-var asyncCarousel = doc.querySelector('#recommendedItemsCarrousel .async-carousel'),
-carouselItems = new ch.Carousel(asyncCarousel, {
-pagination: false,
-autoHeight: false,
-autoMargin: false,
-limitPerPage: 5
-});
-setStatus('loaded');
-}
-meli.utils.lazy('.carousel-seller__image');
-meli.utils.retina('.carousel-seller__image');
-},
-error: function(){
-setStatus('pending');
-throw new Error('Error loading carousel "#recommendedItemsCarrousel".')
-}
-});
-}
-}
-loadCarousel();
-})(window, document);
-}, function() {
-(function loadAsyncCarousel(win, doc) {
-function isChicoLoaded() { return typeof win.ch !== 'undefined'; }
-function initCarousel() {
-var carousel = new ch.Carousel(document.querySelector('#recommendationsCarousel-3 .async-carousel'), {
-autoHeight: false,
-autoMargin: false,
-limitPerPage: 5,
-pagination: false
-});
-var wrapper = document.querySelector('#recommendationsCarousel-3 .recommendations-component-wrapper');
-if(wrapper) {
-wrapper.style['visibility'] = 'visible';
-}
-return carousel;
-}
-function onChicoLoaded(cb) {
-if (isChicoLoaded()) {
-cb();
-} else {
-var timer = setInterval(function() {
-if (isChicoLoaded()) {
-cb()
-clearInterval(timer);
-}
-}, 50);
-}
-}
-function registerIODetector(el, track, options) {
-if(track.hasErrors || track.hidden_by_client) return;
-new win.RecommendationsIntersectionDetector(el, track, options);
-}
-function trackMelidata(trackInfo) {
-var track = {};
-melidata('createViewTrack', track);
-var recommendationsTrack = {
-hidden_by_client: trackInfo.hiddenByClient,
-client: trackInfo.client
-};
-if (!trackInfo.hiddenByClient) {
-Object.assign(recommendationsTrack, {
-has_errors: trackInfo.hasErrors
-});
-if (!trackInfo.hasErrors) {
-Object.assign(recommendationsTrack, {
-recommendation_id: trackInfo.recommendationId,
-backend_id: trackInfo.backendId,
-track_info: trackInfo.trackInfo
-});
-var experiment = {};
-//TODO: deprecar experiment y dejar solo experiments cuando la migracion este completa
-if (trackInfo.experiments) {
-for (var i = 0, exp; i < trackInfo.experiments.length; i++) {
-exp = trackInfo.experiments[i];
-experiment[exp.name] = exp.variantId.toString();
-}
-melidata("withExperiments", experiment, track);
-} else if (trackInfo.experiment) {
-experiment[trackInfo.experiment.name] = trackInfo.experiment.variantId.toString();
-melidata("withExperiments", experiment, track);
-}
-} else if(trackInfo.errorDescription){
-Object.assign(recommendationsTrack, {
-error_description: trackInfo.errorDescription
-});
-}
-}
-melidata('withPath', '/recommendations', track);
-var trackData = {recommendations: recommendationsTrack};
-melidata('withData', trackData, track);
-melidata("sendTrack", track);
-var track_2_0 = Object.assign({}, track);
-melidata('withPath', '/recommendations/print', track_2_0);
-melidata('withStream', 'recommendations', track_2_0);
-melidata("sendTrack", track_2_0);
-return track;
-}
-var url = "/noindex/moreitems/recommendations?noIndex=true&site_id=MLB&client=vip&purchased_category=MLB29279&item_id=MLB709083800&user_id=&d2_id=b087dd84-009b-42a7-bb16-ddc246a24b86&limit=20&id=recommendationsCarousel-3";
-var imageConfig = encodeURIComponent('{&quot;lazy&quot;:&quot;progressive&quot;,&quot;webp&quot;:true,&quot;x1&quot;:{&quot;version&quot;:&quot;E&quot;,&quot;square&quot;:false,&quot;retina&quot;:false},&quot;x2&quot;:{&quot;version&quot;:&quot;O&quot;,&quot;square&quot;:false,&quot;retina&quot;:true}}'.replace(/&quot;/g,'"'));
-url += "&image_config=" + imageConfig;
-tiny.ajax(url, {
-preload: false,
-credentials: "include",
-success: function (data) {
-var content = data.html;
-var trackInfo = data.trackInfo;
-var itemWithInstallments = false;
-if (trackInfo && trackInfo.items) {
-var items = trackInfo.items;
-[].forEach.call(items, function (item) {
-if (item.site_id === "MLA") {
-if (item.installments && item.installments.no_interest) {
-itemWithInstallments = true;
-return;
-}
-} else if (item.installments) {
-itemWithInstallments = true;
-return;
-}
-});
-if (!itemWithInstallments) {
-document.getElementById("recommendationsCarousel-3").classList.remove("carousel-common--with-installments")
-}
-}
-var recommendationsTrack;
-if (trackInfo) {
-recommendationsTrack = trackMelidata(trackInfo);
-}
-if (content &&
-content.trim()) {
-content = content.trim();
-var container = doc.getElementById("recommendationsCarousel-3");
-container.innerHTML = content;
-var carousel;
-onChicoLoaded(function(){
-initCarousel();
-registerIODetector(container, recommendationsTrack);
-});
-var images = document.querySelectorAll('#recommendationsCarousel-3 .item-img-wrapper__image--lazy');
-var fallbackImage = 'https://http2.mlstatic.com/resources/frontend/statics/img-not-available/1.1.0/E.jpg';
-var strategy = new LazyProgressive(images, { fallbackImage: fallbackImage });
-strategy.register();
-meli.emit('recommendations:carousel:loaded', { id: 'recommendationsCarousel-3', data: data });
-}
-},
-error: function () {
-throw new Error('Error loading carousel.')
-}
-});
-})(window, document);
-}, function() {
-(function closableModals(win){
-win.addEventListener('keyup', function(event) {
-// If user pressed ESC
-if (event.keyCode === 27) {
-// Trigger postMessage event to close possible open modals
-win.postMessage('close=', '*');
-}
-});
-})(window);
-}, function() {
-(function appDownload() {
-if ( false ){
-var appDownloadLink = document.getElementById('nav-header-menu-download-mobile');
-function trackEventAppDownloadAnalytics(os, pageId) {
-if (typeof meli_ga !== 'undefined' && (os ==='ANDROID' || os === 'IOS') ) {
-if(pageId) {
-meli_ga('send', 'event', 'MOBILE-APP-'+ os, 'DOWNLOAD-MENU', pageId);
-}
-else{
-meli_ga('send', 'event', 'MOBILE-APP-'+ os, 'DOWNLOAD-MENU');
-}
-}
-}
-function handleAppDownload(event) {
-var os = event.currentTarget.getAttribute('data-os'),
-pageId = event.currentTarget.getAttribute('data-pageId');
-// track event in analytics
-trackEventAppDownloadAnalytics(os, pageId);
-}
-tiny.on(appDownloadLink, 'click', handleAppDownload);
-}
-}());
-}, function() {
-/*
-La instanciacion va en header.gsp para los que no tienen commons,
-en commons ver donde se agregan estos initis
-*/
-meli.cart = new meli.Cart({
-element: document.getElementById('nav-cart'),
-endpoints: {
-get: 'https://www.mercadolivre.com.br/gz/cart/info',
-post: 'https://www.mercadolivre.com.br/gz/cart/api/item'
-},
-tr: {
-legend: 'Adicionado ao seu carrinho',
-action: 'Ver carrinho',
-error: 'Ocorreu um erro ao adicionar o produto ao carrinho. Tente novamente.',
-success: 'O produto foi adicionado corretamente'
-},
-link: 'https://www.mercadolivre.com.br/gz/cart',
-environment: 'desktop',
-newBehaviour: true,
-hasCombos: window.meliAppConfig ? window.meliAppConfig.hasCombos : false
-});
-}, function() {
-(function appDownload() {
-if ( false ){
-var appDownloadLink = document.getElementById('footer-applink');
-function trackEventAppDownloadAnalytics(os, pageId) {
-if (typeof meli_ga !== 'undefined') {
-var osTrack = os.toUpperCase();
-meli_ga('send', 'event', 'MOBILE-APP-' + osTrack, 'DOWNLOAD-FOOTER', pageId);
-}
-}
-function handleAppDownload(event) {
-var os = event.currentTarget.getAttribute('data-os'),
-pageId = event.currentTarget.getAttribute('data-pageId');
-// track event in analytics
-trackEventAppDownloadAnalytics(os, pageId);
-}
-tiny.on(appDownloadLink, 'click', handleAppDownload);
-}
-}());
+jQuery(function () {
+jQuery(".rate a").fancybox({ 'height': 420, 'width': 400, 'showCloseButton': false });
+jQuery(".invite a").fancybox({ 'height': 500, 'width': 400, 'showCloseButton': false });
+jQuery(".delivery a").fancybox({ 'height': 300, 'width': 400, 'showCloseButton': false });
+jQuery(".click").fancybox({ 'hideOnContentClick': false });
+jQuery("#hplRating.iframe, #hplAmountAssessments.iframe").fancybox({ 'height': 370, 'width': 400, 'showCloseButton': false });
+jQuery('#fb-comments-widget').attr('data-width', jQuery('#fb-comments-widget').parent().width() - 20);
+})
+jQuery(window).load(function () {
+jQuery(".scroll").mCustomScrollbar();
+jQuery(".tab-link h2").click(function () {
+jQuery(".scroll").mCustomScrollbar("update");
 });
 });
-})(window, document);
+//<![CDATA[
+CarregaSKUCrossPrefix();//]]>
+//<!--
+CarregaSKU('29694','0');
+CarregaListas('29694');
+CarregaPrazoEntrega('29694');
+SalvarAcessosProduto('29694');
+ProdutosVisitados('0','29694');
+//-->
